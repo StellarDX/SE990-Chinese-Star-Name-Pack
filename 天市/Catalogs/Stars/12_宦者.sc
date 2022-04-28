@@ -1,0 +1,67 @@
+Remove "HIP 83430"
+Star "宦者一/32 Oph/NSV 8142/BD+14 3179/HD 154143/HIP 83430/HR 6337/SAO 102553"
+{
+	RA      17 3 8.66
+	Dec     14 5 18.4
+	AppMagn 4.97
+
+	Class   "M3III"
+
+	Dist    126
+	AbsMagn -0.44
+
+	MassSol 1.6
+	RadSol  59.92
+	Luminosity 614.4
+	Teff    3712
+	FeH     0
+}
+
+Remove "HIP 83478"
+Star "宦者二/33 Oph/STF 33/ARN 15/HIP 83478/SAO 102564/HD 154228/HR 6341/WDS J17037+1336"
+{
+	RA      17 3 40.02
+	Dec     13 36 7.4
+	AppMagn 5.9
+
+	Class   "A1V"
+
+	Dist    82.78
+	AbsMagn 1.31
+}
+
+Remove "60 Her"
+Star "宦者三/60 Her/BD+12 3142/FK5 635/HD 154494/HIP 83613/HR 6355/SAO 102584"
+{
+	RA      17 5 23.51
+	Dec     12 44 15.8
+	AppMagn 4.871
+
+	Class   "A3V"
+
+	Dist    41
+	AbsMagn 1.83
+
+	MassSol 1.93
+	RadSol  1.9
+	Luminosity 17.159
+	Teff    8299
+	Age     0.327
+}
+
+Remove "37 Oph"
+Star "宦者四/37 Oph/CCDM J17125+1035A/DO 4240/FK5 3369/GCRV 9923/GSC 00981-02008/HD 155644/HIC 84177/HIP 84177/HR 6393/IDS 17078+1042 A/IRAS 17101+1038/IRAS 17101+1036/IRC +10320/2MASS J17122781+1035066/NSV 21130/PMC 90-93 1394/PPM 133114/SAO 102646/WDS J17125+1035A/YZ 10 6011/AG+10 2021/BD+10 3165/CSI+10 3165 1/TYC 981-2008-1/WEB 14216/Gaia DR2 4539937082217201792"
+{
+	RA      17 12 28.52
+	Dec     10 34 55.6
+	AppMagn 5.32
+
+	Class   "M2III"
+
+	Dist    344.45
+	AbsMagn -2.3
+
+	RadSol  62.01
+	Luminosity 2688.46
+	Teff    3804
+}
