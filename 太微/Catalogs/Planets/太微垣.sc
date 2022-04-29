@@ -271,11 +271,9 @@ Star "HIP 63948 A"
 	ParentBody "HIP 63948"
 	Class      "F4V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          756.15557751
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      83
 	}
 }
 
@@ -284,11 +282,9 @@ Star "HIP 63948 B"
 	ParentBody "HIP 63948"
 	Class      "F9.1 V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          756.15557751
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      83
 	}
 }
 
@@ -434,11 +430,9 @@ Star "常陈一/ALF2 CVn A/ALF CVn A/12 CVn A/FK5 485/GC 17557/HD 112413/HIP 631
 	RotationPeriod 131.26536
 	Age        0.165
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          8522.79502037
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      640.332
 	}
 }
 
@@ -450,11 +444,9 @@ Star "ALF1 CVn B/ALF CVn B/12 CVn B/GC 17556/HD 112412/HIP 63121/HR 4914/SAO 632
 	RadSol     1.5
 	Teff       7080
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          8522.79502037
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      640.332
 	}
 }
 
@@ -469,22 +461,22 @@ Star "郎位五/17 Com A/AI Com/BD+26 2354/GC 17012/HD 108662/HIP 60904/HR 4752/
 	Teff       10212
 	Age        0.101
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          711647.47036549
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Epoch           2458118.89297616
+		Separation      10833.6
+		PositionAngle   251
 	}
 }
 
 Barycenter "17 Com B/BD+26 2353/GC 17007/HD 108651/HIP 60891/HR 4751/SAO 82328"
 {
   ParentBody "ADS 8568"
-	Orbit
+	BinaryOrbit
 	{
-		Period          711647.47036549
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Epoch           2458118.89297616
+		Separation      10833.6
+		PositionAngle   251
 	}
 }
 
@@ -651,11 +643,9 @@ Star	"HIP 58858 A"
 	ParentBody     "HIP 58858"
 	Class	         "F0IV"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          8310.86632108
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      409.2
 	}
 }
 
@@ -664,11 +654,9 @@ Star	"HIP 58858 B"
 	ParentBody     "HIP 58858"
 	Class	         "F2.1 V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          8310.86632108
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      409.2
 	}
 }
 
@@ -686,12 +674,11 @@ Star "HIP 54182 A"
 	FeH        0.03
 	Age        1.4
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          1018.61319111
 		Epoch           2447892.11141029
-		ArgOfPericenter 84
-		MeanAnomaly     0
+		Separation      118.9
+		PositionAngle   264
 	}
 }
 
@@ -700,12 +687,11 @@ Star "HIP 54182 B"
 	ParentBody "HIP 54182"
 	Class      "F8.3 V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          1018.61319111
 		Epoch           2447892.11141029
-		ArgOfPericenter 264
-		MeanAnomaly     0
+		Separation      118.9
+		PositionAngle   264
 	}
 }
 
@@ -761,11 +747,11 @@ Star "HIP 53417 A/HD 94601/HR 4259/SAO 81583"
 	Teff       9000
 	Age        0.411
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          7942.90217949
-		ArgOfPericenter 293
-		MeanAnomaly     0
+		Epoch           2457753.65077738
+		Separation      533
+		PositionAngle   113
 	}
 }
 
@@ -775,11 +761,11 @@ Star "HIP 53417 B/HD 94602/HR 4260/SAO 81584"
 	Class      "A2 V"
 	RadSol     2.59
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          7942.90217949
-		ArgOfPericenter 113
-		MeanAnomaly     0
+		Epoch           2457753.65077738
+		Separation      533
+		PositionAngle   113
 	}
 }
 
