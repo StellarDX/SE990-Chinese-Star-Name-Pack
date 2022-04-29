@@ -85,22 +85,18 @@ Remove "MU Her C"{ParentBody "MU Her BC"}
 Barycenter "HIP 86974 Aab"
 {
 	ParentBody "HIP 86974"
-	Orbit
+	BinaryOrbit
 	{
-		Period          4170.39455711
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      290.85
 	}
 }
 
 Barycenter "HIP 86974 BC"
 {
 	ParentBody "HIP 86974"
-	Orbit
+	BinaryOrbit
 	{
-		Period          4170.39455711
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      290.85
 	}
 }
 
@@ -554,11 +550,9 @@ Star "HIP 77233 A"
 	Teff       8928
 	Age        0.267
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          39910.36734881
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      1456.56
 	}
 }
 
@@ -568,11 +562,9 @@ Star "HIP 77233 B"
 	Class      "K3 V"
 	MassSol    0.8
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          39910.36734881
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      1456.56
 	}
 }
 
@@ -702,7 +694,6 @@ Star	"HIP 80628 A"
 	Orbit
 	{
 		PeriodDays      27.218
-		//SemiMajorAxis   0.0583
 		Eccentricity    0.744
 		Epoch           2438914.84
 		ArgOfPericenter 153.7
@@ -719,7 +710,6 @@ Star	"HIP 80628 B"
 	Orbit
 	{
 		PeriodDays      27.218
-		//SemiMajorAxis   0.0583
 		Eccentricity    0.744
 		Epoch           2438914.84
 		ArgOfPericenter 333.7
@@ -1004,9 +994,9 @@ Star	"HIP 86032 A"
 	ParentBody     "HIP 86032"
 	Class	         "A5III"
 	MassSol        2.4
-	DimensionsSol  (5.716/4.776/5.716)
+	DimensionsSol  (5.716, 4.776, 5.716)
 	Luminosity     25.1
-	Temperature    (7569/9384/7569)
+	Temperature    (7569, 9384, 7569)
 	Teff           8336
 	Age            0.77
 
@@ -1114,11 +1104,9 @@ Remove "Marfik C"{ParentBody "Marfik"}
 Barycenter "HIP 80883 AB"
 {
 	ParentBody "HIP 80883"
-	Orbit
+	BinaryOrbit
 	{
-		Period          235591.19249155
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      6307
 	}
 }
 
@@ -1169,11 +1157,9 @@ Star "HIP 80883 C"
 	Teff       4157
 	Luminosity 0.07
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          235591.19249155
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      6307
 	}
 }
 
@@ -1192,10 +1178,9 @@ Star "HIP 80463 A"
 
 	Orbit
 	{
-		Period          330.48990856
 		Epoch           2455196.95538591
-		ArgOfPericenter 114
-		MeanAnomaly     0
+		Separation      61.6
+		PositionAngle   294
 	}
 }
 
@@ -1206,10 +1191,9 @@ Star "HIP 80463 B"
 
 	Orbit
 	{
-		Period          330.48990856
 		Epoch           2455196.95538591
-		ArgOfPericenter 294
-		MeanAnomaly     0
+		Separation      61.6
+		PositionAngle   294
 	}
 }
 
@@ -1219,11 +1203,9 @@ Star "HIP 79492 A"
 	ParentBody "HIP 79492"
 	Class      "G9V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          1012.76311337
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      100.85
 	}
 }
 
@@ -1232,11 +1214,9 @@ Star "HIP 79492 B"
 	ParentBody "HIP 79492"
 	Class      "G9V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          1012.76311337
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      100.85
 	}
 }
 
@@ -1611,11 +1591,9 @@ Remove "MU2 Boo B"{ParentBody "MU2 Boo"}
 Barycenter "七公六/MU1 Boo A/BD+37 2636/GC 20724/GJ 3903/HD 137391/HIP 75411 A/HR 5733/SAO 64686"
 {
 	ParentBody "Alkalurops"
-	Orbit
+	BinaryOrbit
 	{
-		Period          182562.62198697
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      4006.8
 	}
 }
 
@@ -1661,11 +1639,9 @@ Star "HIP 75411 A2"
 Barycenter "MU2 Boo B/BD+37 2637/GC 20725/GJ 3904/HD 137392/HIP 75415 B/HR 5734/SAO 64687"
 {
 	ParentBody "Alkalurops"
-	Orbit
+	BinaryOrbit
 	{
-		Period          182562.62198697
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      4006.8
 	}
 }
 
@@ -1882,11 +1858,9 @@ Remove "68 Her Ab"{ParentBody "68 Her A"}
 Barycenter "HIP 84573 AB"
 {
 	ParentBody "HIP 84573"
-	Orbit
+	BinaryOrbit
 	{
-		Period          51819.58747928
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      3060
 	}
 }
 
@@ -1937,11 +1911,9 @@ Star "HIP 84573 C"
 	ParentBody "HIP 84573"
 	Class      "B8 V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          51819.58747928
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      3060
 	}
 }
 
@@ -1959,9 +1931,7 @@ Star	"HIP 84606 A"
 
 	Orbit
 	{
-		Period          208.65002135
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      45.192
 	}
 }
 
@@ -1972,9 +1942,7 @@ Star	"HIP 84606 B"
 
 	Orbit
 	{
-		Period          208.65002135
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      45.192
 	}
 }
 
@@ -1986,11 +1954,9 @@ Remove "RHO Her B"{ParentBody "RHO Her (AB)"}
 Barycenter "RHO1 Her/HIP 85112 A/HD 157779/HR 6485/SAO 66001"
 {
 	ParentBody "HIP 85112"
-	Orbit
+	BinaryOrbit
 	{
-		Period          3994.74682380
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      480
 	}
 }
 
@@ -2002,11 +1968,9 @@ Star "RHO1 Her A/HIP 85112 A1"
 	Teff       9118
 	FeH        0
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          83.14345910
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      30.2396
 	}
 }
 
@@ -2016,11 +1980,9 @@ Star "RHO1 Her B/HIP 85112 A2"
 	Class      ""
 	MassSol    2.93
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          83.14345910
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      30.2396
 	}
 }
 
@@ -2031,10 +1993,8 @@ Star "RHO2 Her/HIP 85112 B/HD 157778/HR 6484/SAO 66000"
 	MassSol    3.27
 	Teff       8755
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          3994.74682380
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      480
 	}
 }
