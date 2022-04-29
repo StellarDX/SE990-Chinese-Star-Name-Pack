@@ -376,6 +376,24 @@ Planet	"HIP 67275 Ab"
 	}
 }
 
+// 阳门一
+Remove "b Cen b"{ParentBody "HIP 71865"}
+Planet	"HIP 71865 ABb"
+{
+	ParentBody     "HIP 71865"
+	DiscMethod     "Imaging"
+	DiscDate       "2021"
+	Mass           3464.329342
+
+	Orbit
+	{
+		SemiMajorAxis   556
+		PeriodDays      2650
+		Eccentricity    0.4
+		Inclination     128
+	}
+}
+
 Remove "GAM Lib b"{ParentBody "GAM Lib"}
 Remove "GAM Lib c"{ParentBody "GAM Lib"}
 Planet	"GAM Lib b"
