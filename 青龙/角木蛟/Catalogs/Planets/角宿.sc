@@ -90,11 +90,9 @@ Remove "TET Vir C"{ParentBody "TET Vir"}
 Barycenter	"HIP 64238 A"
 {
 	ParentBody     "HIP 64238"
-	Orbit
+	BinaryOrbit
 	{
-		Period          10727.56982302
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      710
 	}
 }
 
@@ -135,11 +133,9 @@ Star	"HIP 64238 B"
 	ParentBody     "HIP 64238"
 	Class	         "A9m"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          10727.56982302
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      710
 	}
 }
 
@@ -263,23 +259,20 @@ Star	"HIP 65936 B"
 Barycenter	"HIP 63945 AC"
 {
 	ParentBody     "HIP 63945"
-	Orbit
+	BinaryOrbit
 	{
-		Period          24786.80865267
 		Epoch           2457023.16637981
-		ArgOfPericenter 258
-		MeanAnomaly     0
+		Separation      1392
+		PositionAngle   78
 	}
 }
 
 Barycenter	"HIP 63945 A"
 {
 	ParentBody     "HIP 63945 AC"
-	Orbit
+	BinaryOrbit
 	{
-		Period          1210.68504430
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      186
 	}
 }
 
@@ -325,11 +318,9 @@ Star	"HIP 63945 C"
 	ParentBody     "HIP 63945 AC"
 	Class          "A5.6 V"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          1210.68504430
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      186
 	}
 }
 
@@ -341,12 +332,11 @@ Star	"HIP 63945 B"
 	Teff           5020
 	Age            0.05
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          24786.80865267
 		Epoch           2457023.16637981
-		ArgOfPericenter 78
-		MeanAnomaly     0
+		Separation      1392
+		PositionAngle   78
 	}
 }
 
@@ -570,22 +560,22 @@ Star "HIP 67669 A/GC 18724 A/HD 120709 A/HR 5210 A/SAO 204916 A"
 	Age        0.0474
 	AbsMagn    -0.3
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          9398.40350121
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Epoch           2457753.65077738
+		Separation      706.59
+		PositionAngle   106
 	}
 }
 
 Barycenter "HIP 67669 B/GC 18725 B/HD 120710 B/HR 5211 B/SAO 204917 B"
 {
 	ParentBody "HIP 67669"
-	Orbit
+	BinaryOrbit
 	{
-		Period          9398.40350121
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Epoch           2457753.65077738
+		Separation      706.59
+		PositionAngle   106
 	}
 }
 
