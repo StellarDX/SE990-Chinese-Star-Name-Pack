@@ -1,28 +1,24 @@
-// 氐宿一 - 氐宿增七
+// 氐宿一 - 氐宿增七(SB**)
 Remove "ALF1 Lib"{ParentBody "Zubenelgenubi"}
 Remove "ALF2 Lib"{ParentBody "Zubenelgenubi"}
 Remove "ALF1 Lib A"{ParentBody "ALF1 Lib"}
 Remove "ALF1 Lib B"{ParentBody "ALF1 Lib"}
 Remove "ALF2 Lib A"{ParentBody "ALF2 Lib"}
 Remove "ALF2 Lib B"{ParentBody "ALF2 Lib"}
-Barycenter "氐宿增七/ALF 1 Lib/8 Lib A/BD–15 3965/FK5 1387/HD 130819 A/HIP 72603 A/HR 5530/SAO 158836"
+Barycenter "氐宿增七/ALF1 Lib AB/8 Lib A/BD-15 3965/FK5 1387/HD 130819 A/HIP 72603 A/HR 5530/SAO 158836"
 {
 	ParentBody "ALF Lib"
-	Orbit
+	BinaryOrbit
 	{
-		Period          292784.82
-		//SemiMajorAxis   3613.0198915
-		Eccentricity    0.3	// unknown; typical value
-		AscendingNode   314	// current position angle
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      5400
+		PositionAngle   314
 	}
 }
 
-Star "HIP 72603 AA"
+Star "ALF1 Lib A"
 {
-	ParentBody "HIP 72603 A"
-	Class      "F3 V"
+	ParentBody "ALF1 Lib AB"
+	Class      "F3V"
 	MassSol    1.97
 	Teff       6653
 	FeH        -0.07
@@ -31,70 +27,60 @@ Star "HIP 72603 AA"
 	Orbit
 	{
 		PeriodDays      5870
-		//SemiMajorAxis   10
-		Eccentricity    0	// unknown; typical value
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}
 }
 
-Star "HIP 72603 AB"
+Star "ALF1 Lib B"
 {
-	ParentBody "HIP 72603 A"
+	ParentBody "ALF1 Lib AB"
 	Class      ""
 	MassSol    1.6
 
 	Orbit
 	{
 		PeriodDays      5870
-		//SemiMajorAxis   10
-		Eccentricity    0	// unknown; typical value
 		ArgOfPericenter 180
 		MeanAnomaly     0
 	}
 }
 
-Barycenter "氐宿一/ALF 2 Lib/9 Lib B/BD–15 3966/FK5 548/HD 130841 B/HIP 72622 B/HR 5531/SAO 158840"
+Barycenter "氐宿一/ALF2 Lib AB/9 Lib B/BD-15 3966/FK5 548/HD 130841 B/HIP 72622 B/HR 5531/SAO 158840"
 {
 	ParentBody "ALF Lib"
-	Orbit
+	BinaryOrbit
 	{
-		Period          292784.82
-		//SemiMajorAxis   1786.9801085
-		Eccentricity    0.3	// unknown; typical value
-		AscendingNode   314	// current position angle
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      5400
+		PositionAngle   314
 	}
 }
 
-Star "HIP 72622 BA"
+Star "ALF2 Lib A"
 {
-	ParentBody "HIP 72622 B"
-	Class      "kA2hA5mA4IV"
+	ParentBody "ALF2 Lib AB"
+	Class      "A2hA5mA4IV"
 	MassSol    1.4
 	Teff       8128
 
 	Orbit
 	{
 		PeriodDays      70.34
-		//SemiMajorAxis   0.51
 		Eccentricity    0.41
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}
 }
 
-Star "HIP 72622 BB"
+Star "ALF2 Lib B"
 {
-	ParentBody "HIP 72622 B"
+	ParentBody "ALF2 Lib AB"
 	Class      ""
 	MassSol    0.5
 
 	Orbit
 	{
 		PeriodDays      70.34
-		//SemiMajorAxis   0.51
 		Eccentricity    0.41
 		ArgOfPericenter 180
 		MeanAnomaly     0
@@ -102,7 +88,7 @@ Star "HIP 72622 BB"
 	}
 }
 
-// 氐宿二
+// 氐宿二(SB**)
 Remove "IOT1 Lib A"{ParentBody "IOT1 Lib"}
 Remove "IOT1 Lib BC"{ParentBody "IOT1 Lib"}
 Remove "IOT1 Lib Aa"{ParentBody "IOT1 Lib A"}
@@ -112,28 +98,18 @@ Remove "IOT1 Lib C"{ParentBody "IOT1 Lib BC"}
 Barycenter "HIP 74392 A"
 {
 	ParentBody "HIP 74392"
-	Orbit
+	BinaryOrbit
 	{
-		Period          192865.2593
-		//SemiMajorAxis   1457.14285714
-		Inclination     154.2    //unknown IN and AN/just aligned
-		AscendingNode   174.5
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      6612
 	}
 }
 
 Barycenter "HIP 74392 BC"
 {
 	ParentBody "HIP 74392"
-	Orbit
+	BinaryOrbit
 	{
-		Period          192865.2593
-		//SemiMajorAxis   5142.85714286
-		Inclination     154.2   //unknown IN and AN/just aligned
-		AscendingNode   174.5
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      6612
 	}
 }
 
@@ -157,7 +133,7 @@ Star "HIP 74392 Aa"
 Star "HIP 74392 Ab"
 {
 	ParentBody "HIP 74392 A"
-	Class      "B9 V"
+	Class      "B9V"
 
 	Orbit
 	{
@@ -173,16 +149,11 @@ Star "HIP 74392 B"
 {
 	ParentBody "HIP 74392 BC"
 	Class      ""
-	MassSol    0.85  //unknown Mass distribution BC
+	MassSol    0.85
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          2700
-		//SemiMajorAxis   115
-		Inclination     154.2   //unknown IN and AN/just aligned
-		AscendingNode   174.5
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      220.4
 	}
 }
 
@@ -192,77 +163,57 @@ Star "HIP 74392 C"
 	Class      ""
 	MassSol    0.85
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          2700
-		//SemiMajorAxis   115
-		Inclination     154.2   //unknown IN and AN/just aligned
-		AscendingNode   174.5
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      220.4
 	}
 }
 
-// 氐宿三
+// 氐宿三(**)
 Star	"HIP 76333 A"
 {
 	ParentBody     "HIP 76333"
-	Class	       "G8.5 III"
-	Luminosity      72
+	Class	         "G8.5III"
 	MassSol         1.15
 	RadSol          11.14
+	Luminosity      72
 	Teff            4786
-	DeH            -0.3
+	FeH             -0.3
 	Age             4.31
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   41.1237
-		Period          2760.34
-		Eccentricity    0.401204
-		Inclination     -107.498
-		AscendingNode   48.5606
-		ArgOfPericenter 83.0462
-		MeanAnomaly     39.1634
+		Separation      2125
 	}
 }
 
 Star	"HIP 76333 B"
 {
 	ParentBody     "HIP 76333"
-	Class	       "M0.9 V"
-    AppMagn        11.2
-	Orbit
+	Class	         "M0.9 V"
+
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   231.284
-		Period          2760.34
-		Eccentricity    0.401204
-		Inclination     -107.498
-		AscendingNode   48.5606
-		ArgOfPericenter 263.046
-		MeanAnomaly     39.1634
+		Separation      2125
 	}
 }
 
-// 天乳
+// 天乳(**)
 Star	"HIP 77516 A"
 {
 	ParentBody     "HIP 77516"
-	Class	       "A0V"
-	Luminosity      92
+	Class	         "A0V"
 	MassSol         2.4
+	Luminosity      92
 	Teff            9487
 
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          36
 		Eccentricity    0.4
 		Inclination     103
 		AscendingNode   296
-		//EpochB          1988.9
+		Epoch           2447490.34499163
 		ArgOfPericenter 128
 		MeanAnomaly     0
 	}
@@ -271,114 +222,67 @@ Star	"HIP 77516 A"
 Star	"HIP 77516 B"
 {
 	ParentBody     "HIP 77516"
-	Class	       ""
-    MassSol        2.3
+	Class	         "A" // F?
+  MassSol        2.3
+
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          36
 		Eccentricity    0.4
 		Inclination     103
 		AscendingNode   296
-		//EpochB          1988.9
+		Epoch           2447490.34499163
 		ArgOfPericenter 308
 		MeanAnomaly     0
 	}
 }
 
-// 招摇(*)
-Barycenter	"HIP 71075 A"
-{
-	ParentBody     "HIP 71075"
-	Orbit
-	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   178.868
-		Period          2235.95
-		Eccentricity    0.812114
-		Inclination     -77.0705
-		AscendingNode   174.915
-		ArgOfPericenter -59.9582
-		MeanAnomaly     -44.2313
-	}
-}
-
+// 招摇(dS**)
+// B为光学伴星
 Star	"HIP 71075 Aa"
 {
-	ParentBody     "HIP 71075 A"
-	Class	       "A7 III"
+	ParentBody     "HIP 71075"
+	Class	         "A7IV+"
 	Luminosity     34
 	Teff           7800
-	FeH           -0.2
+	FeH            -0.2
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   0.125255
-		Period          0.0709857
-		Eccentricity    0
-		Inclination     -143.496
-		AscendingNode   104.352
-		ArgOfPericenter 113.671
-		MeanAnomaly     -111.969
+		Separation      1.83614
 	}
 }
 
 Star	"HIP 71075 Ab"
 {
-	ParentBody     "HIP 71075 A"
-	Class	       "A6.7 V"
-
-	Orbit
-	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   0.238001
-		Period          0.0709857
-		Eccentricity    0
-		Inclination     -143.496
-		AscendingNode   104.352
-		ArgOfPericenter 293.671
-		MeanAnomaly     -111.969
-	}
-}
-
-Star	"UCAC2 45176266/HIP 71075 B"
-{
 	ParentBody     "HIP 71075"
-	Class	       "F2.3 V"
+	Class	         "A6.7 V"
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   187.287
-		Period          2235.95
-		Eccentricity    0.812114
-		Inclination     -77.0705
-		AscendingNode   174.915
-		ArgOfPericenter 120.042
-		MeanAnomaly     -44.2313
+		Separation      1.83614
 	}
 }
 
-// 梗河一 (补全)
+// 梗河一(**) (补全)
 Remove "Izar A"{ParentBody "Izar"}
 Remove "Izar B"{ParentBody "Izar"}
 Star "HIP 72105 A/HD 129989 A/HR 5506 A/SAO 83500 A"
 {
 	ParentBody "HIP 72105"
-	Class      "K0 III"
+	Class      "K0II"
 	MassSol    4.6
 	RadSol     33
 	Luminosity 501
 	Teff       4550
-	FeH       -0.13
+	FeH        -0.2
 	Age        0.0374
 
 	Orbit
 	{
 		Period          1000
 		//SemiMajorAxis   185
-		ArgOfPericenter 0
+		ArgOfPericenter 162.9
 		MeanAnomaly     0
 	}
 }
@@ -386,18 +290,22 @@ Star "HIP 72105 A/HD 129989 A/HR 5506 A/SAO 83500 A"
 Star "HIP 72105 B/HD 129988 B/HR 5505 B"
 {
 	ParentBody "HIP 72105"
-	Class      "A2 V"
+	Class      "A2V"
+	MassSol    2.27
+	RadSol     2.7
+	Luminosity 44.8
+	Teff       9009
 
 	Orbit
 	{
 		Period          1000
 		//SemiMajorAxis   185
-		ArgOfPericenter 180
+		ArgOfPericenter 342.9
 		MeanAnomaly     0
 	}
 }
 
-// 帝席一
+// 帝席一(SB**)
 Remove "12 Boo A"{ParentBody "12 Boo"}
 Remove "12 Boo B"{ParentBody "12 Boo"}
 Star "HIP 69226 Aa"
@@ -447,57 +355,43 @@ Star "HIP 69226 Ab"
 	ParentBody "HIP 69226"
 	Class      ""
 
-	Orbit
+	BinaryOrbit
 	{
-
+		Separation      35.8201
 	}
 }*/
 
-// 亢池三(*)
+// 亢池三(**)
 Star	"HIP 69536 A"
 {
 	ParentBody     "HIP 69536"
-	Class	       "F8 V"
+	Class	         "F8 V"
 	MassSol        1.46
 	RadSol         2.12
 	Luminosity     5.879
 	Teff           6169
 	FeH            0.07
-	RotationDays   26
+	RotationPeriod 624
 	Age            2.6
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   0.0122478
-		Period          0.0050107
-		Eccentricity    0
-		Inclination     -150.732
-		AscendingNode   68.335
-		ArgOfPericenter 80.5516
-		MeanAnomaly     91.7531
+		Separation      6.71986
 	}
 }
 
 Star	"HIP 69536 B(?)"
 {
 	ParentBody     "HIP 69536"
-	Class	       "K1.9 V"
+	Class	         "K1.9 V"
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		//SemiMajorAxis   0.0203214
-		Period          0.0050107
-		Eccentricity    0
-		Inclination     -150.732
-		AscendingNode   68.335
-		ArgOfPericenter 260.552
-		MeanAnomaly     91.7531
+		Separation      6.71986
 	}
 }
 
-// 骑官一(*)
+// 骑官一(El***)
 Remove "GAM Lup A"{ParentBody "GAM Lup"}
 Remove "GAM Lup B"{ParentBody "GAM Lup"}
 Barycenter	"HIP 76297 A"
@@ -505,12 +399,11 @@ Barycenter	"HIP 76297 A"
 	ParentBody     "HIP 76297"
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          190
 		Eccentricity    0.51
 		Inclination     95
 		AscendingNode   94.6
-		//EpochB          1885
+		Epoch           2409541.68053829
 		ArgOfPericenter 131.5
 		MeanAnomaly     0
 	}
@@ -519,7 +412,7 @@ Barycenter	"HIP 76297 A"
 Star	"HIP 76297 Aa"
 {
 	ParentBody     "HIP 76297 A"
-	Class	       "B2IV"
+	Class	         "B2IV"
 	MassSol        9.5
 	RadSol         5
 	Luminosity     5000
@@ -528,7 +421,6 @@ Star	"HIP 76297 Aa"
 
 	Orbit
 	{
-		RefPlane        "Equator"
 		PeriodDays      2.8081
 		ArgOfPericenter 0
 		MeanAnomaly     0
@@ -538,11 +430,10 @@ Star	"HIP 76297 Aa"
 Star	"HIP 76297 Ab"
 {
 	ParentBody     "HIP 76297 A"
-	Class	       "A6.3 V"
+	Class	         "A6.3 V"
 
 	Orbit
 	{
-		RefPlane        "Equator"
 		PeriodDays      2.8081
 		ArgOfPericenter 180
 		MeanAnomaly     0
@@ -552,151 +443,264 @@ Star	"HIP 76297 Ab"
 Star	"HIP 76297 B"
 {
 	ParentBody     "HIP 76297"
-	Class	       "B4"//(?)
+	Class	         "B4"//(?)
 
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          190
 		Eccentricity    0.51
 		Inclination     95
 		AscendingNode   94.6
-		//EpochB          1885
+		Epoch           2409541.68053829
 		ArgOfPericenter 311.5
 		MeanAnomaly     0
+	}
+}
+
+// 骑官三(**)
+Remove "KAP Cen A"{ParentBody "KAP Cen"}
+Remove "KAP Cen B"{ParentBody "KAP Cen"}
+Remove "KAP Cen Aa"{ParentBody "KAP Cen A"}
+Remove "KAP Cen Ab"{ParentBody "KAP Cen B"}
+Star "HIP 73334 A"
+{
+	ParentBody "HIP 73334"
+	Class      "B2IV"
+	MassSol    7.2
+	RadSol     4.4
+	Luminosity 2500
+	Teff       19800
+	Age        0.0182
+
+	BinaryOrbit
+	{
+		Epoch           2454101.22878957
+		Separation      15.1026
+		PositionAngle   156
+	}
+}
+
+Star "HIP 73334 B"
+{
+	ParentBody "HIP 73334"
+	Class      ""
+	MassSol    5
+
+	BinaryOrbit
+	{
+		Epoch           2454101.22878957
+		Separation      15.1026
+		PositionAngle   156
 	}
 }
 
 // 骑官五
 Remove "LAM Lup A"{ParentBody "LAM Lup"}
 Remove "LAM Lup B"{ParentBody "LAM Lup"}
-Star "HIP 74117 1"
+Barycenter	"HIP 74117 Aab"
 {
-    ParentBody "HIP 74117"
-    Class      "B3 V"
-    MassSol    8.14
+	ParentBody     "HIP 74117"
+	Orbit
+	{
+			Period          70.8
+			Eccentricity    0.6283
+			Inclination     71.59
+			AscendingNode   26.64
+			Epoch           2450780.08147605
+			ArgOfPericenter 119.9
+			MeanAnomaly     0
+	}
+}
+
+Star "HIP 74117 Aa"
+{
+  ParentBody "HIP 74117 Aab"
+  Class      "B3 V"
+  MassSol    8.14
 	Age        0.028
-    Orbit
-    {
-        Period          70.8
-        Eccentricity    0.6283
-        Inclination     71.59
-        AscendingNode   26.64
-        //EpochB          1997.907
-        ArgOfPericenter 119.9
-        MeanAnomaly     0
-    }
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		Period          0.00967431209
+		Eccentricity    0
+		Inclination     -2.17080975
+		AscendingNode   0
+		ArgOfPericenter -144.366568
+		MeanAnomaly     -24.1229116
+	}
 }
 
-Star "HIP 74117 2"
+Star	"HIP 74117 Ab"
 {
-    ParentBody "HIP 74117"
-    Class      "B3 V"
-    MassSol    5.84
-    Orbit
-    {
-        Period          70.8
-        Eccentricity    0.6283
-        Inclination     71.59
-        AscendingNode   26.64
-        //EpochB          1997.907
-        ArgOfPericenter 299.9
-        MeanAnomaly     0
-    }
+	ParentBody     "HIP 74117 Aab"
+	Class          "B6.9 V"
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		Period          0.00967431209
+		Eccentricity    0
+		Inclination     -2.17080975
+		AscendingNode   0
+		ArgOfPericenter 35.6334319
+		MeanAnomaly     -24.1229116
+	}
 }
 
-// 骑官六
+Star "HIP 74117 B"
+{
+  ParentBody "HIP 74117"
+  Class      "B3 V"
+  MassSol    5.84
+
+  Orbit
+  {
+    Period          70.8
+    Eccentricity    0.6283
+    Inclination     71.59
+    AscendingNode   26.64
+		Epoch           2450780.08147605
+    ArgOfPericenter 299.9
+    MeanAnomaly     0
+  }
+}
+
+// 骑官六(SB***)
 Remove "EPS Lup A"{ParentBody "EPS Lup"}
 Remove "EPS Lup B"{ParentBody "EPS Lup"}
 Remove "EPS Lup Aa"{ParentBody "EPS Lup A"}
 Remove "EPS Lup Ab"{ParentBody "EPS Lup A"}
 Barycenter "HIP 75264 A"
 {
-    ParentBody "HIP 75264"
-    Orbit
-    {
-        Period          64
-        //SemiMajorAxis   27.9401
-        Eccentricity    0.635
-        Inclination     119.8		//unknown, just aligned
-        AscendingNode   117.6		//unknown, just aligned
-        ArgOfPericenter 21.3
-        Epoch           2456760.19
-        MeanAnomaly     0
-    }
+  ParentBody "HIP 75264"
+  Orbit
+  {
+    Period          64
+    Eccentricity    0.635
+    ArgOfPericenter 21.3
+    Epoch           2456760.19
+    MeanAnomaly     0
+  }
 }
 
 Star "HIP 75264 A1"
 {
-    ParentBody "HIP 75264 A"
-    Class      "B3 IV"
-    MassSol    13.24
+  ParentBody "HIP 75264 A"
+  Class      "B3IV"
+  MassSol    13.24
 	RadSol     4.7
 	LumBol     3200
 	Teff       19275
 
-    Orbit
-    {
-        PeriodDays      4.55970
-        //SemiMajorAxis   29.2RadSol
-        Eccentricity    0.277
-        Inclination     20.5
+  Orbit
+  {
+    PeriodDays      4.55970
+    //SemiMajorAxis   29.2RadSol
+    Eccentricity    0.277
+    Inclination     20.5
 		Epoch           2452790.33
-        ArgOfPericenter 197
-        MeanAnomaly     0
+    ArgOfPericenter 197
+    MeanAnomaly     0
 		//SemiAmplitude   53.8
     }
 }
 
 Star "HIP 75264 A2"
 {
-    ParentBody "HIP 75264 A"
-    Class      "B3 V"
-    MassSol    11.46
+  ParentBody "HIP 75264 A"
+  Class      "B3V"
+  MassSol    11.46
 	RadSol     3.8
 
-    Orbit
-    {
-        PeriodDays      4.55970
-        //SemiMajorAxis   29.2RadSol
-        Eccentricity    0.277
-        Inclination     20.5
+  Orbit
+  {
+    PeriodDays      4.55970
+    //SemiMajorAxis   29.2RadSol
+    Eccentricity    0.277
+    Inclination     20.5
 		Epoch           2452790.33
-        ArgOfPericenter 17
-        MeanAnomaly     0
+    ArgOfPericenter 17
+    MeanAnomaly     0
 		//SemiAmplitude   64.7
-    }
+  }
 }
 
 Star "HIP 75264 B"
 {
-    ParentBody "HIP 75264"
-    Class      "A5 V"
-    MassSol    7.64
+  ParentBody "HIP 75264"
+  Class      "A5V"
+  MassSol    7.64
 
-    Orbit
-    {
-        Period          64
-        //SemiMajorAxis   27.9401
-        Eccentricity    0.635
-        Inclination     119.8		//unknown, just aligned
-        AscendingNode   117.6		//unknown, just aligned
-        ArgOfPericenter 201.3
-        Epoch           2456760.19
-        MeanAnomaly     0
-    }
+  Orbit
+  {
+    Period          64
+    Eccentricity    0.635
+    ArgOfPericenter 201.3
+    Epoch           2456760.19
+    MeanAnomaly     0
+  }
 }
 
-// 骑官八(*)
-// 此系统中至少有三颗恒星
+// 骑官七(Be***)
+Remove "MU Lup (AB)"{ParentBody "MU Lup"}
+Remove "MU Lup C"{ParentBody "MU Lup"}
+Remove "MU Lup A"{ParentBody "MU Lup (AB)"}
+Remove "MU Lup B"{ParentBody "MU Lup (AB)"}
+Barycenter "HIP 74911 AB"
+{
+  ParentBody "HIP 74911"
+  BinaryOrbit
+  {
+    Separation      2327.8
+  }
+}
+
+Star "HIP 74911 A"
+{
+  ParentBody "HIP 74911 AB"
+  Class      "B8V"
+  MassSol    4.42
+	Luminosity 603
+	Teff       13470
+	Age        0.112
+
+	BinaryOrbit
+	{
+		Separation      113.3
+	}
+}
+
+Star "HIP 74911 B"
+{
+  ParentBody "HIP 74911 AB"
+  Class      "A8.1 V"
+
+	BinaryOrbit
+	{
+	  Separation      113.3
+	}
+}
+
+Star "HIP 74911 C"
+{
+  ParentBody "HIP 74911"
+  Class      "F4.9 V"
+
+	BinaryOrbit
+	{
+		Separation      2327.8
+	}
+}
+
+// 骑官八(****)
 Remove "PI Lup A"{ParentBody "PI Lup"}
 Remove "PI Lup B"{ParentBody "PI Lup"}
-Barycenter	"HIP 73807 A"
+Barycenter	"HIP 73807 A/HD 133242 A/HR 5605 A"
 {
 	ParentBody     "HIP 73807"
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          517
 		ArgOfPericenter 0
 		MeanAnomaly     0
@@ -706,12 +710,11 @@ Barycenter	"HIP 73807 A"
 Star	"HIP 73807 Aa"
 {
 	ParentBody     "HIP 73807 A"
-	Class	       "B5 V"
+	Class	         "B5V"
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		SemiMajorAxis   0.0201954
 		Period          0.00658977
 		Eccentricity    0
 		Inclination     -87.5492
@@ -724,12 +727,11 @@ Star	"HIP 73807 Aa"
 Star	"HIP 73807 Ab"
 {
 	ParentBody     "HIP 73807 A"
-	Class	       "A6.9 V"
+	Class	         "A6.9 V"
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		SemiMajorAxis   0.0385844
 		Period          0.00658977
 		Eccentricity    0
 		Inclination     -87.5492
@@ -739,12 +741,11 @@ Star	"HIP 73807 Ab"
 	}
 }
 
-Barycenter	"HIP 73807 B"
+Barycenter	"HIP 73807 B/HD 133243 B/HR 5606 B"
 {
 	ParentBody     "HIP 73807"
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          517
 		ArgOfPericenter 180
 		MeanAnomaly     0
@@ -754,12 +755,11 @@ Barycenter	"HIP 73807 B"
 Star	"HIP 73807 Ba"
 {
 	ParentBody     "HIP 73807 B"
-	Class	       "B5 IV"
+	Class	         "B5 IV"
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		SemiMajorAxis   0.0272487
 		Period          0.00820279
 		Eccentricity    0
 		Inclination     -33.1559
@@ -772,12 +772,11 @@ Star	"HIP 73807 Ba"
 Star	"HIP 73807 Bb"
 {
 	ParentBody     "HIP 73807 B"
-	Class	       "A6.5 V"
+	Class	         "A6.5 V"
 
 	Orbit
 	{
 		RefPlane        "Equator"
-		SemiMajorAxis   0.0326944
 		Period          0.00820279
 		Eccentricity    0
 		Inclination     -33.1559
@@ -787,11 +786,11 @@ Star	"HIP 73807 Bb"
 	}
 }
 
-// 骑官九(*)
+// 骑官九(**)
 Star	"HIP 72683 A"
 {
 	ParentBody     "HIP 72683"
-	Class	       "B5 IV"
+	Class	         "B5 IV"
 	MassSol        5.7
 	RadSol         3.5
 	Luminosity     1260
@@ -799,7 +798,6 @@ Star	"HIP 72683 A"
 
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          27
 		ArgOfPericenter 0
 		MeanAnomaly     0
@@ -809,18 +807,86 @@ Star	"HIP 72683 A"
 Star	"HIP 72683 B"
 {
 	ParentBody     "HIP 72683"
-	Class	       "B9.8 V"
+	Class	         "B9.8 V"
 
 	Orbit
 	{
-		RefPlane        "Equator"
 		Period          27
 		ArgOfPericenter 180
 		MeanAnomaly     0
 	}
 }
 
-// 天辐二
+// 车骑一(PM**)
+Remove "ZET Lup A"{ParentBody "ZET Lup"}
+Remove "ZET Lup B"{ParentBody "ZET Lup"}
+Star "HIP 74395 1"
+{
+  ParentBody "HIP 74395"
+  Class      "G7III"
+  MassSol    2.29
+	RadSol     10
+	Luminosity 53
+	Teff       5335
+	FeH        0
+
+	BinaryOrbit
+	{
+		Epoch           2456292.68198225
+		Separation      2563.2
+		PositionAngle   249
+	}
+}
+
+Star "HIP 74395 2"
+{
+  ParentBody "HIP 74395"
+  Class      "F8 V"
+
+	BinaryOrbit
+	{
+		Epoch           2456292.68198225
+		Separation      2563.2
+		PositionAngle   249
+	}
+}
+
+// 天辐一(**)
+Remove "UPS Lib A"{ParentBody "UPS Lib"}
+Remove "UPS Lib B"{ParentBody "UPS Lib"}
+Star "HD 139063 A"
+{
+	ParentBody "HD 139063"
+	Class      "K3III"
+	MassSol    1.67
+	RadSol     31.5
+	Luminosity 309
+	Teff       4135
+	FeH        -0.02
+	Age        3.14
+
+	BinaryOrbit
+	{
+		Epoch           2452275.01779566
+		Separation      137.2
+		PositionAngle   151
+	}
+}
+
+Star "HD 139063 B"
+{
+	ParentBody "HD 139063"
+	Class      "F0.9 V"
+
+	BinaryOrbit
+	{
+		Epoch           2452275.01779566
+		Separation      137.2
+		PositionAngle   151
+	}
+}
+
+// 天辐二(SB**)
 Remove "TAU Lib A"{ParentBody "TAU Lib"}
 Remove "TAU Lib B"{ParentBody "TAU Lib"}
 Star "HIP 76600 A"
@@ -830,7 +896,7 @@ Star "HIP 76600 A"
 	MassSol    7.25
 	RadSol     3.2
 	LumBol     2705
-	Teff       17900
+	Teff       17990
 	FeH        0.17
 	Age        0.0315
 
@@ -849,8 +915,8 @@ Star "HIP 76600 A"
 Star "HIP 76600 B"
 {
 	ParentBody "HIP 76600"
-	Class      ""
-	MassSol    4.6
+	Class      "B5.4 V"
+
 	Orbit
 	{
 		PeriodDays      3.2907
@@ -859,6 +925,6 @@ Star "HIP 76600 B"
 		Epoch           2439272.312
 		ArgOfPericenter 0
 		MeanAnomaly     180
-		//SemiAmplitude   75
+		//SemiAmplitude   167
 	}
 }

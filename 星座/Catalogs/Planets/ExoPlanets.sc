@@ -394,37 +394,36 @@ Planet	"HIP 71865 ABb"
 	}
 }
 
+// 氐宿三
 Remove "GAM Lib b"{ParentBody "GAM Lib"}
 Remove "GAM Lib c"{ParentBody "GAM Lib"}
 Planet	"GAM Lib b"
 {
 	ParentBody     "HIP 76333 A"
-	Mass           324.564
-	DiscMethod     "RadVel"
 	DiscDate       "2018"
+	Class          "GasGiant"
+	Mass           324.564
+
 	Orbit
 	{
-		Epoch           2450041
-		PeriodDays      415.2
 		SemiMajorAxis   1.24
+		PeriodDays      415.2
 		Eccentricity    0.21
-		ArgOfPericen    187
 	}
 }
 
 Planet	"GAM Lib c"
 {
 	ParentBody     "HIP 76333 A"
-	Mass           1457.356
-	DiscMethod     "RadVel"
 	DiscDate       "2018"
+	Class          "GasGiant"
+	Mass           1457.356
+
 	Orbit
 	{
-		Epoch           2450725
-		PeriodDays      964.6
 		SemiMajorAxis   2.17
+		PeriodDays      964.6
 		Eccentricity    0.057
-		ArgOfPericen    146
 	}
 }
 
