@@ -427,6 +427,18 @@ Planet	"GAM Lib c"
 	}
 }
 
+// 罚一
+Planet	"18 Sco b"
+{
+	ParentBody     "18 Sco"
+	DiscDate       "2017"
+
+	Orbit
+	{
+		PeriodDays      2528.81456
+	}
+}
+
 Planet	"GAM Del b"
 {
 	ParentBody     "HIP 102531 A"

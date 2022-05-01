@@ -1,47 +1,50 @@
-// 罚
 Remove "18 Sco"
 Star "罚一/18 Sco/BD-07 4242/Gl 616/HD 146233/HIP 79672/HR 6060/SAO 141066/GC 21864/CCDM 16156-0822"
 {
-	RA      16 15 37.58
-	Dec     -8 22 20.1
+	RA      16 15 38.83
+	Dec     -8 22 26.2
 	AppMagn 5.503
-	
+
 	Class   "G2Va"
-	
-	Dist    13.9
+
+	Dist    14.13
 	AbsMagn 4.77
-	
-	MassSol 1.02
+
+	MassSol 1.03
 	RadSol  1.01
-	Luminosity 1.058
-	Teff    5433
-	FeH     0
-	RotationDays 22.7
-	Age     2.9
+	Luminosity 1.0438
+	Teff    5817
+	FeH     0.052
+	RotationPeriod 544.8
+	Age     2.9 // 5.64 // 7.18
 }
 
 Remove "11 Sco"
-Star "罚二/11 Sco/HIP 79005/SAO 159715/HD 144708/HR 6002/WDS J16076-1245AB"
+Star "罚二/11 Sco/ADS 9924 AB/CCDM J16076-1245AB/GCRV 9269/GSC 05620-01384/HD 144708/HIC 79005/HIP 79005/HR 6002/IDS 16020-1229 AB/PPM 231240/SAO 159715/TD1 18882/uvby98 100144708/WDS J16076-1245AB/BD-12 4425/TYC 5620-1384-1/YZC 11 5589/WEB 13354/Gaia DR2 4341925483417630080"
 {
-	RA      16 7 36.36
-	Dec     -12 44 44
-	AppMagn 5.75
-	
-	Class   "B9Vnnp"
-	
-	Dist    130.55
-	AbsMagn 0.17
+	RA      16 7 37.6
+	Dec     -12 44 48.7
+	AppMagn 5.772
+
+	Class   "B9V"
+
+	Dist    112.36
+	AbsMagn 0.5
+
+	RadSol  2.8
+	Luminosity 60.27
+	Teff    9392
 }
 
 Remove "49 Lib"
-StarBarycenter "罚三/49 Lib/BD–16°4196/FK5 1419/GJ 3931/HD 143333/HIP 78400/HR 5954/SAO 159625/WDS J16003-1632A"
+StarBarycenter "罚三/49 Lib/BD-16 4196/FK5 1419/GJ 3931/HD 143333/HIP 78400/HR 5954/SAO 159625/WDS J16003-1632A"
 {
-	RA      16 0 18.68
-	Dec     -16 32 8.4
+	RA      16 0 19.86
+	Dec     -16 32 13.5
 	AppMagn 5.45
-	
+
 	Class   "F8V"
-	
-	Dist    106.97
-	AbsMagn 2.87
+
+	Dist    29.2
+	AbsMagn 3.12
 }

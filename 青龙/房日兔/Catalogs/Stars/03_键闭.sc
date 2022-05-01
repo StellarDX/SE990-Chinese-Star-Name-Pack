@@ -1,4 +1,3 @@
-// 键闭
 Remove "NU Sco"
 StarBarycenter "键闭/Jabbah/NU Sco/14 Sco/ADS 9951 AB/CCDM J16120-1928AB/HIP 79374"
 {
