@@ -1,9 +1,8 @@
-// 杵
 Remove "SIG Ara"
-Star "杵一(Wb)/SIG Ara/CD–46 11661/HD 159217/HIP 86092/HR 6537/SAO 2281622"
+Star "杵一(W)/SIG Ara/CD-46 11661/HD 159217/HIP 86092/HR 6537/SAO 2281622"
 {
-  RA      17 35 39.55
-  Dec     -46 30 21.2
+  RA      17 35 40.97
+  Dec     -46 30 16.4
   AppMagn 4.575
 
   Class   "A0V"
@@ -16,10 +15,10 @@ Star "杵一(Wb)/SIG Ara/CD–46 11661/HD 159217/HIP 86092/HR 6537/SAO 2281622"
 }
 
 Remove "ALF Ara"
-Star "杵二(Wb)/Choo/ALF Ara/CD−49°11511/FK5 651/HD 158427/HIP 85792/HR 6510/NSV 8999/SAO 228069"
+Star "杵二(W)/Choo/ALF Ara/CD-49 11511/FK5 651/HD 158427/HIP 85792/HR 6510/NSV 8999/SAO 228069"
 {
-  RA      17 31 50.41
-  Dec     -49 52 35.5
+  RA      17 31 51.95
+  Dec     -49 52 30.1
   AppMagn 2.93
 
   Class   "B2Vne"
@@ -34,15 +33,15 @@ Star "杵二(Wb)/Choo/ALF Ara/CD−49°11511/FK5 651/HD 158427/HIP 85792/HR 6510
 }
 
 Remove "BET Ara"
-Star "杵三(Wb)/BET Ara/CPD −55° 8100/FK5 645/HD 157244/HIP 85258/HR 6461/SAO 244725"
+Star "杵三(W)/BET Ara/CPD−55 8100/FK5 645/HD 157244/HIP 85258/HR 6461/SAO 244725"
 {
-  RA      17 25 17.97
-  Dec     -55 31 48.1
+  RA      17 25 19.77
+  Dec     -55 31 41.8
   AppMagn 2.84
 
   Class   "K3Ib"
 
-  Dist    200
+  Dist    219
   AbsMagn -3.494
 
   MassSol 8.21
