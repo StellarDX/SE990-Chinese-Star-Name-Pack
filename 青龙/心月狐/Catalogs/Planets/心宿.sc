@@ -1,39 +1,35 @@
-// 心宿一
+// 心宿一(bC****)
 Remove "SIG Sco (ACB)"{ParentBody "Al Niyat"}
 Remove "SIG Sco (AC)"{ParentBody "SIG Sco (ACB)"}
 Remove "Al Niyat Aa"{ParentBody "SIG Sco (AC)"}
 Remove "SIG Sco Ab"{ParentBody "SIG Sco (AC)"}
 Remove "SIG Sco C"{ParentBody "SIG Sco (ACB)"}
 Remove "SIG Sco B"{ParentBody "Al Niyat"}
-Barycenter "HIP 80112 Aabc"
+Barycenter "HIP 80112 Aab"
 {
 	ParentBody "HIP 80112"
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          30930.42
-		//SemiMajorAxis   4500
-		ArgOfPericenter 0
-		MeanAnomaly     0
+		Separation      4500
 	}
 }
 
-Barycenter "HIP 80112 Aab"
-{
-	ParentBody "HIP 80112 Aabc"
-	Orbit
-	{
-		Period          205
-		//SemiMajorAxis   120
-		ArgOfPericenter 0
-		MeanAnomaly     0
-	}
-}
-
-Star "HIP 80112 Aa"
+Barycenter "HIP 80112 Aa"
 {
 	ParentBody "HIP 80112 Aab"
-	Class      "B1 III"
+	Orbit
+	{
+		Period          100
+		ArgOfPericenter 0
+		MeanAnomaly     0
+	}
+}
+
+Star "HIP 80112 Aa1"
+{
+	ParentBody "HIP 80112 Aa"
+	Class      "B1III"
 	MassSol    18.4 // 17.2 // 18
 	RadSol     12.7
 	Luminosity 2.9E+4 // 95500
@@ -47,15 +43,15 @@ Star "HIP 80112 Aa"
 		Eccentricity    0.322
 		Inclination     158.2
 		AscendingNode   104
-		Epoch           2434889
+		Epoch           2434889.5
 		ArgOfPericenter 103
 		MeanAnomaly     0
 	}
 }
 
-Star "HIP 80112 Ab"
+Star "HIP 80112 Aa2"
 {
-	ParentBody "HIP 80112 Aab"
+	ParentBody "HIP 80112 Aa"
 	Class      "B1V"
 	MassSol    11.9
 	RadSol     11
@@ -67,22 +63,20 @@ Star "HIP 80112 Ab"
 		Eccentricity    0.322
 		Inclination     158.2
 		AscendingNode   104
-		Epoch           2434889
+		Epoch           2434889.5
 		ArgOfPericenter 283
 		MeanAnomaly     0
 	}
 }
 
-Star "HIP 80112 Ac"
+Star "HIP 80112 Ab"
 {
-	ParentBody "HIP 80112 Aabc"
+	ParentBody "HIP 80112 Aab"
 	Class      "B"
-	MassSol    11
 
 	Orbit
 	{
-		Period          205
-		//SemiMajorAxis   120
+		Period          100
 		ArgOfPericenter 180
 		MeanAnomaly     0
 	}
@@ -94,16 +88,13 @@ Star "HIP 80112 B"
 	Class      "B9"
 	MassSol    2.9
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          30930.42
-		//SemiMajorAxis   4500
-		ArgOfPericenter 180
-		MeanAnomaly     0
+		Separation      4500
 	}
 }
 
-// 心宿二
+// 心宿二(RSG**)
 Remove "Antares A"{ParentBody "Antares"}
 Remove "Antares B"{ParentBody "Antares"}
 Star "HIP 80763 A"
@@ -115,8 +106,9 @@ Star "HIP 80763 A"
 	Luminosity 75900
 	Teff       3660
 	Age        0.015
+	Oblateness 0
 
-	Surface
+	Surface // 汝可识得此阵?
 	{
 		SurfStyle       0.96468
 		Randomize      (0.180, 0.362, -0.767)
@@ -184,68 +176,68 @@ Star "HIP 80763 B"
 	}
 }
 
-// 积卒二
+// 积卒二(***)
 Remove "ETA Lup (AB)"{ParentBody "ETA Lup"}
 Remove "ETA Lup A"{ParentBody "ETA Lup (AB)"}
 Remove "ETA Lup B"{ParentBody "ETA Lup (AB)"}
 Remove "ETA Lup C"{ParentBody "ETA Lup"}
 Barycenter "HIP 78384 AB"
 {
-    ParentBody "HIP 78384"
-    Orbit
-    {
-        Period          500000
-        //SemiMajorAxis   1588.0235
-        ArgOfPericenter 0
-        MeanAnomaly     0
-    }
+  ParentBody "HIP 78384"
+  Orbit
+  {
+    Period          500000
+		Epoch           2454101.22878957
+    ArgOfPericenter 68
+    MeanAnomaly     0
+  }
 }
 
 Star "HIP 78384 A"
 {
-    ParentBody "HIP 78384 AB"
-    Class      "B2IV"
-    MassSol    7
+  ParentBody "HIP 78384 AB"
+  Class      "B2IV"
+  MassSol    7
 	RadSol     6.7
 	Luminosity 1729
 	Teff       14668
 	Age        0.0398
 
-    Orbit
-    {
-        Period          27000
-        //SemiMajorAxis   371.0429
-        ArgOfPericenter 0
-        MeanAnomaly     0
-    }
+  Orbit
+  {
+    Period          27000
+		Epoch           2456292.68198225
+    ArgOfPericenter 199
+    MeanAnomaly     0
+  }
 }
 
 Star "HIP 78384 B"
 {
-    ParentBody "HIP 78384 AB"
-    Class      "A5Vp"
-    MassSol    2.1
+  ParentBody "HIP 78384 AB"
+  Class      "A5Vp"
+  MassSol    2.1
 
-    Orbit
-    {
-        Period          27000
-        //SemiMajorAxis   1576.9325
-        ArgOfPericenter 180
-        MeanAnomaly     0
-    }
+  Orbit
+  {
+    Period          27000
+		Epoch           2456292.68198225
+    ArgOfPericenter 19
+    MeanAnomaly     0
+  }
 }
 
 Star "HIP 78384 C"
 {
-    ParentBody "HIP 78384"
-    Class      "F5V"
+  ParentBody "HIP 78384"
+  Class      "F5V"
 	MassSol    1.29
 
-    Orbit
-    {
-        Period          500000
-        SemiMajorAxis   16674.2465
-        ArgOfPericenter 180
-        MeanAnomaly     0
-    }
+  Orbit
+  {
+    Period          500000
+		Epoch           2454101.22878957
+    ArgOfPericenter 248
+    MeanAnomaly     0
+  }
 }
