@@ -1,22 +1,21 @@
-// 天鸡
 Remove "55 Sgr"
-Star "天鸡一/e2 Sgr/55 Sgr/HIP 96950/SAO 162915/HD 186005/HR 7489"
+StarBarycenter "天鸡一/e2 Sgr/55 Sgr/HIP 96950/SAO 162915/HD 186005/HR 7489"
 {
-  RA      19 42 31.23
-  Dec     -16 7 26.6
+  RA      19 42 31.67
+  Dec     -16 7 27.3
   AppMagn 5.05
 
-  Class   "F0IV"
+  Class   "F3IV"
 
-  Dist    53.5
-  AbsMagn 1.38
+  Dist    55
+  AbsMagn 1.35
 }
 
 Remove "56 Sgr"
-Star "天鸡二/f Sgr/56 Sgr/BD−20°5698/GC 27349/HD 186648/HIP 97290/HR 7515/SAO 162964/GSC 06320-02845"
+Star "天鸡二/f Sgr/56 Sgr/BD-20 5698/GC 27349/HD 186648/HIP 97290/HR 7515/SAO 162964/GSC 06320-02845"
 {
-  RA      19 46 21.57
-  Dec     -19 45 41.9
+  RA      19 46 21.96
+  Dec     -19 45 41.6
   AppMagn 4.87
 
   Class   "K0III"

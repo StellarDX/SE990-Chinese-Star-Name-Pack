@@ -1,40 +1,34 @@
-// 狗国
 Remove "OME Sgr"
-StarBarycenter "狗国一/Terebellum/OME Sgr/58 Sgr/CPD−26°6880/FK5 1629/GC 27583/HD 188376/HIP 98066/HR 7597/SAO 188722/PPM 270451"
+StarBarycenter "狗国一/Terebellum/OME Sgr/58 Sgr/CPD-26 6880/FK5 1629/GC 27583/HD 188376/HIP 98066/HR 7597/SAO 188722/PPM 270451"
 {
-  RA      19 55 50.69
-  Dec     -26 17 57.3
+  RA      19 55 51.11
+  Dec     -26 17 54.3
   AppMagn 4.7
 
   Class   "G5IV"
 
   Dist    23.4
-  AbsMagn 2.63
+  AbsMagn 2.85
 }
 
 Remove "60 Sgr"
-Star "狗国二/A Sgr/60 Sgr/CD−26°14682/CPD−26°6895/GC 27658/HD 189005/HIP 98353/HR 7618/SAO 188778/PPM 270516"
+StarBarycenter "狗国二/A Sgr/60 Sgr/CD-26 14682/CPD-26 6895/GC 27658/HD 189005/HIP 98353/HR 7618/SAO 188778/PPM 270516"
 {
-  RA      19 58 57.26
-  Dec     -26 11 44.4
-  AppMagn 4.84
+  RA      19 58 57.62
+  Dec     -26 11 41.4
+  AppMagn 4.8
 
   Class   "G6III"
 
   Dist    116
-  AbsMagn -0.07
-
-  RadSol  17.42
-  Luminosity 170.3
-  Teff    4997
-  FeH     -0.38
+  AbsMagn -0.53
 }
 
 Remove "62 Sgr"
-Star "狗国三/c Sgr/62 Sgr/V3872 Sgr/CD−28°16355/CPD−28°7105/FK5 753/GC 27763/HD 189763/HIP 98688/HR 7650/SAO 188844/PPM 270603"
+Star "狗国三/c Sgr/62 Sgr/V3872 Sgr/CD-28 16355/CPD-28 7105/FK5 753/GC 27763/HD 189763/HIP 98688/HR 7650/SAO 188844/PPM 270603"
 {
-  RA      20 2 39.54
-  Dec     -27 42 35.3
+  RA      20 2 39.89
+  Dec     -27 42 31.8
   AppMagn 4.45
 
   Class   "M4.5III"
@@ -48,10 +42,10 @@ Star "狗国三/c Sgr/62 Sgr/V3872 Sgr/CD−28°16355/CPD−28°7105/FK5 753/GC 
 }
 
 Remove "59 Sgr"
-Star "狗国四/b Sgr/59 Sgr/CD−27°14399/CPD−27°6892/GC 27605/HD 188603/HIP 98162/HR 7604/SAO 188742/PPM 270473"
+Star "狗国四/b Sgr/59 Sgr/CD-27 14399/CPD-27 6892/GC 27605/HD 188603/HIP 98162/HR 7604/SAO 188742/PPM 270473"
 {
-  RA      19 56 56.84
-  Dec     -27 10 11.9
+  RA      19 56 57.22
+  Dec     -27 10 8.7
   AppMagn 4.54
 
   Class   "K2.5IIIb"
@@ -61,7 +55,7 @@ Star "狗国四/b Sgr/59 Sgr/CD−27°14399/CPD−27°6892/GC 27605/HD 188603/HI
 
   MassSol 6.2
   RadSol  100.19
-  Luminosity 2285
+  Luminosity 2825
   Teff    4204
   FeH     -0.1
   Age     0.0642
