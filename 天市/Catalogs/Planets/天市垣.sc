@@ -357,7 +357,9 @@ Barycenter "HIP 86263 A"
 	Orbit
 	{
 		Period          14763
-		ArgOfPericenter 0
+		SemiMajorAxis   62.29285714
+		Epoch           2455927.43978347
+		ArgOfPericenter 258
 		MeanAnomaly     0
 	}
 }
@@ -408,7 +410,9 @@ Star "HIP 86263 B"
 	Orbit
 	{
 		Period          14763
-		ArgOfPericenter 180
+		SemiMajorAxis   712.90714286
+		Epoch           2455927.43978347
+		ArgOfPericenter 78
 		MeanAnomaly     0
 	}
 }
@@ -613,6 +617,7 @@ Barycenter "HIP 88404 A"
 	Orbit
 	{
 		Period          257
+		SemiMajorAxis   37.32317308
 		Eccentricity    0.77
 		ArgOfPericenter 0
 		MeanAnomaly     0
@@ -657,6 +662,7 @@ Star	"HIP 88404 B"
 	Orbit
 	{
 		Period          257
+		SemiMajorAxis   52.94682692
 		Eccentricity    0.77
 		ArgOfPericenter 180
 		MeanAnomaly     0
@@ -672,6 +678,7 @@ Barycenter "HIP 80628 AB"
 	Orbit
 	{
 		Period          82.8
+		SemiMajorAxis   11.4255069
 		Eccentricity    0.45
 		Inclination     31.2
 		AscendingNode   86.8
@@ -726,6 +733,7 @@ Star	"HIP 80628 C"
 	Orbit
 	{
 		Period          82.8
+		SemiMajorAxis   20.9644931
 		Eccentricity    0.45
 		Inclination     31.2
 		AscendingNode   86.8
@@ -1047,6 +1055,7 @@ Star "HIP 84345 A/HD 156014 A/HR 6406/SAO 102680"
 	Orbit
 	{
 		Period          3600
+		SemiMajorAxis   337.07865169
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}
@@ -1058,6 +1067,7 @@ Barycenter "HIP 84345 B/HD 156015 B/HR 6407/SAO 102681"
 	Orbit
 	{
 		Period          3600
+		SemiMajorAxis   162.92134831
 		ArgOfPericenter 180
 		MeanAnomaly     0
 	}
@@ -1104,9 +1114,20 @@ Remove "Marfik C"{ParentBody "Marfik"}
 Barycenter "HIP 80883 AB"
 {
 	ParentBody "HIP 80883"
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      6307
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Period          309445.565
+		SemiMajorAxis   866.610734
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   0
+		ArgOfPericenter 0
+		MeanAnomaly     0
 	}
 }
 
@@ -1157,9 +1178,20 @@ Star "HIP 80883 C"
 	Teff       4157
 	Luminosity 0.07
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      6307
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Period          309445.565
+		SemiMajorAxis   5440.38927
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   0
+		ArgOfPericenter 180
+		MeanAnomaly     0
 	}
 }
 
@@ -1858,9 +1890,20 @@ Remove "68 Her Ab"{ParentBody "68 Her A"}
 Barycenter "HIP 84573 AB"
 {
 	ParentBody "HIP 84573"
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      3060
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Period          60300.3306
+		SemiMajorAxis   829.302775
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   0
+		ArgOfPericenter 0
+		MeanAnomaly     0
 	}
 }
 
@@ -1911,9 +1954,20 @@ Star "HIP 84573 C"
 	ParentBody "HIP 84573"
 	Class      "B8 V"
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      3060
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Period          60300.3306
+		SemiMajorAxis   2230.69723
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   0
+		ArgOfPericenter 180
+		MeanAnomaly     0
 	}
 }
 
@@ -1954,9 +2008,20 @@ Remove "RHO Her B"{ParentBody "RHO Her (AB)"}
 Barycenter "RHO1 Her/HIP 85112 A/HD 157779/HR 6485/SAO 66001"
 {
 	ParentBody "HIP 85112"
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      480
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Period          5815.52107
+		SemiMajorAxis   153.882351
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   0
+		ArgOfPericenter 0
+		MeanAnomaly     0
 	}
 }
 
@@ -1993,8 +2058,19 @@ Star "RHO2 Her/HIP 85112 B/HD 157778/HR 6484/SAO 66000"
 	MassSol    3.27
 	Teff       8755
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      480
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Period          5815.52107
+		SemiMajorAxis   326.117649
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   0
+		ArgOfPericenter 180
+		MeanAnomaly     0
 	}
 }
