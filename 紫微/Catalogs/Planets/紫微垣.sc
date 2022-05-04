@@ -250,6 +250,7 @@ Barycenter "HIP 114222 A"
 	Orbit
 	{
 	  Period          162.8
+    SemiMajorAxis   12.74715821
 		Eccentricity    0.5968
 		Inclination     30
 		AscendingNode   90.3
@@ -308,6 +309,7 @@ Star "HIP 114222 B"
 	Orbit
 	{
 	  Period          162.8
+    SemiMajorAxis   45.57274179
 		Eccentricity    0.5968
 		Inclination     30
 		AscendingNode   90.3
@@ -539,6 +541,7 @@ Barycenter "HIP 89908 A"
 	Orbit
 	{
 		Period          307.8
+    SemiMajorAxis   42.13932584
 		Eccentricity    0.752
 		Inclination     95.6
 		ArgOfPericenter 0
@@ -593,6 +596,7 @@ Star "HIP 89908 B"
 	Orbit
 	{
     Period          307.8
+    SemiMajorAxis   47.46067416
 		Eccentricity    0.752
 		Inclination     95.6
 		ArgOfPericenter 180
@@ -794,11 +798,18 @@ Remove "Polaris B"{ParentBody	"Polaris"}
 Barycenter	"HIP 11767 A"
 {
 	ParentBody	"HIP 11767"
-	BinaryOrbit // Position relative to ALF UMi Aa
+	/*BinaryOrbit // Position relative to ALF UMi Aa
 	{
     Epoch           2453585.50680489 // B2005.5880
 		Separation      1803.48 // 18.217"
 		PositionAngle   50.540 // Position Angle
+	}*/
+  Orbit // Position relative to ALF UMi Aa
+	{
+    Epoch           2453585.50680489 // B2005.5880
+		SemiMajorAxis   311.40834783 // 18.217"
+		ArgOfPericenter 230.540 // Position Angle
+    MeanAnomaly     0
 	}
 }
 
@@ -857,12 +868,19 @@ Star	"HIP 11767 B"
   LumBol      3.9
 	Teff        6900
 
-  BinaryOrbit // Position relative to ALF UMi Aa
+  /*BinaryOrbit // Position relative to ALF UMi Aa
 	{
     Epoch           2453585.50680489 // B2005.5880
 		Separation      1803.48 // 18.217"
 		PositionAngle   50.540 // Position Angle
-	}
+	}*/
+  Orbit // Position relative to ALF UMi Aa
+  {
+    Epoch           2453585.50680489 // B2005.5880
+    SemiMajorAxis   1492.07165217 // 18.217"
+    ArgOfPericenter 50.540 // Position Angle
+    MeanAnomaly     0
+  }
 }
 
 // 勾陈三(RS**/C为光学伴星)
@@ -1131,10 +1149,22 @@ Star "HIP 9763 B"
 Barycenter "HIP 9480 AB"
 {
   ParentBody "HIP 9480"
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 	  Separation      816.5
-	}
+	}*/
+
+  Orbit
+  {
+    RefPlane        "Extrasolar"
+    Period          16794.0822
+    SemiMajorAxis   113.40277
+    Eccentricity    0
+    Inclination     0
+    AscendingNode   0
+    ArgOfPericenter 0
+    MeanAnomaly     0
+  }
 }
 
 Star "HIP 9480 A"
@@ -1183,10 +1213,22 @@ Star "HIP 9480 C"
 	Class      "M3"
 	MassSol    0.5
 
-  BinaryOrbit
+  /*BinaryOrbit
 	{
 	  Separation      816.5
-	}
+	}*/
+
+  Orbit
+  {
+    RefPlane        "Extrasolar"
+    Period          16794.0822
+    SemiMajorAxis   703.09723
+    Eccentricity    0
+    Inclination     0
+    AscendingNode   0
+    ArgOfPericenter 180
+    MeanAnomaly     0
+  }
 }
 
 // 杠八(EB**)
@@ -1607,11 +1649,23 @@ Remove "7 Cam C"{ParentBody "7 Cam"}
 Barycenter "HIP 23040 A"
 {
 	ParentBody "HIP 23040"
-	BinaryOrbit
+	/*BinaryOrbit
 	{
     Epoch           2452640.25999444
 		Separation      2907
 		PositionAngle   242
+	}*/
+  Orbit
+	{
+		RefPlane        "Extrasolar"
+		Epoch           2452640.26
+		Period          88170.7739
+		SemiMajorAxis   1047.20529
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   242
+		ArgOfPericenter -242
+		MeanAnomaly     0
 	}
 }
 
@@ -1654,12 +1708,24 @@ Star "HIP 23040 C"
 	ParentBody "HIP 23040"
 	Class      "A2.6 V"
 
-  BinaryOrbit
+  /*BinaryOrbit
 	{
     Epoch           2452640.25999444
 		Separation      2907
 		PositionAngle   242
-	}
+	}*/
+  Orbit
+  {
+    RefPlane        "Extrasolar"
+    Epoch           2452640.26
+    Period          88170.7739
+    SemiMajorAxis   1859.79471
+    Eccentricity    0
+    Inclination     0
+    AscendingNode   242
+    ArgOfPericenter -62
+    MeanAnomaly     0
+  }
 }
 
 // 八谷六(gD*****?)
@@ -2110,12 +2176,21 @@ Remove "Al Haud B"{ParentBody "Al Haud"}
 Barycenter "HIP 46853 A"
 {
 	ParentBody "HIP 46853"
-	Orbit
+	/*BinaryOrbit
 	{
-		Period          231.19
-		ArgOfPericenter 0
-		MeanAnomaly     0
-	}
+		Separation      55.268
+	}*/
+  Orbit
+  {
+    RefPlane        "Extrasolar"
+    Period          346.020416
+    SemiMajorAxis   3.23048996
+    Eccentricity    0
+    Inclination     0
+    AscendingNode   0
+    ArgOfPericenter 0
+    MeanAnomaly     0
+  }
 }
 
 Star "HIP 46853 Aa"
@@ -2157,12 +2232,21 @@ Star "HIP 46853 B"
 	Class      "M6V"
 	MassSol    0.15
 
-	Orbit
+  /*BinaryOrbit
 	{
-		Period          231.19
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
+		Separation      55.268
+	}*/
+  Orbit
+  {
+    RefPlane        "Extrasolar"
+    Period          346.020416
+    SemiMajorAxis   52.03751
+    Eccentricity    0
+    Inclination     0
+    AscendingNode   0
+    ArgOfPericenter 180
+    MeanAnomaly     0
+  }
 }
 
 // 文昌五(PM**?)
@@ -2659,6 +2743,7 @@ Barycenter "天枪一/KAP1 Boo Bab/HR 5328/HD 124674 B/HIP 69481 B/SAO 29045"
 	Orbit
 	{
 		Period          6675
+    SemiMajorAxis   333.673923
 		Eccentricity    0.5
 		Inclination     99.5
 		AscendingNode   53.2
@@ -2722,6 +2807,7 @@ Star "KAP2 Boo A/HR 5329/HD 124675 A/HIP 69483 A/SAO 29046"
 	Orbit
 	{
 		Period          6675
+    SemiMajorAxis   330.526077
 		Eccentricity    0.5
 		Inclination     99.5
 		AscendingNode   53.2
