@@ -175,12 +175,12 @@ Star	"PI2 Boo B/HD 129175 B/HR 5476 B/SAO 101139"
 	ParentBody     "HIP 71762"
 	Class	         "A6V"
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Epoch           2455196.95538591
 		Separation      538.6
 		PositionAngle   110.5
-	}
+	}*/
 }
 
 // 左摄提三(**)

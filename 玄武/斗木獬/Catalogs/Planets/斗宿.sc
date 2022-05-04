@@ -151,10 +151,10 @@ Star "HIP 93506 C"
 	ParentBody "HIP 93506"
 	Class      "A" // ?
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      2025
-	}
+	}*/
 }
 
 // 建三(***)

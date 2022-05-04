@@ -58,10 +58,10 @@ Star "HIP 78265 B"
 	ParentBody "HIP 78265"
 	Class      "B6.7 V"//?
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      7000
-	}
+	}*/
 }
 
 // 房宿二(SB**)
@@ -835,10 +835,10 @@ Star	"HIP 76945 C"
 	ParentBody     "HIP 76945"
 	Class	         "F2.5 V"
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      56.6102
-	}
+	}*/
 }
 
 // 从官二(SB**)

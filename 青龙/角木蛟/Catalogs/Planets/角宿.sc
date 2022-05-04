@@ -133,10 +133,10 @@ Star	"HIP 64238 B"
 	ParentBody     "HIP 64238"
 	Class	         "A9m"
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      710
-	}
+	}*/
 }
 
 // 天田二(*)
@@ -258,7 +258,7 @@ Star	"HIP 65936 B"
 // 库楼六(****?)
 Barycenter	"HIP 63945 AC"
 {
-	ParentBody     "HIP 63945"
+	ParentBody     "HR 4940"
 	BinaryOrbit
 	{
 		Epoch           2457023.16637981
@@ -326,18 +326,18 @@ Star	"HIP 63945 C"
 
 Star	"HIP 63945 B"
 {
-	ParentBody     "HIP 63945"
+	ParentBody     "HR 4940"
 	Class          "K0Ve"
 	MassSol        0.9
 	Teff           5020
 	Age            0.05
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Epoch           2457023.16637981
 		Separation      1392
 		PositionAngle   78
-	}
+	}*/
 }
 
 // 库楼七(**)

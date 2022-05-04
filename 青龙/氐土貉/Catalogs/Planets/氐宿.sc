@@ -400,6 +400,7 @@ Barycenter	"HIP 76297 A"
 	Orbit
 	{
 		Period          190
+		SemiMajorAxis   20.27875200
 		Eccentricity    0.51
 		Inclination     95
 		AscendingNode   94.6
@@ -448,6 +449,7 @@ Star	"HIP 76297 B"
 	Orbit
 	{
 		Period          190
+		SemiMajorAxis   64.21604800
 		Eccentricity    0.51
 		Inclination     95
 		AscendingNode   94.6
@@ -577,6 +579,7 @@ Barycenter "HIP 75264 A"
   Orbit
   {
     Period          64
+		SemiMajorAxis   37.79839208
     Eccentricity    0.635
     ArgOfPericenter 21.3
     Epoch           2456760.19
@@ -635,6 +638,7 @@ Star "HIP 75264 B"
   Orbit
   {
     Period          64
+		SemiMajorAxis   122.20160792
     Eccentricity    0.635
     ArgOfPericenter 201.3
     Epoch           2456760.19
@@ -687,10 +691,10 @@ Star "HIP 74911 C"
   ParentBody "HIP 74911"
   Class      "F4.9 V"
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      2327.8
-	}
+	}*/
 }
 
 // 骑官八(****)

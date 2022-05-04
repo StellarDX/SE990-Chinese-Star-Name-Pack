@@ -119,6 +119,7 @@ Barycenter "HIP 85927 A"
 	Orbit
 	{
 		PeriodDays      1053
+		SemiMajorAxis   2.09655172
 		Eccentricity    0.121
 		Inclination     77.2
 		AscendingNode   271.3
@@ -174,6 +175,7 @@ Star "HIP 85927 B"
 	Orbit
 	{
 		PeriodDays      1053
+		SemiMajorAxis   3.60344828
 		Eccentricity    0.121
 		Inclination     77.2
 		AscendingNode   271.3
@@ -301,11 +303,11 @@ Star	"天江增三/30 Sco/V2215 Oph/GJ 664 C/HD 156026 C/GCTP 3913.00 C/LHS 439/
 	Teff        4550
 	FeH         0
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      4354.4
 		PositionAngle 	240
-	}
+	}*/
 }
 
 // 天江三(bC***)
@@ -360,8 +362,8 @@ Star "HIP 84970 C"
 {
 	ParentBody "HIP 84970"
 	Class      "B5 V"
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      20.1012
-	}
+	}*/
 }

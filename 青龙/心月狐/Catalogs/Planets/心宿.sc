@@ -88,10 +88,10 @@ Star "HIP 80112 B"
 	Class      "B9"
 	MassSol    2.9
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Separation      4500
-	}
+	}*/
 }
 
 // 心宿二(RSG**)
@@ -187,6 +187,7 @@ Barycenter "HIP 78384 AB"
   Orbit
   {
     Period          500000
+		SemiMajorAxis   1955.33705486
 		Epoch           2454101.22878957
     ArgOfPericenter 68
     MeanAnomaly     0
@@ -236,6 +237,7 @@ Star "HIP 78384 C"
   Orbit
   {
     Period          500000
+		SemiMajorAxis   13793.46294514
 		Epoch           2454101.22878957
     ArgOfPericenter 248
     MeanAnomaly     0

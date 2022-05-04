@@ -1114,20 +1114,9 @@ Remove "Marfik C"{ParentBody "Marfik"}
 Barycenter "HIP 80883 AB"
 {
 	ParentBody "HIP 80883"
-	/*BinaryOrbit
+	BinaryOrbit
 	{
 		Separation      6307
-	}*/
-	Orbit
-	{
-		RefPlane        "Extrasolar"
-		Period          309445.565
-		SemiMajorAxis   866.610734
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 0
-		MeanAnomaly     0
 	}
 }
 
@@ -1182,17 +1171,6 @@ Star "HIP 80883 C"
 	{
 		Separation      6307
 	}*/
-	Orbit
-	{
-		RefPlane        "Extrasolar"
-		Period          309445.565
-		SemiMajorAxis   5440.38927
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
 }
 
 // 斗一(a2**)
@@ -1890,20 +1868,9 @@ Remove "68 Her Ab"{ParentBody "68 Her A"}
 Barycenter "HIP 84573 AB"
 {
 	ParentBody "HIP 84573"
-	/*BinaryOrbit
+	BinaryOrbit
 	{
 		Separation      3060
-	}*/
-	Orbit
-	{
-		RefPlane        "Extrasolar"
-		Period          60300.3306
-		SemiMajorAxis   829.302775
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 0
-		MeanAnomaly     0
 	}
 }
 
@@ -1958,17 +1925,6 @@ Star "HIP 84573 C"
 	{
 		Separation      3060
 	}*/
-	Orbit
-	{
-		RefPlane        "Extrasolar"
-		Period          60300.3306
-		SemiMajorAxis   2230.69723
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
 }
 
 // 女床二(PM**)
@@ -2008,20 +1964,9 @@ Remove "RHO Her B"{ParentBody "RHO Her (AB)"}
 Barycenter "RHO1 Her/HIP 85112 A/HD 157779/HR 6485/SAO 66001"
 {
 	ParentBody "HIP 85112"
-	/*BinaryOrbit
+	BinaryOrbit
 	{
 		Separation      480
-	}*/
-	Orbit
-	{
-		RefPlane        "Extrasolar"
-		Period          5815.52107
-		SemiMajorAxis   153.882351
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 0
-		MeanAnomaly     0
 	}
 }
 
@@ -2062,15 +2007,4 @@ Star "RHO2 Her/HIP 85112 B/HD 157778/HR 6484/SAO 66000"
 	{
 		Separation      480
 	}*/
-	Orbit
-	{
-		RefPlane        "Extrasolar"
-		Period          5815.52107
-		SemiMajorAxis   326.117649
-		Eccentricity    0
-		Inclination     0
-		AscendingNode   0
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
 }
