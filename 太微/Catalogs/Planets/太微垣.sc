@@ -9,6 +9,7 @@ Barycenter "HIP 60129 A"
 	Orbit
 	{
 		PeriodDays      7896.2
+		SemiMajorAxis   2.95329535
 		Eccentricity    0.133
 		Inclination     50.6
 		AscendingNode   173
@@ -63,6 +64,7 @@ Star "HIP 60129 B"
 	Orbit
 	{
 		PeriodDays      7896.2
+		SemiMajorAxis   7.81840465
 		Eccentricity    0.133
 		Inclination     50.6
 		AscendingNode   173
@@ -198,6 +200,7 @@ Barycenter "HIP 55642 A"
 	Orbit
 	{
 		Period          186
+		SemiMajorAxis   18.4888
 		Eccentricity    0.53
 		Inclination     128
 		AscendingNode   235
@@ -256,6 +259,7 @@ Star "HIP 55642 B"
 	Orbit
 	{
 		Period          186
+		SemiMajorAxis   27.7332
 		Eccentricity    0.53
 		Inclination     128
 		AscendingNode   235
@@ -461,22 +465,46 @@ Star "郎位五/17 Com A/AI Com/BD+26 2354/GC 17012/HD 108662/HIP 60904/HR 4752/
 	Teff       10212
 	Age        0.101
 
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Epoch           2458118.89297616
 		Separation      10833.6
 		PositionAngle   251
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Epoch           2458118.89
+		Period          730922.545
+		SemiMajorAxis   6529.58799
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   251
+		ArgOfPericenter -71
+		MeanAnomaly     0
 	}
 }
 
 Barycenter "17 Com B/BD+26 2353/GC 17007/HD 108651/HIP 60891/HR 4751/SAO 82328"
 {
   ParentBody "ADS 8568"
-	BinaryOrbit
+	/*BinaryOrbit
 	{
 		Epoch           2458118.89297616
 		Separation      10833.6
 		PositionAngle   251
+	}*/
+	Orbit
+	{
+		RefPlane        "Extrasolar"
+		Epoch           2458118.89
+		Period          730922.545
+		SemiMajorAxis   4304.01201
+		Eccentricity    0
+		Inclination     0
+		AscendingNode   251
+		ArgOfPericenter -251
+		MeanAnomaly     0
 	}
 }
 
