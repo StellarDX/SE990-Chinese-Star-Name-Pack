@@ -1,15 +1,14 @@
-// 织女
 Remove "ALF Lyr"
-StarBarycenter "织女一/Vega/Lucida Lyr/ALF Lyr/3 Lyr/BD+38°3238/GCTP 4293.00/HD 172167/GJ 721/HIP 91262/HR 7001/LTT 15486/SAO 67174"
+StarBarycenter "织女一/Vega/Lucida Lyr/ALF Lyr/3 Lyr/BD+38 3238/GCTP 4293.00/HD 172167/GJ 721/HIP 91262/HR 7001/LTT 15486/SAO 67174"
 {
-  RA      18 36 56.5
-  Dec     38 47 8.2
-  AppMagn 0.026
+  RA      18 36 57.52
+  Dec     38 46 54.6
+  AppMagn 0
 
   Class   "A0Va"
 
   Dist    7.68
-  AbsMagn 0.582
+  AbsMagn 0.57
 }
 
 Remove "EPS Lyr"

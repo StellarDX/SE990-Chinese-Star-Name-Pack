@@ -439,6 +439,43 @@ Planet	"18 Sco b"
 	}
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//                                                                            //
+//                                    玄武                                    //
+//                                                                            //
+////////////////////////////////////////////////////////////////////////////////
+Planet	"Vega b"
+{
+	ParentBody     "Vega A"
+	DiscDate       "2021"
+	Mass           203
+	Msini          21.9
+	Oblateness     0
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		SemiMajorAxis   0.04555
+		PeriodDays      2.42977
+		Eccentricity    0.25
+	}
+}
+
+Planet	"Vega c(?)"
+{
+	ParentBody     "Vega A"
+	DiscDate       "2021"
+	Mass           740
+	Msini          80
+	Oblateness     0
+
+	Orbit
+	{
+		RefPlane        "Equator"
+		PeriodDays      196.4
+	}
+}
+
 Planet	"GAM Del b"
 {
 	ParentBody     "HIP 102531 A"
