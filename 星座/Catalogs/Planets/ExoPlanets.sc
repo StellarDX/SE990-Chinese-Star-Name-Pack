@@ -444,6 +444,8 @@ Planet	"18 Sco b"
 //                                    玄武                                    //
 //                                                                            //
 ////////////////////////////////////////////////////////////////////////////////
+
+// 织女
 Planet	"Vega b"
 {
 	ParentBody     "Vega A"
@@ -476,9 +478,12 @@ Planet	"Vega c(?)"
 	}
 }
 
+// 瓠瓜二
 Planet	"GAM Del b"
 {
 	ParentBody     "HIP 102531 A"
+	DiscMethod     "RadVel"
+	DiscDate       "1999"
 	Mass           222.479866
 
 	Orbit
@@ -488,16 +493,41 @@ Planet	"GAM Del b"
 	}
 }
 
+// 奚仲三
 Planet	"TET Cyg b"
 {
 	ParentBody     "HIP 96441"
-	Mass           731
+	DiscMethod     "RadVel"
+	DiscDate       "2009" // Desort et al., ELODIE, 2009
+	Mass           731.005274
 
 	Orbit
 	{
 		PeriodDays      154.5
 		SemiMajorAxis   0.635
 		Eccentricity    0
+	}
+}
+
+// 奚仲四
+Remove "16 Cyg B b"{ParentBody "16 Cyg B"}
+Planet	"16 Cyg Bb"
+{
+	ParentBody     "16 Cyg B"
+	DiscMethod     "RadVel"
+	DiscDate       "1996" // William D. Cochran, Artie P. Hatzes, R. Paul Butler, Geoff Marcy, USA, 1996.10.22
+	Class          "GasGiant"
+	Mass           756.4315444
+
+	Orbit
+	{
+		SemiMajorAxis   1.681
+		Eccentricity    0.689
+		PeriodDays      798.5
+		Inclination     45
+		Epoch           2446549.1
+		ArgOfPericenter 83.4
+		MeanAnomaly     0
 	}
 }
 
