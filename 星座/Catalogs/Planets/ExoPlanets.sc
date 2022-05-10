@@ -531,10 +531,12 @@ Planet	"16 Cyg Bb"
 	}
 }
 
+// 天钩四
 Planet	"ETA Cep b"
 {
 	ParentBody     "HIP 102422"
-	Mass           203.41
+	DiscDate       "1998"
+	Mass           203.4101632
 
 	Orbit
 	{
