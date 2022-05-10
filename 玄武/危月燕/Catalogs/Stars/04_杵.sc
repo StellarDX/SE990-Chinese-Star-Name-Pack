@@ -1,9 +1,8 @@
-// 杵
 Remove "1 Lac"
-Star "杵一(R)/1 Lac/NSV 25864/BD+37° 4526/HD 211388/HIP 109937/HR 8498/SAO 72191"
+Star "杵一(R)/1 Lac/NSV 25864/BD+37 4526/HD 211388/HIP 109937/HR 8498/SAO 72191"
 {
-  RA      22 15 58.2
-  Dec     37 44 55.4
+  RA      22 15 57.8
+  Dec     37 44 39.5
   AppMagn 4.15
 
   Class   "K3II"
@@ -20,10 +19,10 @@ Star "杵一(R)/1 Lac/NSV 25864/BD+37° 4526/HD 211388/HIP 109937/HR 8498/SAO 72
 }
 
 Remove "PI Peg"
-Star "杵二(R)/PI2 Peg/29 Peg/BD+32°4352/FK5 835/HD 210459/HIP 109410/HR 8454/SAO 72077"
+Star "杵二(R)/PI2 Peg/29 Peg/BD+32 4352/FK5 835/HD 210459/HIP 109410/HR 8454/SAO 72077"
 {
-  RA      22 9 59.22
-  Dec     33 10 41.3
+  RA      22 9 58.88
+  Dec     33 10 26.2
   AppMagn 4.28
 
   Class   "F5III"
@@ -41,12 +40,12 @@ Star "杵二(R)/PI2 Peg/29 Peg/BD+32°4352/FK5 835/HD 210459/HIP 109410/HR 8454/
 Remove "23 Peg"
 Star "杵三(R)/23 Peg/HIP 109056/SAO 90217/HD 209833/HR 8419"
 {
-  RA      22 5 34.72
-  Dec     28 57 50
+  RA      22 5 34.43
+  Dec     28 57 35.9
   AppMagn 5.65
 
-  Class   "B9.5Vnn"
+  Class   "B9Vnn"
 
-  Dist    93.37
-  AbsMagn 0.52
+  Dist    98.4
+  AbsMagn 0.68
 }
