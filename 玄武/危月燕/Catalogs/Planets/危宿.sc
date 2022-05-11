@@ -532,7 +532,7 @@ Star	"HIP 110351 B"
 
 // 车府五(Be*****)
 Remove "59 Cyg (AB)"{ParentBody "59 Cyg"}
-Remove "59 Cyg A"{ParentBody "59 Cyg"}
+Remove "59 Cyg A"{ParentBody "59 Cyg (AB)"}
 Remove "59 Cyg Aa"{ParentBody "59 Cyg A"}
 Remove "59 Cyg Ab"{ParentBody "59 Cyg A"}
 Remove "59 Cyg B"{ParentBody "59 Cyg (AB)"}

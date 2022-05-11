@@ -463,7 +463,7 @@ Star	"HIP 76297 B"
 Remove "KAP Cen A"{ParentBody "KAP Cen"}
 Remove "KAP Cen B"{ParentBody "KAP Cen"}
 Remove "KAP Cen Aa"{ParentBody "KAP Cen A"}
-Remove "KAP Cen Ab"{ParentBody "KAP Cen B"}
+Remove "KAP Cen Ab"{ParentBody "KAP Cen A"}
 Star "HIP 73334 A"
 {
 	ParentBody "HIP 73334"

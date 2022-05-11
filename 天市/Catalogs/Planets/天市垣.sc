@@ -1040,9 +1040,9 @@ Star	"HIP 86032 B"
 
 // 帝座(***)
 Remove "Ras Algethi A"{ParentBody "Ras Algethi"}
-Remove "Ras Algethi B"{ParentBody "Ras Algethi"}
-Remove "Ras Algethi Ba"{ParentBody "Ras Algethi B"}
-Remove "Ras Algethi Bb"{ParentBody "Ras Algethi B"}
+Remove "ALF Her B"{ParentBody "Ras Algethi"}
+Remove "ALF Her Ba"{ParentBody "ALF Her B"}
+Remove "ALF Her Bb"{ParentBody "ALF Her B"}
 Star "HIP 84345 A/HD 156014 A/HR 6406/SAO 102680"
 {
 	ParentBody "HIP 84345"
