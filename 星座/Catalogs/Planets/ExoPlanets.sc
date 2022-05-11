@@ -546,24 +546,26 @@ Planet	"ETA Cep b"
 	}
 }
 
+// 羽林军卅九
 Remove "91 Aqr A b"{ParentBody "91 Aqr A"}
 Planet	"PSI1 Aqr A b"
 {
 	ParentBody     "HIP 114855 A"
 	DiscMethod     "RadVel"
-	DiscDate       "2003"
-	Mass           1017
+	DiscDate       "2013" // Mitchell et al., USA, 2013.11.16
+	Mass           1017.050816
 
 	Orbit
 	{
-		Epoch           2453472.1
-		PeriodDays      181.4
 		SemiMajorAxis   0.7
 		Eccentricity    0.027
+		PeriodDays      181.4
+		Epoch           2453472.1
 		ArgOfPericen    177.3
 	}
 }
 
+// 北落师门
 Remove "Dagon"{ParentBody "Fomalhaut"}
 Planet	"Dagon/Fomalhaut b"
 {
@@ -588,34 +590,36 @@ Planet	"Dagon/Fomalhaut b"
 Planet	"Fomalhaut Bb"
 {
 	ParentBody     "TW PsA"
+	DiscMethod     "Astrometry"
 	DiscDate       "2019"
 	Mass            381.6
 
 	Orbit
 	{
-		Period        80
+		PeriodDays      30000
 	}
 }
 
+// 螣蛇廿一
 Remove "KAP And b"{ParentBody "KAP And"}
 Planet	"19 And b"
 {
 	ParentBody     "19 And"
-	Class          "GasGiant"
-	DiscMethod     "Imaging"
-	DiscDate       "2013"
-
-	Radius         85790.4
-	Mass           4452
+	Class          "GasGiant" // super-Jupiter
+	DiscMethod     "Imaging" // SEEDS, Subaru Telescope, 2012.07
+	DiscDate       "2012"
+	Radius         112242.44
+	Mass           4131.76894
 
 	Orbit
 	{
-		SemiMajorAxis   40 // 236
-		Eccentricity    0.02 // 0.85
-		Inclination     59 // 159
-		AscendingNode   26 // 127
-		TimeOfPericen   2015.35 // 2858.45
-		ArgOfPericen    3 // 177
+		SemiMajorAxis   57 // 133
+		Eccentricity    0.69 // 0.85
+		Period          242 // 900
+		Inclination     114.9 // 140
+		AscendingNode   60.3 // 90.5
+		Epoch           2465569.83383129 // 2469039.63471971
+		ArgOfPericenter 96.6 // 155.4
 		MeanAnomaly     0
 	}
 }
