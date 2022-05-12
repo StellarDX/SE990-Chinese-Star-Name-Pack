@@ -1,12 +1,11 @@
-// 云雨
 Remove "KAP Psc"
-Star "云雨一/KAP Psc/8 Psc/BD+00° 4998/FK5 884/HD 220825/HIP 115738/HR 8911/SAO 128186/WDS J23269+0115A"
+Star "云雨一/KAP Psc/8 Psc/BD+00 4998/FK5 884/HD 220825/HIP 115738/HR 8911/SAO 128186/WDS J23269+0115A"
 {
-  RA      23 26 56.08
-  Dec     1 15 18.2
+  RA      23 26 55.46
+  Dec     1 15 12.5
   AppMagn 4.94
 
-  Class   "A2 Vp SrCrSi"
+  Class   "A2VpSrCrSi"
 
   Dist    47.1
   AbsMagn 1.59
@@ -22,34 +21,34 @@ Star "云雨一/KAP Psc/8 Psc/BD+00° 4998/FK5 884/HD 220825/HIP 115738/HR 8911/
 Remove "HIP 115951"
 Star "云雨二/12 Psc/HIP 115951/SAO 146735/HD 221146"
 {
-  RA      23 29 30.3
-  Dec     -1 2 9.9
+  RA      23 29 29.66
+  Dec     -1 2 14.8
   AppMagn 6.85
 
   Class   "G1V"
 
-  Dist    40
-  AbsMagn 3.94
+  Dist    36
+  AbsMagn 4.05
 }
 
 Remove "HIP 117491"
-Star "云雨三/云雨增十/21 Psc/HIP 117491/SAO 128401/HD 223438/HR 9022"
+Star "云雨三/云雨增十/21 Psc/HIC 117491/SAO 128401/WEB 20693/AG+00 2935/HIP 117491/SKY# 44973/YZ 0 5898/BD+00 5054/HR 9022/TD1 30108/Gaia DR2 2643278837107816192/GC 33059/2MASS J23492746+0104342/TYC 586-1293-1/Gaia DR1 2643278832810962944/GCRV 14916/PPM 174456/UBV 20457/GEN# +1.00223438/Renson 61210/UBV M 27273/HD 223438/ROT 3453/uvby98 100223438"
 {
-  RA      23 49 27.48
-  Dec     -1 4 33.5
-  AppMagn 5.75
+  RA      23 49 26.74
+  Dec     1 4 28
+  AppMagn 5.7
 
   Class   "A3III"
 
-  Dist    82
-  AbsMagn 0.91
+  Dist    94
+  AbsMagn 0.88
 }
 
 Remove "LAM Psc"
-Star "云雨四/LAM Psc/18 Psc/BD+00° 5037/FK5 1620/HD 222603/HIP 116928/HR 8984/SAO 128336"
+Star "云雨四/LAM Psc/18 Psc/BD+00 5037/FK5 1620/HD 222603/HIP 116928/HR 8984/SAO 128336"
 {
-  RA      23 42 2.64
-  Dec     1 46 44.7
+  RA      23 42 1.91
+  Dec     1 46 38.7
   AppMagn 4.49
 
   Class   "A7V"

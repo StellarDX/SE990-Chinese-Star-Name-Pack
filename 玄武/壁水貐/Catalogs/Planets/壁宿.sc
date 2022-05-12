@@ -1,8 +1,8 @@
-// 壁宿一
+// 壁宿一(*)
 Remove "GAM Peg A"{ParentBody "GAM Peg"}
 Remove "GAM Peg B"{ParentBody "GAM Peg"}
 
-// 壁宿二
+// 壁宿二(a2**)
 Remove "Alpheratz A"{ParentBody "Alpheratz"}
 Remove "Alpheratz B"{ParentBody "Alpheratz"}
 Star "HIP 677 A"
@@ -14,7 +14,7 @@ Star "HIP 677 A"
   LumBol     240
   Teff       13800
   FeH        0.2
-  RotationDays 2.38195
+  RotationPeriod 57.1668
   Age        0.06
 
 	Orbit
@@ -24,7 +24,7 @@ Star "HIP 677 A"
 		Eccentricity    0.535
 		Inclination     105.6
 		AscendingNode   284.4
-    Epoch           2447374.563
+    Epoch           2447375.063
 		ArgOfPericenter 77.4
 		MeanAnomaly     0
 	}
@@ -33,7 +33,7 @@ Star "HIP 677 A"
 Star "HIP 677 B"
 {
 	ParentBody "HIP 677"
-	Class      "A3 V"
+	Class      "A3V"
 	MassSol    1.85
 	RadSol     1.65
   LumBol     13
@@ -48,17 +48,17 @@ Star "HIP 677 B"
 		Eccentricity    0.535
 		Inclination     105.6
 		AscendingNode   284.4
-    Epoch           2447374.563
+    Epoch           2447375.063
 		ArgOfPericenter 257.4
 		MeanAnomaly     0
 	}
 }
 
-// 霹雳五(*)
+// 霹雳五(SB**)
 Star	"HIP 118268 A"
 {
 	ParentBody     "HIP 118268"
-	Class	       "F4 IV"
+	Class	         "F4IV"
   MassSol        1.22
   Luminosity     21
   Teff           6641
@@ -80,7 +80,7 @@ Star	"HIP 118268 A"
 Star	"HIP 118268 B"
 {
 	ParentBody     "HIP 118268"
-	Class	       "F2.7 V"
+	Class	         "F2.7 V"
 
 	Orbit
 	{
@@ -94,11 +94,12 @@ Star	"HIP 118268 B"
 	}
 }
 
-// 天厩一
+// 天厩一(**)
 Star "HIP 1366 A"
 {
 	ParentBody "HIP 1366"
 	Class      "A2V"
+	MassSol    2.83
   Luminosity 113
   Teff       8960
   FeH        0.14

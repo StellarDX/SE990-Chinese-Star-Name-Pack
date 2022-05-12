@@ -624,6 +624,24 @@ Planet	"19 And b"
 	}
 }
 
+// 霹雳二
+Remove "GAM Psc b"{ParentBody "GAM Psc"}
+Planet	"GAM Psc b"
+{
+	ParentBody     "GC 32415"
+	DiscMethod     "RadVel"
+	DiscDate       "2021"
+	Class          "GasGiant"
+	Mass           425.8900292
+
+	Orbit
+	{
+		SemiMajorAxis   1.32
+		PeriodDays      555.1
+		Eccentricity    0.204
+	}
+}
+
 Remove "ALF Ari b"{ParentBody "ALF Ari"}
 Planet	"HIP 9884 b"
 {
