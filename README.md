@@ -9,6 +9,8 @@
 由于SE原版的恒星存在很多数据错误，这里顺便给它重新写了一个星表
 有些多星系统由于伴星数据未知，这里使用SE定向生成添加伴星。
 
+[增星包](https://github.com/StellarDX/SE990-Chinese-Star-Name-Pack-Additional)
+
 安装方法：
 解压所有文件到Addons文件夹。
 
