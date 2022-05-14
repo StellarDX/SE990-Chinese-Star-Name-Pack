@@ -1,8 +1,8 @@
 Remove "ZET Cas"
 Star "附路/Fulu/ZET Cas/17 Cas/HR 153/HD 3360/BD+53°105/FK5 17/HIP 2920/SAO 21566/GC 727"
 {
-  RA      0 36 58.32
-  Dec     53 53 48.9
+  RA      0 36 56.77
+  Dec     53 53 34.7
   AppMagn 3.66
 
   Class   "B2IV"
@@ -15,5 +15,5 @@ Star "附路/Fulu/ZET Cas/17 Cas/HR 153/HD 3360/BD+53°105/FK5 17/HIP 2920/SAO 2
   Luminosity 5500
   Teff    20426
   FeH     -0.23
-  RotationDays 5.37045
+  RotationPeriod 128.8908 
 }
