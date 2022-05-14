@@ -642,6 +642,29 @@ Planet	"GAM Psc b"
 	}
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//                                                                            //
+//                                    白虎                                    //
+//                                                                            //
+////////////////////////////////////////////////////////////////////////////////
+
+// 外屏二
+Planet	"HIP 4906 b"
+{
+	ParentBody     "HIP 4906"
+	DiscMethod     "RadVel"
+	DiscDate       "2021"
+	Class          "GasGiant"
+	Mass           244.7278526
+
+	Orbit
+	{
+		SemiMajorAxis   0.88
+		PeriodDays      255.3
+		Eccentricity    0.278
+	}
+}
+
 Remove "ALF Ari b"{ParentBody "ALF Ari"}
 Planet	"HIP 9884 b"
 {
