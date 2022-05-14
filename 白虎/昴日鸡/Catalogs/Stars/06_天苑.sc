@@ -124,7 +124,7 @@ StarBarycenter "天苑七/PI Cet/89 Cet/BD−14 519/FK5 97/HD 17081/HIP 12770/HR
 }
 
 Remove "TAU1 Eri"
-StarBarycenter "天苑八/天苑增八/TAU1 Eri/1 Eri/BD−19° 518/FK5 2075/GJ 111/HD 17206/HIP 12843/HR 818/SAO 11557"
+StarBarycenter "天苑八/天苑增八/TAU1 Eri/1 Eri/BD−19° 518/GJ 111/HD 17206/HIP 12843/HR 818/SAO 11557"
 {
 	RA      2 45 6.67
 	Dec     -18 34 20.8
