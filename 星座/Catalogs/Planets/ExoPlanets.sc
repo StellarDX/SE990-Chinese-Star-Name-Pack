@@ -665,102 +665,160 @@ Planet	"HIP 4906 b"
 	}
 }
 
+// 娄宿三
 Remove "ALF Ari b"{ParentBody "ALF Ari"}
 Planet	"HIP 9884 b"
 {
 	ParentBody     "HIP 9884"
 	DiscMethod     "RadVel"
 	DiscDate       "2010"
-	Mass           572
+	Mass           572.091084
 
 	Orbit
 	{
-		PeriodDays      380.8
 		SemiMajorAxis   1.2
+		PeriodDays      380.8
 		Eccentricity    0.25
 	}
 }
 
-Remove "Saffar"{ParentBody "Titawin"}
-Planet	"Saffar/UPS And b"
+// 天仓二
+Remove "ETA Cet b"{ParentBody "ETA Cet"}
+Remove "ETA Cet c"{ParentBody "ETA Cet"}
+Planet	"HD 6805 b"
 {
-	ParentBody     "HIP 7513 A"
+	ParentBody     "HD 6805"
 	DiscMethod     "RadVel"
-	DiscDate       "1996"
-	Mass           540.3
-	Radius         92939.6
+	DiscDate       "2014"
+	Mass           810.462369
 
 	Orbit
 	{
-		SemiMajorAxisKm 8910000
-		Eccentricity    0.022
-		PeriodDays      4.62
-		Inclination     24
-		Epoch           2450034.053
-		ArgOfPericen    44.106
-		SemiAmplitude   70.51
+		SemiMajorAxis   1.27
+		PeriodDays      403.5
+		Eccentricity    0.13
 	}
 }
 
-Remove "Samh"{ParentBody "Titawin"}
-Planet	"Samh/UPS And c"
+Planet	"HD 6805 c"
 {
-	ParentBody     "HIP 7513 A"
+	ParentBody     "HD 6805"
 	DiscMethod     "RadVel"
-	DiscDate       "1999"
-	Mass           4443.24
+	DiscDate       "2014"
+	Mass           1055.1902216
 
 	Orbit
 	{
+		SemiMajorAxis   1.93
+		PeriodDays      751.9
+		Eccentricity    0.1
+	}
+}
+
+// 天大将军六
+Remove "Saffar"{ParentBody "Titawin"}
+Remove "Samh"{ParentBody "Titawin"}
+Remove "Majriti"{ParentBody "Titawin"}
+Remove "UPS And A e"{ParentBody "Titawin"}
+Planet	"Saffar/UPS And b"
+{
+	ParentBody     "Titawin A"
+	DiscMethod     "RadVel"
+	DiscDate       "1996" // Marcy et al., California and Carnegie Planet Search, 1996.07.23
+	Class          "GasGiant"
+	Mass           540.308246
+	Radius         92939.6 // 128685.6
+	TidalLocked    true
+
+	Interior // similar to Jupiter
+	{
+		Composition // mass fraction, values in percent
+		{
+			Hydrogen    87.42
+			Helium      9.44
+			Ices		3.0 // total mass of the rocky/water core: 10 Mearth = 3.14%
+			Silicates	0.1
+			Metals      0.04
+		}
+	}
+
+	Orbit
+	{
+		//aphelion distance 0.0601
+		PericenterDist  0.0587
+		SemiMajorAxis   0.0594
+		Eccentricity    0.012
+		PeriodDays      4.617111
+		Inclination     24
+		Epoch           2450034.05
+		LongOfPericen   44.11
+		MeanLongitude   44.11
+	}
+}
+
+Planet	"Samh/UPS And c"
+{
+	ParentBody     "Titawin A"
+	DiscMethod     "RadVel"
+	DiscDate       "1999" // Marcy et al., California and Carnegie Planet Search, 1999.04.15
+	Class          "GasGiant"
+	Mass           4443.2407524
+
+	Orbit
+	{
+		PericenterDistKm 91600000
 		SemiMajorAxisKm 124100000
 		Eccentricity    0.26
 		PeriodDays      241.26
 		Inclination     7.868
 		AscendingNode   236.853
 		Epoch           2499922.53
-		ArgOfPericen    247.66
-		SemiAmplitude   56.26
+		LongOfPericen   484.513
+		MeanLongitude   484.513
 	}
 }
 
-Remove "Majriti"{ParentBody "Titawin"}
 Planet	"Majriti/UPS And d"
 {
-	ParentBody     "HIP 7513 A"
-	Class          "GasGiant"
+	ParentBody     "Titawin A"
 	DiscMethod     "RadVel"
-	DiscDate       "1999"
+	DiscDate       "1999" // Marcy et al., California and Carnegie Planet Search, 1999.04.15
+	Class          "GasGiant" // super-Jupiter
+	Mass           3257.740895
 	Radius         72921.84
-	Mass           3257.74
 	Teff           218
 
 	Orbit
 	{
+		//aphelion distance Km 478000000
+		PericenterDistKm 282000000
 		SemiMajorAxisKm 380000000
 		Eccentricity    0.299
 		PeriodDays      1276.46
 		Inclination     23.758
 		AscendingNode   4.073
 		Epoch           2450059
-		ArgOfPericen    252.991
-		SemiAmplitude   68.14
+		LongOfPericen   257.064
+		MeanLongitude   257.064
 	}
 }
 
-Remove "UPS And A e"{ParentBody "Titawin"}
 Planet	"UPS And e"
 {
-	ParentBody     "HIP 7513 A"
-	DiscMethod     "RadVel"
-	DiscDate       "2010"
-	Mass           336.58
+	ParentBody     "Titawin A"
+	DiscMethod     "Astrometry" // Doppler spectroscopy
+	DiscDate       "2010" // Curiel et al., Baja California, 2010.111.22
+	Mass           336.58025442
 
 	Orbit
 	{
+		//aphelion distance 5.2738
+		PericenterDist  5.2175
 		SemiMajorAxis   5.2456
 		Eccentricity    0.0055
 		PeriodDays      3848.86
-		ArgOfPericen    367.3
+		LongOfPericen   367.3
+		MeanLongitude   367.3
 	}
 }
 
