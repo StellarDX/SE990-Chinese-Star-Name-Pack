@@ -6,21 +6,12 @@ Remove "Tau Cet g"{ParentBody "Tau Cet"}
 Remove "Tau Cet h"{ParentBody "Tau Cet"}
 
 // MC GalaxySpace Mod style planets(Realistic planets with procedural data)
-/*Planet	"[GC] b"
+Planet	"TAU Cet b"
 {
-	ParentBody     "TAU Cet"
+	ParentBody     "TAU Cet A"
+  DiscDate       "2012"
 	Class	         "Terra"
-
 	Mass            2
-	//Radius          1477.32
-	InertiaMoment   0.373815
-
-	Obliquity       0.9782
-	EqAscendNode    -58.9581
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      3.5
 
 	Surface
 	{
@@ -96,39 +87,36 @@ Remove "Tau Cet h"{ParentBody "Tau Cet"}
 		DayAmbient      0.07
 	}
 
-  Atmosphere
-  {
-    Greenhouse      0
-  }
-
 	Orbit
 	{
-		RefPlane        "Equator"
 		SemiMajorAxis   0.105
 		PeriodDays      13.965
 		Eccentricity    0.16
-		Inclination     0.362985
-		AscendingNode   -58.9509
-		ArgOfPericenter 4.89036
-		MeanAnomaly     64.0459
 	}
 }
 
-Planet	"[GC] c"
+Planet	"TAU Cet g"
 {
-	ParentBody     "TAU Cet"
-	Class	         "Selena"
+	ParentBody     "TAU Cet A"
+	Class	         "Terra"
+  DiscMethod     "RadVel"
+  DiscDate       "2017"
+	Mass            1.75
 
+  Orbit
+	{
+		SemiMajorAxis   0.133
+		PeriodDays      20
+		Eccentricity    0.06
+	}
+}
+
+Planet	"TAU Cet c"
+{
+	ParentBody     "TAU Cet A"
+  DiscDate       "2012"
+	Class	         "Terra"
 	Mass            3.1
-	//Radius          2886.67
-	InertiaMoment   0.34121
-
-	Obliquity       -1.28906
-	EqAscendNode    6.37516
-
-	AlbedoBond      0.3
-	AlbedoGeom      0.36
-	Brightness      3.5
 
 	Surface
 	{
@@ -225,32 +213,34 @@ Planet	"[GC] c"
 
 	Orbit
 	{
-		RefPlane        "Equator"
 		SemiMajorAxis   0.195
 		PeriodDays      35.362
 		Eccentricity    0.03
-		Inclination     -1.28906
-		AscendingNode   6.37516
-		ArgOfPericenter 8.85485
-		MeanAnomaly     308.132
 	}
 }
 
-Planet	"[GC] d"
+Planet	"TAU Cet h"
 {
-	ParentBody     "TAU Cet"
+	ParentBody     "TAU Cet A"
+  DiscMethod     "RadVel"
+  DiscDate       "2017"
 	Class	         "Terra"
+	Mass            1.83
 
-	Mass            3.60
-	//Radius          3736.4
-	InertiaMoment   0.331144
+  Orbit
+	{
+		SemiMajorAxis   0.243
+		PeriodDays      49.41
+		Eccentricity    0.23
+	}
+}
 
-	Obliquity       -1.71527
-	EqAscendNode    -13.146
-
-	AlbedoBond      0.315196
-	AlbedoGeom      0.378235
-	Brightness      2
+Planet	"TAU Cet d"
+{
+	ParentBody     "TAU Cet A"
+  DiscDate       "2012"
+	Class	         "Terra"
+	Mass            3.6
 
 	Surface
 	{
@@ -344,6 +334,7 @@ Planet	"[GC] d"
 		Coverage        0.230392
 		stripeZones     1
 		stripeTwist     3.5
+    TidalLocked     true
 	}
 
 	Clouds
@@ -385,36 +376,23 @@ Planet	"[GC] d"
 		}
 	}
 
+  Aurora{}
+
 	Orbit
 	{
-		RefPlane        "Equator"
 		SemiMajorAxis   0.374
 		PeriodDays      94.11
 		Eccentricity    0.08
-		Inclination     -1.71527
-		AscendingNode   -13.146
-		ArgOfPericenter 263.905
-		MeanAnomaly     235.747
 	}
 }
 
-Planet	"[GC] e"
+Planet	"TAU Cet e"
 {
-	ParentBody     "TAU Cet"
+	ParentBody     "TAU Cet A"
+  DiscDate       "2012"
 	Class	         "Aquaria"
-
-	Mass            4.3
-	//Radius          6001.36
-	InertiaMoment   0.332925
-
-	Oblateness      0
-
-	Obliquity       -0.500422
-	EqAscendNode    -133.973
-
-	AlbedoBond      0.354245
-	AlbedoGeom      0.425095
-	Brightness      2
+	Mass            3.93
+  RotationPeriod  30
 
   Life
   {
@@ -432,7 +410,7 @@ Planet	"[GC] e"
 		colorDistFreq   655.253
 		detailScale     15435.8
 		colorConversion true
-		//seaLevel        0.0989251
+		seaLevel        0.0989251
 		snowLevel       2
 		tropicLatitude  0.00682717
 		icecapLatitude  10
@@ -504,7 +482,11 @@ Planet	"[GC] e"
 
   Ocean
   {
-    Height          100
+    Height          60
+    Composition
+    {
+      H2O      100
+    }
   }
 
 	Clouds
@@ -570,11 +552,11 @@ Planet	"[GC] e"
 
 		Composition
 		{
-			H2O   	62.5452
-			CO2   	29.3848
-			SO2   	8.02451
-			N2    	0.0434562
-			CO    	0.0017202
+			N2    	62.5452
+			O2    	29.3848
+			H2O   	8.02451
+			CO2    	0.0434562
+			Xe    	0.0017202
 			Ar    	0.000314199
 			Ne    	8.75619e-005
 		}
@@ -582,34 +564,19 @@ Planet	"[GC] e"
 
   Orbit
 	{
-		RefPlane        "Equator"
-		SemiMajorAxis   0.552
-		PeriodDays      168.12
-		Eccentricity    0.05
-		Inclination     0.272661
-		AscendingNode   124.163
-		ArgOfPericenter 82.6293
-		MeanAnomaly     358.393
+		SemiMajorAxis   0.538
+		PeriodDays      168.87
+		Eccentricity    0.18
 	}
 }
 
-Planet	"[GC] f"
+Planet	"TAU Cet f"
 {
-	ParentBody     "TAU Cet"
-	Class	         "IceGiant"
-
-	Mass            6.6
-	//Radius          77842.6
-	InertiaMoment   0.195888
-
+	ParentBody     "TAU Cet A"
+  DiscDate       "2012"
+	Class	         "IceGiant" // super-Earth or mini-Neptune
+	Mass            3.93
   Oblateness      0
-
-	Obliquity       -1.06682
-	EqAscendNode    20.8486
-
-	AlbedoBond      0.45521
-	AlbedoGeom      0.546252
-	Brightness      2
 
 	Surface
 	{
@@ -688,103 +655,22 @@ Planet	"[GC] f"
 
 	Orbit
 	{
-		RefPlane        "Equator"
-		SemiMajorAxis   1.35
-		PeriodDays      642
-		Eccentricity    0.03
-		Inclination     -1.06682
-		AscendingNode   20.8486
-		ArgOfPericenter 75.1371
-		MeanAnomaly     10.8699
-	}
-}*/
-
-// Realistic Planets
-
-Planet	"HIP 8102 e"
-{
-  DiscMethod     "RadVel"
-  DiscDate       "2017"
-	ParentBody     "TAU Cet"
-	Class	         "Aquaria"
-	Mass            3.93
-
-  Ocean
-  {
-    Height        120
-  }
-
-  Atmosphere
-  {
-    Greenhouse      0
-  }
-
-  Orbit
-	{
-		RefPlane        "Equator"
-		SemiMajorAxis   0.538
-		PeriodDays      162.87
-		Eccentricity    0.18
-	}
-}
-
-Planet	"HIP 8102 f"
-{
-  DiscMethod     "RadVel"
-  DiscDate       "2017"
-	ParentBody     "TAU Cet"
-	Class	         "IceGiant"
-	Mass            3.93
-
-  Orbit
-	{
-		RefPlane        "Equator"
 		SemiMajorAxis   1.334
 		PeriodDays      636.13
 		Eccentricity    0.16
 	}
 }
 
-Planet	"HIP 8102 g"
+Planet	"TAU Cet i"
 {
-  DiscMethod     "RadVel"
-  DiscDate       "2017"
-	ParentBody     "TAU Cet"
-	Class	         "Terra"
-	Mass            1.75
-
-  Atmosphere
-  {
-    Greenhouse      0
-  }
+	ParentBody     "TAU Cet A"
+  DiscDate       "2019"
+	Class	         "GasGiant"
+	Mass            1589.1419
+  Oblateness      0
 
   Orbit
 	{
-		RefPlane        "Equator"
-		SemiMajorAxis   0.133
-		PeriodDays      20
-		Eccentricity    0.06
-	}
-}
-
-Planet	"HIP 8102 h"
-{
-  DiscMethod     "RadVel"
-  DiscDate       "2017"
-	ParentBody     "TAU Cet"
-	Class	         "Terra"
-	Mass            1.83
-
-  Atmosphere
-  {
-    Greenhouse      0
-  }
-
-  Orbit
-	{
-		RefPlane        "Equator"
-		SemiMajorAxis   0.243
-		PeriodDays      49.41
-		Eccentricity    0.23
+		SemiMajorAxis   3 // 20
 	}
 }
