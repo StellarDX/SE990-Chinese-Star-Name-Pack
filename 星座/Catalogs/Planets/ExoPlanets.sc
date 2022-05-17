@@ -822,6 +822,7 @@ Planet	"UPS And e"
 	}
 }
 
+// 天囷十
 Remove "75 Cet b" {ParentBody "75 Cet"}
 Planet	"HIP 11791 b"
 {
@@ -829,20 +830,20 @@ Planet	"HIP 11791 b"
 	DiscMethod     "RadVel"
 	DiscDate       "2012"
 	Mass           953.48514
-	Msini          127 // 318
 
 	Orbit
 	{
-		PeriodDays      691.9
 		SemiMajorAxis   2.1
+		PeriodDays      691.9
 		Eccentricity    0.117
-		ArgOfPericen    165
 	}
 }
 
-Planet	"HIP 15863 b"
+// 天船三
+Planet	"Mirfak b"
 {
 	ParentBody     "HIP 15863"
+	DiscDate       "2010"
 	Mass           2097.66731
 
 	Orbit

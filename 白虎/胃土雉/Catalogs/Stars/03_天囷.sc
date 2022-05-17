@@ -1,8 +1,8 @@
 Remove "ALF Cet"
-Star "天囷一/Menkar/Al Minhar/92 Ceti/HR 911/BD+03° 419/HD 18884/SAO 110920/FK5 107/HIP 14135"
+Star "天囷一/Menkar/Al Minhar/92 Ceti/HR 911/BD+03 419/HD 18884/SAO 110920/FK5 107/HIP 14135"
 {
-	RA      3 2 16.76
-	Dec     4 5 21.5
+	RA      3 2 15.47
+	Dec     4 5 16.4
   AppMagn 2.53
 
   Class   "M1.5IIIa"
@@ -18,10 +18,10 @@ Star "天囷一/Menkar/Al Minhar/92 Ceti/HR 911/BD+03° 419/HD 18884/SAO 110920/
 }
 
 Remove "KAP2 Cet"
-Star "天囷二/KAP2 Cet/97 Cet/BD+03° 461/HD 20791/HIP 15619/HR 1007/SAO 111142"
+Star "天囷二/KAP2 Cet/97 Cet/BD+03 461/HD 20791/HIP 15619/HR 1007/SAO 111142"
 {
-	RA      3 21 6.89
-	Dec     3 40 31.7
+	RA      3 21 5.59
+	Dec     3 40 26.9
   AppMagn 5.66
 
   Class   "G8III"
@@ -38,31 +38,31 @@ Star "天囷二/KAP2 Cet/97 Cet/BD+03° 461/HD 20791/HIP 15619/HR 1007/SAO 11114
 }
 
 Remove "LAM Cet"
-Star "天囷三/LAM Cet/91 Cet/HR 896/BD +08° 455/HD 18604/FK5 1083/HIP 13954/SAO 110889"
+Star "天囷三/LAM Cet/91 Cet/HR 896/BD+08 455/HD 18604/FK5 1083/HIP 13954/SAO 110889"
 {
-	RA      2 59 42.91
-	Dec     8 54 26.3
-  AppMagn 4.6767
+	RA      2 59 41.61
+	Dec     8 54 21
+  AppMagn 4.71
 
   Class   "B6III"
 
 	Dist    177
   AbsMagn -1.52
 
-	MassSol 4.6
+	MassSol 5.01
 	RadSol  5.4
 	Luminosity 652
 	Teff    13940
-	Age     0.1
+	Age     0.1 // 0.125
 	LumBol  920
 }
 
 Remove "MU Cet"
-Star "天囷四/MU Cet/87 Cet/HD 17094/HIP 12828/HR 813/SAO 110723/BD+09° 359"
+Star "天囷四/MU Cet/87 Cet/HD 17094/HIP 12828/HR 813/SAO 110723/BD+09 359"
 {
-	RA      2 44 56.94
-	Dec     10 6 50.4
-  AppMagn 4.27
+	RA      2 44 55.69
+	Dec     10 6 44.9
+  AppMagn 4.27 // combined(Primary + 3 companions)
 
   Class   "A9IIIp"
 
@@ -77,39 +77,39 @@ Star "天囷四/MU Cet/87 Cet/HD 17094/HIP 12828/HR 813/SAO 110723/BD+09° 359"
 }
 
 Remove "KSI1 Cet"
-StarBarycenter "天囷五/KSI1 Cet/65 Cet/HR 649/HD 13611/HIP 10324/SAO 110408/BD+08° 345"
+StarBarycenter "天囷五/KSI1 Cet/65 Cet/HR 649/HD 13611/HIP 10324/SAO 110408/BD+08 345"
 {
-	RA      2 12 59.97
-	Dec     8 50 47.9
+	RA      2 12 58.75
+	Dec     8 50 42.1
   AppMagn 4.35
 
-  Class   "G7III Ba0.4 Fe-1"
+  Class   "G7IIIBa0.4Fe-1"
 
-	Dist    118
-  AbsMagn -1
+	Dist    105
+  AbsMagn -0.75
 }
 
 Remove "KSI2 Cet"
-StarBarycenter "天囷六/KSI2 Cet/73 Cet/HD 15318/HR 718/HIP 11484/BD+07° 388/SAO 110543"
+StarBarycenter "天囷六/KSI2 Cet/73 Cet/HD 15318/HR 718/HIP 11484/BD+078.35 388/SAO 110543"
 {
-	RA      2 28 9.6
-	Dec     8 27 36.2
+	RA      2 28 8.35
+	Dec     8 27 30.5
   AppMagn 4.3
 
-  Class   "B9.5V"
+  Class   "B9III"
 
 	Dist    60
   AbsMagn 0.44
 }
 
 Remove "NU Cet"
-StarBarycenter "天囷七/NU Cet/Struve 281/78 Cet/CD−80°365/HD 16161/HIP 12093/HR 754/SAO 258561"
+StarBarycenter "天囷七/NU Cet/Struve 281/78 Cet/CD-80 365/HD 16161/HIP 12093/HR 754/SAO 258561"
 {
-	RA      2 35 52.44
-	Dec     5 35 35.1
+	RA      2 35 51.18
+	Dec     5 35 29.8
   AppMagn 4.85
 
-  Class   "G3III"
+  Class   "G8III"
 
 	Dist    104
   AbsMagn -0.24
@@ -118,8 +118,8 @@ StarBarycenter "天囷七/NU Cet/Struve 281/78 Cet/CD−80°365/HD 16161/HIP 120
 Remove "GAM Cet"
 StarBarycenter "天囷八/GAM Cet/86 Cet/BD+02 422/HD 16970/HIP 12706/HR 804/SAO 110707/WDS 02433+0314"
 {
-	RA      2 43 17.9
-	Dec     3 14 7.2
+	RA      2 43 16.62
+	Dec     3 14 2
   AppMagn 3.55
 
   Class   "A2Vn"
@@ -129,10 +129,10 @@ StarBarycenter "天囷八/GAM Cet/86 Cet/BD+02 422/HD 16970/HIP 12706/HR 804/SAO
 }
 
 Remove "DEL Cet"
-Star "天囷九/DEL Cet/82 Cet/BD−00° 406/FK5 91/HD 16582/HIP 12387/HR 779/SAO 110665"
+Star "天囷九/DEL Cet/82 Cet/BD-00 406/FK5 91/HD 16582/HIP 12387/HR 779/SAO 110665"
 {
-	RA      2 39 28.97
-	Dec     0 19 42.6
+	RA      2 39 27.72
+	Dec     0 19 37.9
   AppMagn 4.06
 
   Class   "B2IV"
@@ -145,14 +145,14 @@ Star "天囷九/DEL Cet/82 Cet/BD−00° 406/FK5 91/HD 16582/HIP 12387/HR 779/SA
 	Luminosity 4000
 	Teff    21900
 	FeH     -0.24
-	Age     0.007
+	Age     0.007 // 0.018
 }
 
 Remove "75 Cet"
-Star "天囷十/75 Cet/BD–01°353/GC 3043/HD 15779/HIP 11791/HR 739/SAO 129959"
+Star "天囷十/75 Cet/BD-01 353/GC 3043/HD 15779/HIP 11791/HR 739/SAO 129959"
 {
-	RA      2 32 9.39
-	Dec     -1 2 6.3
+	RA      2 32 8.14
+	Dec     -1 2 10.9
   AppMagn 5.36
 
   Class   "K1III"
@@ -171,21 +171,21 @@ Star "天囷十/75 Cet/BD–01°353/GC 3043/HD 15779/HIP 11791/HR 739/SAO 129959
 Remove "70 Cet"
 Star "天囷十一/70 Cet/HIP 11046/SAO 129858/HD 14690/HR 691"
 {
-	RA      2 22 12.37
-	Dec     -0 53 6.4
+	RA      2 22 11.14
+	Dec     -0 53 11.1
   AppMagn 5.4
 
   Class   "F0/2V"
 
-	Dist    85.6
-  AbsMagn 0.88
+	Dist    75.7
+  AbsMagn 1
 }
 
 Remove "63 Cet"
-Star "天囷十二/63 Cet/BD−02°375/HD 13468/HIP 10234/HR 639/SAO 129739"
+Star "天囷十二/63 Cet/BD-02 375/HD 13468/HIP 10234/HR 639/SAO 129739"
 {
-	RA      2 11 35.82
-	Dec     -1 49 32.3
+	RA      2 11 34.62
+	Dec     -1 49 36.8
   AppMagn 5.93
 
   Class   "K0III"
@@ -202,14 +202,14 @@ Star "天囷十二/63 Cet/BD−02°375/HD 13468/HIP 10234/HR 639/SAO 129739"
 }
 
 Remove "66 Cet"
-Star "天囷十三/66 Cet/HIP 10305/SAO 129752/HD 13612/HR 650/WDS J02128-0224AaAb"
+StarBarycenter "天囷十三/66 Cet/HIP 10305/SAO 129752/HD 13612/HR 650/WDS J02128-0224AaAb"
 {
-	RA      2 12 48.07
-	Dec     -2 23 39.9
+	RA      2 12 46.91
+	Dec     -2 23 44.5
   AppMagn 5.65
 
-  Class   "G0/2V"
+  Class   "F8V"
 
-	Dist    124.38
+	Dist    46
   AbsMagn 2.33
 }
