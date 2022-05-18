@@ -26,7 +26,7 @@ Remove "Edasich b"{ParentBody "Edasich"}
 Planet	"HR 5744 b"
 {
 	ParentBody     "HR 5744"
-	DiscMethod     "Astrometry" // Doppler Spectroscopy
+	DiscMethod     "RadVel" // Doppler Spectroscopy
 	DiscDate       "2002" // Frink et al., 2002.01.08
 	Mass           2803.2463116
 	Radius         76537.644
@@ -79,7 +79,7 @@ Remove "HD 33564 b"{ParentBody "HD 33564"}
 Planet	"HIP 25110 b"
 {
 	ParentBody     "HIP 25110"
-	DiscMethod     "Astrometry" // Doppler Spectroscopy
+	DiscMethod     "RadVel" // Doppler Spectroscopy
 	DiscDate       "2005" // Galland et al., Haute-Provence Observatory, 2005.09.03
 	Mass           2892.238258
 
@@ -359,7 +359,7 @@ Remove "TAU Boo A b"{ParentBody "TAU Boo A"}
 Planet	"HIP 67275 Ab"
 {
 	ParentBody     "HIP 67275 A"
-	DiscMethod     "Astrometry" // Doppler Spectroscopy
+	DiscMethod     "RadVel" // Doppler Spectroscopy
 	DiscDate       "1996" // Butler et al., University of California, 1996
 	Mass           1906.97028 // 1748.05609
 	Teff           1700

@@ -254,7 +254,7 @@ Remove "Proxima c"{ParentBody "Proxima Cen"}
 Planet	"Proxima Cen b"
 {
   DiscDate       "2016" // 2016.08.24, Anglada-Escudé et al., ESO
-  DiscMethod     "Astrometry" // Doppler spectroscopy
+  DiscMethod     "RadVel" // Doppler spectroscopy
 	ParentBody     "Proxima"
 	Class          "Terra"
 	Mass            1.07
