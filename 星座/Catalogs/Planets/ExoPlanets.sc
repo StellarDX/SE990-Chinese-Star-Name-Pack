@@ -854,31 +854,34 @@ Planet	"Mirfak b"
 	}
 }
 
+// 天苑四
 Remove "AEgir" {ParentBody "Ran"}
-Planet	"HIP 16537 b"
+Planet	"AEgir/HIP 16537 b"
 {
-	ParentBody     "HIP 16537"
-	DiscMethod     "RadVel"
-	DiscDate       "2000"
-	Mass           247.9
+	ParentBody     "GJ 144"
+	DiscMethod     "RadVel" // Doppler spectroscopy
+	DiscDate       "2000" // Hatzes et al., 2000.08.07
+	Mass           378.2157722
 	Teff           150
+
+	Rings{}
 
 	Orbit
 	{
 		SemiMajorAxis   3.48
 		Eccentricity    0.07
 	  Period          7.37
-		Inclination     89
+		Inclination     34
 		AscendingNode   180
-		ArgOfPericen    179
-		SemiAmplitude   11.48
+		ArgOfPericen    177
+		MeanAnomaly     0
 	}
 }
 
 Planet	"HIP 16537 c"
 {
-	ParentBody     "HIP 16537"
-	Mass           31.8
+	ParentBody     "GJ 144"
+	Mass           31.782838
 
 	Orbit
 	{

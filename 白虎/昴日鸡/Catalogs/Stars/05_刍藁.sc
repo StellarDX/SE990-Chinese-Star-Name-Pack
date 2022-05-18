@@ -1,8 +1,8 @@
 Remove "RHO Cet"
-Star "刍藁一/ρ Cet/72 Cet/BD−12° 451/FK5 1066/HD 15130/HIP 11345/HR 708/SAO 148385"
+Star "刍藁一/RHO Cet/72 Cet/BD-12 451/FK5 1066/HD 15130/HIP 11345/HR 708/SAO 148385"
 {
-	RA      2 25 56.99
-	Dec     -12 17 25.9
+	RA      2 25 55.74
+	Dec     -12 17 28.8
   AppMagn 4.885
 
   Class   "A0V"
@@ -16,10 +16,10 @@ Star "刍藁一/ρ Cet/72 Cet/BD−12° 451/FK5 1066/HD 15130/HIP 11345/HR 708/S
 }
 
 Remove "77 Cet"
-Star "刍蒿二/77 Cet/BD−08°484/HD 16074/HIP 12002/HR 752/SAO 129984"
+Star "刍藁二/77 Cet/BD-08 484/HD 16074/HIP 12002/HR 752/SAO 129984"
 {
-	RA      2 34 42.71
-	Dec     -7 51 35.6
+	RA      2 34 41.46
+	Dec     -7 51 39.4
   AppMagn 5.731
 
   Class   "K2III"
@@ -33,52 +33,65 @@ Star "刍蒿二/77 Cet/BD−08°484/HD 16074/HIP 12002/HR 752/SAO 129984"
 }
 
 Remove "67 Cet"
-Star "刍蒿三/67 Cet/HIP 10642/SAO 129798/HD 14129/HR 666"
+Star "刍藁三/67 Cet/2MASS J02165903-0625193/BD-07 393/FK5 80/GC 2748/GCRV 1269/GSC 04696-01076/HD 14129/HIC 10642/HIP 10642/HR 666/IRAS 02144-0639/N30 465/PMC 90-93 58/PPM 184435/SAO 129798/TD1 1332/TYC 4696-1076-1/UBV 2332/UBV M 8850/uvby98 100014129/YZ 96 495/WEB 2240/Gaia DR2 2487740376053070592"
 {
-	RA      2 16 59.18
-	Dec     -6 25 22.3
-  AppMagn 5.5
+	RA      2 16 57.97
+	Dec     -6 25 26.2
+  AppMagn 5.499
 
-  Class   "K0III"
+  Class   "G8.5IIIb"
 
-	Dist    104.4
-  AbsMagn 0.46
+	Dist    104.38
+  AbsMagn 0.47
+
+	RadSol  10.32
+	Luminosity 75.96
+	Teff    4927
+	FeH     -0.03
 }
 
 Remove "71 Cet"
-Star "刍蒿四/71 Cet/FR Cet/HIP 11261/SAO 129888/HD 15004/HR 704"
+Star "刍藁四/71 Cet/FR Cet/2MASS J02245838-0246480/BD-03 374/GC 2910/GSC 04694-01194/HD 15004/HIC 11261/HIP 11261/HR 704/PPM 184602/SAO 129888/TD1 1410/TYC 4694-1194-1/UBV 2489/UBV M 8940/uvby98 100015004/YZ 93 585/Gaia DR1 2490453829016077184/Gaia DR2 2490453833311479424"
 {
-	RA      2 24 58.4
-	Dec     -2 46 48.3
-  AppMagn 6.3
+	RA      2 24 57.18
+	Dec     -2 46 52.5
+  AppMagn 6.31
 
   Class   "B9.5III"
 
-	Dist    198
-  AbsMagn -0.89
+	Dist    273.97
+  AbsMagn -0.85
+
+	RadSol  4.31
+	Luminosity 217.23
+	Teff    9679
 }
 
 Remove "HIP 11029"
-Star "刍蒿五/HIP 11029/SAO 148354/HD 14691/HR 692"
+Star "刍藁五/HIP 11029/GSC 05282-02511/2MASS J02220152-1046390/TYC 5282-2511-1/BD-11 448/HD 14691/PPM 211424/UBV M 8906/GC 2849/HIC 11029/SAO 148354/uvby98 100014691/GCRV 1337/HR 692/IRAS 02195-1100/TD1 1383"
 {
-	RA      2 22 1.75
-	Dec     -10 46 41.3
-  AppMagn 5.4
+	RA      2 22 0.53
+	Dec     -10 46 44.6
+  AppMagn 5.44
 
-  Class   "F3V"
+  Class   "F3Vn"
 
 	Dist    30
-  AbsMagn 3.04
+  AbsMagn 3.06
+
+	MassSol 1.44
+	RadSol  1.45
+	Teff    7079.46
 }
 
 Remove "EPS Cet"
-StarBarycenter "刍蒿六/EPS Cet/83 Cet/BD−12° 501/HD 16620/HIP 12390/HR 781/SAO 148528"
+StarBarycenter "刍藁六/EPS Cet/83 Cet/BD-12 501/HD 16620/HIP 12390/HR 781/SAO 148528"
 {
-	RA      2 39 34.07
-	Dec     -11 52 25.3
+	RA      2 39 32.82
+	Dec     -11 52 28.9
   AppMagn 5.2
 
-  Class   "F4V"
+  Class   "F5V"
 
 	Dist    28.5
   AbsMagn 3.04

@@ -1,8 +1,8 @@
 Remove "62 Ari"
-Star "天阿/62 Ari/BD+27°500/HD 20825/HIP 15696/HR 1012/SAO 75892"
+Star "天阿/62 Ari/BD+27 500/HD 20825/HIP 15696/HR 1012/SAO 75892"
 {
-	RA      3 22 11.91
-	Dec     27 36 26.9
+	RA      3 22 10.43
+	Dec     27 36 21.7
   AppMagn 5.52
 
   Class   "G5III"
