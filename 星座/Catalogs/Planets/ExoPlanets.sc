@@ -133,7 +133,7 @@ Remove "47 UMa d"{ParentBody "Chalawan"}
 Planet	"HD 95128 b"
 {
 	ParentBody     "HD 95128"
-	DiscMethod     "Astrometry" // Doppler spectroscopy
+	DiscMethod     "RadVel" // Doppler spectroscopy
 	DiscDate       "1996" // Marcy and Butler et al., USA, 1996.01.17
 	Mass           804.1058014
 
@@ -153,7 +153,7 @@ Planet	"HD 95128 b"
 Planet	"HD 95128 c"
 {
 	ParentBody     "HD 95128"
-	DiscMethod     "Astrometry" // Doppler spectroscopy
+	DiscMethod     "RadVel" // Doppler spectroscopy
 	DiscDate       "2001" // Fischer, Butler, and Marcy et al., USA, 2001.08.15(Confirmed at 2002.03.19)
 	Mass           171.6273252
 
@@ -171,7 +171,7 @@ Planet	"HD 95128 c"
 Planet	"HD 95128 d"
 {
 	ParentBody     "HD 95128"
-	DiscMethod     "Astrometry" // Doppler spectroscopy (Bayesian Kepler periodogram)
+	DiscMethod     "RadVel" // Doppler spectroscopy (Bayesian Kepler periodogram)
 	DiscDate       "2010" // Gregory and Fischer, USA, 2010.03.06
 	Mass           521.2385432
 
@@ -806,7 +806,7 @@ Planet	"Majriti/UPS And d"
 Planet	"UPS And e"
 {
 	ParentBody     "Titawin A"
-	DiscMethod     "Astrometry" // Doppler spectroscopy
+	DiscMethod     "RadVel" // Doppler spectroscopy
 	DiscDate       "2010" // Curiel et al., Baja California, 2010.111.22
 	Mass           336.58025442
 
@@ -891,14 +891,15 @@ Planet	"HIP 16537 c"
 	}
 }
 
+// 毕宿一
 Remove "Amateru"{ParentBody "Ain"}
-Planet	"HIP 20889 b"
+Planet	"Amateru/HIP 20889 b"
 {
-	ParentBody     "HIP 20889"
-	DiscMethod     "RadVel"
-	DiscDate       "2006"
+	ParentBody     "GC 5430"
+	DiscMethod     "RadVel" // Doppler spectroscopy
+	DiscDate       "2007" // Sato et al., 2007.02.07
 	Radius         84630.56
-	Mass           2415.5
+	Mass           2415.495688
 	Teff           541
 
 	Orbit
@@ -908,26 +909,31 @@ Planet	"HIP 20889 b"
 		PeriodDays      645.5
 		Epoch           2452879
 		ArgOfPericen    94.4
-		SemiAmplitude   98.5
+		MeanAnomaly     0
+		//SemiAmplitude   98.5
 	}
 }
 
+// 毕宿五
 Remove "Aldebaran A b"{ParentBody "Aldebaran A"}
 Planet	"Aldebaran Ab"
 {
 	ParentBody     "HIP 21421 A"
 	DiscMethod     "RadVel"
 	DiscDate       "2015"
-	Mass           1843.4
+	Mass           1843.404604
 	Teff           1500
 
 	Orbit
 	{
+		//aphelion distance 1.606
 		PericenterDist  1.314
 		SemiMajorAxis   1.46
 		Eccentricity    0.1
 		PeriodDays      628.96
-		ArgOfPericenter 287.29
+		Epoch           2451296.5
+		ArgOfPericenter 287
+		MeanAnomaly     0
 	}
 }
 
