@@ -185,7 +185,7 @@ Remove "BET Sco C"{ParentBody "BET2 Sco"}
 Remove "BET Sco E"{ParentBody "BET2 Sco"}
 Remove "BET Sco Ea"{ParentBody "BET Sco E"}
 Remove "BET Sco Eb"{ParentBody "BET Sco E"}
-Barycenter "房宿四/BET1 Sco AB/HIP 78820 A/BD-19 4307 A/HD 144217 A/HR 5984 A"
+Barycenter "房宿四/BET1 Sco A-B/HIP 78820 A/BD-19 4307 A/HD 144217 A/HR 5984 A"
 {
 	ParentBody "BET Sco"
 	BinaryOrbit
@@ -194,7 +194,7 @@ Barycenter "房宿四/BET1 Sco AB/HIP 78820 A/BD-19 4307 A/HD 144217 A/HR 5984 A
 	}
 }
 
-Barycenter "BET2 Sco CE/BD-19 4308 B/HD 144218 B/HIP 78821 B/HR 5985 B"
+Barycenter "BET2 Sco C-E/BD-19 4308 B/HD 144218 B/HIP 78821 B/HR 5985 B"
 {
 	ParentBody "BET Sco"
 	BinaryOrbit
@@ -207,7 +207,7 @@ Barycenter "BET2 Sco CE/BD-19 4308 B/HD 144218 B/HIP 78821 B/HR 5985 B"
 
 Barycenter "BET1 Sco A"
 {
-	ParentBody "BET1 Sco AB"
+	ParentBody "BET1 Sco A-B"
 	Orbit
 	{
 		Epoch           2626860.788813
@@ -221,7 +221,7 @@ Barycenter "BET1 Sco A"
 
 Star "BET1 Sco B"
 {
-	ParentBody "BET1 Sco AB"
+	ParentBody "BET1 Sco A-B"
 	Class      ""
 	MassSol    8
 
@@ -283,7 +283,7 @@ Star "BET1 Sco Ab"
 
 Star "BET2 Sco C"
 {
-	ParentBody "BET2 Sco CE"
+	ParentBody "BET2 Sco C-E"
 	Class      "B2 V"
 	MassSol    8.2
 	RadSol     2.9
@@ -304,7 +304,7 @@ Star "BET2 Sco C"
 
 Barycenter "BET2 Sco E"
 {
-	ParentBody "BET2 Sco CE"
+	ParentBody "BET2 Sco C-E"
 	Orbit
 	{
 		Period          39
