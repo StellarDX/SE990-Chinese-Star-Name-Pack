@@ -261,9 +261,16 @@ Planet	"Proxima Cen b"
 	Mass            1.07
 	Radius          8291.5781 // 1.3 REarth
 
+  Life // The three body
+  {
+  	Class   "Organic"
+  	Type    "Multicellular"
+  	Biome   "Terrestrial"
+  }
+
   Surface
 	{
-		Preset         "terra_wet_earth2mars_green.cfg"
+		Preset         "terra_wet_earth2mars_black.cfg"
 		SurfStyle       0.1961
 		Randomize      (0.975, 0.541, 0.654)
 		colorDistMagn   0.070877
@@ -274,16 +281,7 @@ Planet	"Proxima Cen b"
 		tropicLatitude  0
 		icecapLatitude  0.56608
 		icecapHeight    0.061182
-		climatePole     0.9375
-		climateTropic   0.3125
-		climateEquator  0.6875
-		climateSteppeMin -1
-		climateSteppeMax -1
-		climateForestMin -1
-		climateForestMax -1
-		climateGrassMin  -1
-		climateGrassMax  -1
-		humidity        1
+		humidity        0.95
 		heightTempGrad  0.625
 		beachWidth      0.0006568
 		tropicWidth     0.07
@@ -350,6 +348,10 @@ Planet	"Proxima Cen b"
 	Ocean
 	{
 		Height          8.6553
+    Composition
+    {
+      H2O         100
+    }
 	}
 
   Clouds
