@@ -250,6 +250,7 @@ Planet "Hermes/ALF Cen Bc"
 
 Remove "Proxima b"{ParentBody "Proxima Cen"}
 Remove "Proxima c"{ParentBody "Proxima Cen"}
+Remove "Proxima d"{ParentBody "Proxima Cen"}
 
 Planet	"Proxima Cen b"
 {
