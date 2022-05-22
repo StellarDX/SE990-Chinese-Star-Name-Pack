@@ -1,10 +1,10 @@
-// 觜宿一(*)
+// 觜宿一(****)
 Remove "Meissa A"{ParentBody "Meissa"}
 Remove "Meissa B"{ParentBody "Meissa"}
 Barycenter "HIP 26207 AB"
 {
   ParentBody "HIP 26207"
-  Orbit
+  BinaryOrbit
 	{
 		RefPlane        "Equator"
 		Period          83164.3
@@ -55,7 +55,7 @@ Star "HIP 26207 B"
 Barycenter "HIP 26207 C"
 {
   ParentBody "HIP 26207"
-  Orbit // Meissa C F8V class but unknown separation
+  /* Orbit // Meissa C F8V class but unknown separation
 	{
 		RefPlane        "Equator"
     Period          83164.3
@@ -64,7 +64,7 @@ Barycenter "HIP 26207 C"
 		AscendingNode   -161.302
 		ArgOfPericenter 320.129
 		MeanAnomaly     -172.582
-	}
+	} */
 }
 
 Star "HIP 26207 Ca"
@@ -93,7 +93,7 @@ Star "HIP 26207 Cb" // Brown Dwarf
 	}
 }
 
-// 觜宿二
+// 觜宿二(PM**)
 Remove "PHI1 Ori A"{ParentBody "PHI1 Ori"}
 Remove "PHI1 Ori B"{ParentBody "PHI1 Ori"}
 Star "HIP 26176 A"
@@ -120,8 +120,7 @@ Star "HIP 26176 A"
 Star "HIP 26176 B"
 {
 	ParentBody "HIP 26176"
-  Class      ""
-  MassSol    10 // Unknown
+  Class      "B4.3 IV"
 
 	Orbit
 	{
@@ -133,7 +132,7 @@ Star "HIP 26176 B"
 	}
 }
 
-// 司怪二(重写的数据)
+// 司怪二(SB***)(重写的数据)
 Remove "1 Gem A"{ParentBody "1 Gem"}
 Remove "1 Gem B"{ParentBody "1 Gem"}
 Remove "1 Gem Aa"{ParentBody "1 Gem A"}
@@ -147,10 +146,10 @@ Star "HIP 28734 A"
   MassSol    1.94
   FeH        -0.01
 
-	Orbit
+	/* BinaryOrbit
 	{
 		PeriodDays      4877.6
-		//SemiMajorAxis   9.399
+		Separation      9.399
     Eccentricity    0.3709
 		Inclination     59.33
 		AscendingNode   353.67
@@ -158,7 +157,7 @@ Star "HIP 28734 A"
 		ArgOfPericenter 201.29
 		MeanAnomaly     0
     //SemiAmplitude   11.34
-	}
+	} */
 }
 
 Barycenter "HIP 28734 B"
@@ -167,7 +166,7 @@ Barycenter "HIP 28734 B"
 	Orbit
 	{
     PeriodDays      4877.6
-		//SemiMajorAxis   9.399
+		Separation      9.399
     Eccentricity    0.3709
 		Inclination     59.33
 		AscendingNode   353.67
@@ -216,18 +215,19 @@ Star "HIP 28734 Bb"
 	}
 }
 
-// 司怪四
+// 司怪四(RS**)
 Remove "CHI1 Ori A"{ParentBody "CHI1 Ori"}
 Remove "CHI1 Ori B"{ParentBody "CHI1 Ori"}
 Star "HIP 27913 A"
 {
 	ParentBody "HIP 27913"
 	Class      "G0 V"
+  MassSol    1.01
 	RadSol     0.979
   Luminosity 1.081
   Teff       5955
   FeH        -0.01
-  RotationDays 5.2
+  RotationPeriod 124.8
   Age        0.3
 
 	Orbit
@@ -246,8 +246,9 @@ Star "HIP 27913 A"
 Star "HIP 27913 B"
 {
 	ParentBody "HIP 27913"
-	Class      "M6 V"
+	Class      "M"
 	MassSol    0.15
+  Age        0.07
 
 	Orbit
 	{
@@ -261,7 +262,7 @@ Star "HIP 27913 B"
 	}
 }
 
-// 座旗一(*)
+// 座旗一(SB**)
 Star "HIP 32562 A"
 {
 	ParentBody "HIP 32562"

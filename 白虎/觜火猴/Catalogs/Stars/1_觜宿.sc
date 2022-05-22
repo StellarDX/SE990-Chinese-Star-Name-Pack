@@ -1,8 +1,8 @@
 Remove "LAM Ori"
-StarBarycenter "觜宿一/LAM Ori/39 Ori/101 G. Ori/BD+09°879/HIP 26207/SAO 112921"
+StarBarycenter "觜宿一/LAM Ori/39 Ori/101 G. Ori/BD+09 879/HIP 26207/SAO 112921"
 {
-	RA      5 35 8.28
-	Dec     9 56 2.9
+	RA      5 35 7.03
+	Dec     9 56 0.2
   AppMagn 3.5
 
   Class   "O8IIIf"
@@ -12,10 +12,10 @@ StarBarycenter "觜宿一/LAM Ori/39 Ori/101 G. Ori/BD+09°879/HIP 26207/SAO 112
 }
 
 Remove "PHI1 Ori"
-StarBarycenter "觜宿二/PHI1 Ori/37 Ori/BD+09° 877/FK5 208/HD 36822/HIP 26176/HR 1876/SAO 112914"
+StarBarycenter "觜宿二/PHI1 Ori/37 Ori/BD+09 877/FK5 208/HD 36822/HIP 26176/HR 1876/SAO 112914"
 {
-	RA      5 34 49.24
-	Dec     9 29 22.4
+	RA      5 34 47.99
+	Dec     9 29 19.
   AppMagn 4.35
 
   Class   "B0III"
@@ -25,10 +25,10 @@ StarBarycenter "觜宿二/PHI1 Ori/37 Ori/BD+09° 877/FK5 208/HD 36822/HIP 26176
 }
 
 Remove "PHI2 Ori"
-Star "觜宿三/PHI2 Ori/40 Ori/BD+09° 898/HD 37160/HIP 26366/HR 1907/SAO 112958"
+Star "觜宿三/PHI2 Ori/40 Ori/BD+09 898/HD 37160/HIP 26366/HR 1907/SAO 112958"
 {
-	RA      5 36 54.52
-	Dec     9 17 19.9
+	RA      5 36 53.28
+	Dec     9 17 16.7
   AppMagn 4.081
 
   Class   "G8III"
