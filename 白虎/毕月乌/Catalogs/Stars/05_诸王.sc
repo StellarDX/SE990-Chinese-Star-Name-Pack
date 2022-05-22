@@ -1,8 +1,8 @@
 Remove "136 Tau"
-StarBarycenter "诸王一/136 Tau/BD+27° 899/HD 39357/HIP 27830/HR 2034/SAO 77675"
+StarBarycenter "诸王一/136 Tau/BD+27 899/HD 39357/HIP 27830/HR 2034/SAO 77675"
 {
-  RA       5 53 19.66
-  Dec      27 36 43.9
+  RA       5 53 18.35
+  Dec      27 36 44.5
   AppMagn  4.55
 
   Class    "A0V"
@@ -14,21 +14,21 @@ StarBarycenter "诸王一/136 Tau/BD+27° 899/HD 39357/HIP 27830/HR 2034/SAO 776
 Remove "125 Tau"
 Star "诸王二/125 Tau/HIP 26640/SAO 77360/HD 37438/HR 1928"
 {
-  RA       5 39 44.22
-  Dec      25 53 49
+  RA       5 39 42.89
+  Dec      25 53 48.8
   AppMagn  5.15
 
   Class    "B3IV"
 
-  Dist     152
+  Dist     197
   AbsMagn  -1.32
 }
 
 Remove "118 Tau"
-Star "诸王三/118 Tau/HIP 25695/SAO 77201/HD 35943/HR 1821/WDS J05293+2509AaAb"
+StarBarycenter "诸王三/RBR 1/118 Tau/Struve 716/HIP 25695/SAO 77201/HD 35943/HR 1821/WDS J05293+2509AaAb"
 {
-  RA       5 29 16.52
-  Dec      25 9 0
+  RA       5 29 15.17
+  Dec      25 8 59.2
   AppMagn  5.8
 
   Class    "B9Vn"
@@ -38,10 +38,10 @@ Star "诸王三/118 Tau/HIP 25695/SAO 77201/HD 35943/HR 1821/WDS J05293+2509AaAb
 }
 
 Remove "103 Tau"
-Star "诸王四/103 Tau/HIP 23900/SAO 76974/HD 32990/HR 1659/WDS J05081+2416AaAb"
+StarBarycenter "诸王四/103 Tau/H 5 114/EDG 2/HDS 674/HIP 23900/SAO 76974/HD 32990/HR 1659/WDS J05081+2416AaAb"
 {
-  RA       5 8 6.63
-  Dec      24 15 54.5
+  RA       5 8 5.25
+  Dec      24 15 53
   AppMagn  5.55
 
   Class    "B2V"
@@ -51,23 +51,23 @@ Star "诸王四/103 Tau/HIP 23900/SAO 76974/HD 32990/HR 1659/WDS J05081+2416AaAb
 }
 
 Remove "99 Tau"
-Star "诸王五/99 Tau/HIP 23068/SAO 76858/HD 31553/HR 1586/WDS J04578+2357AB"
+StarBarycenter "诸王五/99 Tau/BU 1045/HIP 23068/SAO 76858/HD 31553/HR 1586/WDS J04578+2357AB"
 {
-  RA       4 57 48.66
-  Dec      23 56 54.5
-  AppMagn  5.75
+  RA       4 57 47.26
+  Dec      23 56 52.6
+  AppMagn  5.806
 
   Class    "K0III"
 
-  Dist     144.5
-  AbsMagn  -0.3
+  Dist     162
+  AbsMagn  0.06
 }
 
 Remove "TAU Tau"
-StarBarycenter "诸王六/TAU Tau/94 Tau/BD+22°739/FK5 174/GC 5716/HD 29763/HIP 21881/HR 1497/SAO 76721/CCDM J04422+2257AB/WDS J04422+2257A/GSC 01830-02129"
+StarBarycenter "诸王六/TAU Tau/94 Tau/BD+22 739/FK5 174/GC 5716/HD 29763/HIP 21881/HR 1497/SAO 76721/CCDM J04422+2257AB/WDS J04422+2257A/GSC 01830-02129"
 {
-  RA       4 42 14.7
-  Dec      22 57 24.5
+  RA       4 42 13.29
+  Dec      22 57 21.9
   AppMagn  4.3
 
   Class    "B3V"

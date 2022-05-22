@@ -1,8 +1,8 @@
 Remove "39 Eri"
-StarBarycenter "九州殊口一/39 Eri/BD−10°867/GC 5114/HD 26846/HIP 19777/HR 1318/SAO 149478/WDS J04144-1015"
+StarBarycenter "九州殊口一/39 Eri/BD-10 867/GC 5114/HD 26846/HIP 19777/HR 1318/SAO 149478/WDS J04144-1015"
 {
-  RA       4 14 23.68
-  Dec      -10 15 26
+  RA       4 14 22.34
+  Dec      -10 15 30.6
   AppMagn  4.9
 
   Class    "K2III"
@@ -12,10 +12,10 @@ StarBarycenter "九州殊口一/39 Eri/BD−10°867/GC 5114/HD 26846/HIP 19777/H
 }
 
 Remove "OMI1 Eri"
-Star "九州殊口二/Beid/OMI1 Eri/38 Eri/BD−07° 764/FK5 154/HD 26574/HIP 19587/HR 1298/SAO 131019"
+Star "九州殊口二/Beid/OMI1 Eri/38 Eri/BD-07 764/FK5 154/HD 26574/HIP 19587/HR 1298/SAO 131019"
 {
-  RA       4 11 51.96
-  Dec      -6 50 13.6
+  RA       4 11 50.63
+  Dec      -6 50 17.7
   AppMagn  4.04
 
   Class    "F0III"
@@ -31,10 +31,10 @@ Star "九州殊口二/Beid/OMI1 Eri/38 Eri/BD−07° 764/FK5 154/HD 26574/HIP 19
 }
 
 Remove "KSI Eri"
-Star "九州殊口三/KSI Eri/BD−04° 818/42 Eri/FK5 1120/HD 27861/HIP 20507/HR 1383/SAO 131176"
+Star "九州殊口三/KSI Eri/BD-04 818/42 Eri/FK5 1120/HD 27861/HIP 20507/HR 1383/SAO 131176"
 {
-  RA       4 23 40.79
-  Dec      -3 44 44.9
+  RA       4 23 39.47
+  Dec      -3 44 49.2
   AppMagn  5.17
 
   Class    "A2V"
@@ -50,10 +50,10 @@ Star "九州殊口三/KSI Eri/BD−04° 818/42 Eri/FK5 1120/HD 27861/HIP 20507/H
 }
 
 Remove "NU Eri"
-Star "九州殊口四/NU Eri/BD−03°834/48 Eri/FK5 169/HD 29248/HIP 21444/HR 1463/SAO 131346"
+Star "九州殊口四/NU Eri/BD-03 834/48 Eri/FK5 169/HD 29248/HIP 21444/HR 1463/SAO 131346"
 {
-  RA       4 36 19.15
-  Dec      -3 21 8.9
+  RA       4 36 17.84
+  Dec      -3 21 13.3
   AppMagn  3.93
 
   Class    "B1.5IV"
@@ -70,13 +70,13 @@ Star "九州殊口四/NU Eri/BD−03°834/48 Eri/FK5 169/HD 29248/HIP 21444/HR 1
 Remove "56 Eri"
 Star "九州殊口五/56 Eri/DX Eri/HIP 22024/SAO 131451/HD 30076/HR 1508"
 {
-  RA       4 44 5.33
-  Dec      -8 30 12.8
+  RA       4 44 4.02
+  Dec      -8 30 17.5
   AppMagn  5.75
 
   Class    "B2(V)nne"
 
-  Dist     411.5
+  Dist     870
   AbsMagn  -3.95
 }
 
@@ -87,7 +87,7 @@ StarBarycenter "九州殊口六/55 Eri/HIP 21986/SAO 131443/HD 30021/HR 1506/WDS
   Dec      -8 47 47
   AppMagn  6.65
 
-  Class    "A8/F3+K(III)"
+  Class    "A8/F3+K(III)"//F9.5
 
   Dist     124.4
   AbsMagn  1.18

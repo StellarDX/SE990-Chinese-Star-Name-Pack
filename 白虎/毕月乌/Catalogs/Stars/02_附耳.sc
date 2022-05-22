@@ -1,8 +1,8 @@
 Remove "SIG2 Tau"
-Star "附耳/附耳增四/SIG2 Tau/92 Tau/BD+15° 666/FK5 2345/HD 29488/HIP 21683/HR 1479/SAO 94054"
+Star "附耳/附耳增四/SIG2 Tau/92 Tau/BD+15 666/FK5 2345/HD 29488/HIP 21683/HR 1479/SAO 94054"
 {
-  RA       4 39 16.63
-  Dec      15 55 4.3
+  RA       4 39 15.29
+  Dec      15 55 1.1
   AppMagn  4.7
 
   Class    "A5Vn"
