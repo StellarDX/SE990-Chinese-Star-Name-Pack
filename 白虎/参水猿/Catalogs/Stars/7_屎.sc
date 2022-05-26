@@ -1,9 +1,9 @@
 Remove "MU Col"
-Star "屎/MU Col/HR 1996/CD−32°2538/HD 38666/SAO 196149/HIP 27204"
+Star "屎/MU Col/HR 1996/CD-32 2538/HD 38666/SAO 196149/HIP 27204"
 {
 	/*Observation data*/
-	RA      5 45 59.92
-	Dec     -32 18 23.6
+	RA      5 45 58.45
+	Dec     -32 18 30.3
 	AppMagn 5.18
 	/*Characteristics*/
 	Class   "O9.5V"
