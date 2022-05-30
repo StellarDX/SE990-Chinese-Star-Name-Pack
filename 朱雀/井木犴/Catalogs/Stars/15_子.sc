@@ -1,9 +1,9 @@
 Remove "LAM Col"
-StarBarycenter "子一/Tsze/LAM Col/CD−33° 2599/HD 39764/HIP 27810/HR 2056/SAO 196276"
+StarBarycenter "子一/Tsze/LAM Col/CD-33 2599/HD 39764/HIP 27810/HR 2056/SAO 196276"
 {
 	/*Observation data*/
-	RA      5 53 6.88
-	Dec     -33 48 4.1
+	RA      5 53 5.37
+	Dec     -33 48 10.3
 	AppMagn 4.85
 	/*Characteristics*/
 	Class   "B5V"
@@ -16,8 +16,8 @@ Remove "BET Col"
 Star "子二/Wazn/BET Col/CD−35 2546/CPD−35 752/FK5 223/GC 7364/HD 39425/HIP 27628/HR 2040/LTT 2392/NLTT 15724/PPM 281952/SAO 196240"
 {
 	/*Observation data*/
-	RA      5 50 57.71
-	Dec     -35 45 55.7
+	RA      5 50 56.17
+	Dec     -35 46 1.4
 	AppMagn 3.105
 	/*Characteristics*/
 	Class   "K1IIICN+1"

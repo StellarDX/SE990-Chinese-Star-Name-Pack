@@ -1,9 +1,9 @@
 Remove "MU Gem"
-Star "井宿一/Tejat Posterior/MU Gem/13 Gem/ADS 4990 A/BD+22°1304/CCDM J06230+2230 A/FK5 241/HD 44478/HIP 30343/HR 2286/SAO 78297/WDS J06230+2231A"
+Star "井宿一/Tejat Posterior/MU Gem/13 Gem/ADS 4990 A/BD+22 1304/CCDM J06230+2230 A/FK5 241/HD 44478/HIP 30343/HR 2286/SAO 78297/WDS J06230+2231A"
 {
 	/*Observation data*/
-	RA      6 22 57.71
-	Dec     22 30 47.3
+	RA      6 22 56.46
+	Dec     22 30 47.7
 	AppMagn 2.857
 	/*Characteristics*/
 	Class   "M3III"
@@ -12,18 +12,18 @@ Star "井宿一/Tejat Posterior/MU Gem/13 Gem/ADS 4990 A/BD+22°1304/CCDM J06230
 	AbsMagn -1.42
 	/*Details*/
 	MassSol 2.1
-	RadSol  80
+	RadSol  80 // 104
 	Luminosity 1148
 	Teff    3460
 	FeH     -0.03
 }
 
 Remove "NU Gem"
-StarBarycenter "井宿二/NU Gem/18 Gem/BD++20° 1441/FK5 1173/HD 45542/HIP 30883/HR 2343/SAO 78423/WDS J06290+2013"
+StarBarycenter "井宿二/NU Gem/18 Gem/BD+20 1441/FK5 1173/HD 45542/HIP 30883/HR 2343/SAO 78423/WDS J06290+2013"
 {
 	/*Observation data*/
-	RA      6 28 57.79
-	Dec     20 12 43.4
+	RA      6 28 56.57
+	Dec     20 12 43.6
 	AppMagn 4.1
 	/*Characteristics*/
 	Class   "B6IVe"
@@ -33,11 +33,11 @@ StarBarycenter "井宿二/NU Gem/18 Gem/BD++20° 1441/FK5 1173/HD 45542/HIP 3088
 }
 
 Remove "GAM Gem"
-StarBarycenter "井宿三/Alhena/GAM Gem/24 Gem/BD+16°1223/FK5 251/GCTP1539.00/HIP 31681/HD 47105/HR 2421/SAO 95912"
+StarBarycenter "井宿三/Alhena/GAM Gem/24 Gem/BD+16 1223/FK5 251/GCTP1539.00/HIP 31681/HD 47105/HR 2421/SAO 95912"
 {
 	/*Observation data*/
-	RA      6 37 42.73
-	Dec     16 23 56.1
+	RA      6 37 41.57
+	Dec     16 23 55.8
 	AppMagn 1.9
 	/*Characteristics*/
 	Class   "A1.5IV+"
@@ -47,11 +47,11 @@ StarBarycenter "井宿三/Alhena/GAM Gem/24 Gem/BD+16°1223/FK5 251/GCTP1539.00/
 }
 
 Remove "KSI Gem"
-Star "井宿四/井宿增十九/KSI Gem/31 Gem/HR 2484/HD 48737/BD+13°1396/FK5 256/HIP 32362/SAO 96074"
+Star "井宿四/井宿增十九/KSI Gem/31 Gem/HR 2484/HD 48737/BD+13 1396/FK5 256/HIP 32362/SAO 96074"
 {
 	/*Observation data*/
-	RA      6 45 17.21
-	Dec     12 53 40
+	RA      6 45 16.08
+	Dec     12 53 38.9
 	AppMagn 3.35
 	/*Characteristics*/
 	Class   "F5IV"
@@ -71,8 +71,8 @@ Remove "EPS Gem"
 Star "井宿五/EPS Gem/27 Gem/FK5 254/HD 48329/HIP 32246/HR 2473/SAO 78682"
 {
 	/*Observation data*/
-	RA      6 43 55.92
-	Dec     25 7 51.8
+	RA      6 43 54.72
+	Dec     25 7 53.4
 	AppMagn 3.06
 	/*Characteristics*/
 	Class   "G8Ib"
@@ -92,8 +92,8 @@ Remove "36 Gem"
 Star "井宿六/d Gem/36 Gem/HIP 32921/SAO 78805/HD 49908/HR 2529/WDS J0516+2146AB"
 {
 	/*Observation data*/
-	RA      6 51 33.04
-	Dec     21 45 39.3
+	RA      6 51 31.89
+	Dec     21 45 40.4
 	AppMagn 5.25
 	/*Characteristics*/
 	Class   "A2V"
@@ -103,11 +103,11 @@ Star "井宿六/d Gem/36 Gem/HIP 32921/SAO 78805/HD 49908/HR 2529/WDS J0516+2146
 }
 
 Remove "ZET Gem"
-Star "井宿七/Mekbuda/ZET Gem/43 Gem/BD+20° 1687/FK5 269/HD 52973/HIP 34088/HR 2650/SAO 79031/WDS J07041+2034A"
+Star "井宿七/Mekbuda/ZET Gem/43 Gem/BD+20 1687/FK5 269/HD 52973/HIP 34088/HR 2650/SAO 79031/WDS J07041+2034A"
 {
 	/*Observation data*/
-	RA      7 4 6.53
-	Dec     20 34 13
+	RA      7 4 5.44
+	Dec     20 34 14.2
 	AppMagn 3.93
 	/*Characteristics*/
 	Class   "F7Ib" // Binary? or triple?
@@ -118,7 +118,7 @@ Star "井宿七/Mekbuda/ZET Gem/43 Gem/BD+20° 1687/FK5 269/HD 52973/HIP 34088/H
 	MassSol 7.7
 	RadSol  65.24
 	Luminosity 2900
-	Teff    5260
+	Teff    5260 // 5780
 	FeH     0.16
   Age     0.07
 }
@@ -127,8 +127,8 @@ Remove "LAM Gem"
 StarBarycenter "井宿八/LAM Gem/54 Gem/NSV 3512/BD+16 1443/FK5 277/HD 56537/HIP 35350/HR 2763/SAO 96746/WDS J07181+1632A"
 {
 	/*Observation data*/
-	RA      7 18 5.52
-	Dec     16 32 24.6
+	RA      7 18 4.5
+	Dec     16 32 25.1
 	AppMagn 3.55
 	/*Characteristics*/
 	Class   "A4IV"

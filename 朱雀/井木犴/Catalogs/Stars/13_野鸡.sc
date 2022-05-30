@@ -1,9 +1,9 @@
 Remove "NU2 CMa"
-Star "野鸡/NU2 CMa/7 CMa/BD−19°1502/FK5 2510/GC 8624/GJ 239.1/HD 47205/HIP 31592/HR 2429/SAO 151702"
+Star "野鸡/NU2 CMa/7 CMa/BD-19 1502/FK5 2510/GC 8624/GJ 239.1/HD 47205/HIP 31592/HR 2429/SAO 151702"
 {
 	/*Observation data*/
-	RA      6 36 41.13
-	Dec     -19 15 22.7
+	RA      6 36 39.92
+	Dec     -19 15 29.1
 	AppMagn 3.96
 	/*Characteristics*/
 	Class   "K1III"

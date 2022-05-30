@@ -937,58 +937,69 @@ Planet	"Aldebaran Ab"
 	}
 }
 
+////////////////////////////////////////////////////////////////////////////////
+//                                                                            //
+//                                    朱雀                                    //
+//                                                                            //
+////////////////////////////////////////////////////////////////////////////////
+
+// 北河三
 Remove "Pollux b"{ParentBody "Pollux"}
 Planet	"Thestias/Pollux b/HD 62509 b"
 {
 	ParentBody     "Pollux Gem"
 	DiscMethod     "RadVel"
-	DiscDate       "2006"
-	Mass           731
+	DiscDate       "2006" // Hatzes et al., United States, 2006.06.16
+	Mass           731.005274
 
 	Orbit
 	{
-		Epoch           2447739.02
-		PeriodDays      589.64
 		SemiMajorAxis   1.64
 		Eccentricity    0.02
+		PeriodDays      589.64
+		Epoch           2447739.02
 		ArgOfPericen    354.58
+		MeanAnomaly     0
 	}
 }
 
+// 五诸侯二
 Remove "TAU Gem b"{ParentBody "TAU Gem"}
 Planet	"HIP 34693 b"
 {
 	ParentBody     "HIP 34693"
 	DiscMethod     "RadVel"
 	DiscDate       "2004"
-	Mass           5752.7
+	Class          "GasGiant" // Super-Jupiter or Brown Dwarf
+	Mass           6547.264628
 
 	Orbit
 	{
-		Epoch           2453270.7
-		PeriodDays      305
-		//SemiMajorAxis   0.88
+		PeriodDays      305.5
+		SemiMajorAxis   1.17
 		Eccentricity    0.031
-		ArgOfPericen    137.4
 	}
 }
 
+// 野鸡
 Remove "7 CMa b"{ParentBody "7 CMa"}
 Remove "7 CMa c"{ParentBody "7 CMa"}
 Planet	"NU2 CMa b"
 {
 	ParentBody     "7 CMa"
 	DiscMethod     "RadVel"
-	DiscDate       "2011"
-	Mass           602.28478
+	DiscDate       "2011" // Wittenmyer, Robert A, 2011.12
+	Mass           602.2847801
+	Teff           232
 
 	Orbit
 	{
-		Epoch           2454093
-		PeriodDays      736.9
 		SemiMajorAxis   1.761
 		Eccentricity    0.055
-		ArgOfPericen    116.4
+		PeriodDays      736.9
+		Epoch           2455520
+		ArgOfPericenter 12
+		MeanAnomaly     0
 	}
 }
 
@@ -997,14 +1008,13 @@ Planet	"NU2 CMa c"
 	ParentBody     "7 CMa"
 	DiscMethod     "RadVel"
 	DiscDate       "2019"
-	Mass           193.61838342‬
+	Mass           193.55748342
 
 	Orbit
 	{
-		PeriodDays      988.9
 		SemiMajorAxis   2.143
+		PeriodDays      988.9
 		Eccentricity    0.046
-		ArgOfPericen    226.6
 	}
 }
 
