@@ -222,7 +222,7 @@ Star "HIP 29655 Ab"
 {
 	ParentBody "HIP 29655 A"
 	Class      "M III"
-	Luminosity 2313‬ // 补光
+	Luminosity 2313 // 补光
 
 	Orbit
 	{
