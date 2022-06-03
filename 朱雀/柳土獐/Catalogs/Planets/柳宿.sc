@@ -2,7 +2,7 @@
 Remove "DEL Hya A"{ParentBody "DEL Hya"}
 Remove "DEL Hya B"{ParentBody "DEL Hya"}
 
-// 柳宿四(*)
+// 柳宿四(**)
 Star	"HIP 43234 A"
 {
 	ParentBody     "HIP 43234"
@@ -13,36 +13,29 @@ Star	"HIP 43234 A"
   Teff           9795
   Age            0.35
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          2634.22
-		Eccentricity    0.0253437
-		Inclination     102.025
-		AscendingNode   93.1857
-		ArgOfPericenter -179.323
-		MeanAnomaly     158.637
+		Epoch           2451545
+		Separation      1318.9
+		PositionAngle   146
 	}
 }
 
 Star	"HIP 43234 B"
 {
 	ParentBody     "HIP 43234"
-	Class	         "L6.7 V"
+	Class	         "A6.7 V"
 
-	Orbit
+	/* BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          2634.22
-		Eccentricity    0.0253437
-		Inclination     102.025
-		AscendingNode   93.1857
-		ArgOfPericenter 0.67663
-		MeanAnomaly     158.637
-	}
+		Epoch           2451545
+		Separation      1318.9
+		PositionAngle   146
+	} */
 }
 
 // 柳宿五(重制)
+// NOIRLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HIP&number=43109%20
 Remove "EPS Hya (ABCD)"{ParentBody "EPS Hya"}
 Remove "EPS Hya E"{ParentBody "EPS Hya"}
 Remove "EPS Hya (AB)"{ParentBody "EPS Hya (ABCD)"}
@@ -54,11 +47,9 @@ Remove "EPS Hya D"{ParentBody "EPS Hya (CD)"}
 Barycenter "HIP 43109 ABC"
 {
   ParentBody "HIP 43109"
-  Orbit
+  BinaryOrbit // STF_1273 AB,D Gaia pos.
   {
     Period          10000 // 7378
-    ArgOfPericenter 0
-    MeanAnomaly     0
   }
 }
 
@@ -68,25 +59,23 @@ Star "HIP 43109 D"
   Class      "M2"
   MassSol    0.54
 
-  Orbit
+  /* BinaryOrbit
   {
     Period          10000 // 7378
-    ArgOfPericenter 180
-    MeanAnomaly     0
-  }
+  } */
 }
 
 Barycenter "HIP 43109 AB"
 {
   ParentBody "HIP 43109 ABC"
-  Orbit
+  Orbit // VB6_Izm2019  STF1273AB, Gr.3
   {
-    Period          870
-    //EpochB          2159
-    Eccentricity    0
-    AscendingNode   34.5
-    ArgOfPericenter 0
-    Inclination     33.2
+    Period          371.8983
+    Epoch           2482926.14311736
+    Eccentricity    0.472
+    AscendingNode   162.5
+    ArgOfPericenter 256.9
+    Inclination     46.9
     MeanAnomaly     0
   }
 }
@@ -96,12 +85,12 @@ Barycenter "HIP 43109 C"
   ParentBody "HIP 43109 ABC"
   Orbit
   {
-    Period          870
-    //EpochB          2159
-    Eccentricity    0
-    AscendingNode   34.5
-    ArgOfPericenter 180
-    Inclination     33.2
+		Period          371.8983
+    Epoch           2482926.14311736
+    Eccentricity    0.472
+    AscendingNode   162.5
+    ArgOfPericenter 76.9
+    Inclination     46.9
     MeanAnomaly     0
   }
 }
@@ -150,12 +139,10 @@ Star "HIP 43109 Ca"
   Class      "F5"
   MassSol    1.21
 
-  Orbit
+  Orbit // SB9_533 1926ApJ....64..172S
   {
     PeriodDays      9.9047
     Eccentricity    0.62
-    Inclination     0
-    AscendingNode   0
     Epoch           2423800.008
     ArgOfPericenter 297.6
     MeanAnomaly     0
@@ -172,19 +159,17 @@ Star "HIP 43109 Cb"
   {
     PeriodDays      9.9047
     Eccentricity    0.62
-    Inclination     0
-    AscendingNode   0
     Epoch           2423800.008
     ArgOfPericenter 117.6
     MeanAnomaly     0
   }
 }
 
-// 柳宿八(*)
+// 柳宿八(SB**)
 Star	"HIP 45336 A"
 {
 	ParentBody     "HIP 45336"
-	Class	         "B9.5 V"
+	Class	         "B9.5V"
   MassSol        2.52
   Luminosity     52
   Teff           10099
@@ -221,7 +206,7 @@ Star	"HIP 45336 B"
 	}
 }
 
-// 酒旗三(*)
+// 酒旗三(SB**)
 Star	"HIP 46454 A"
 {
 	ParentBody     "HIP 46454"

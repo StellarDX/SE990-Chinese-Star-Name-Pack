@@ -1,9 +1,9 @@
 Remove "PSI Leo"
-Star "酒旗一/PSI Leo/16 Leo/BD+14°2136/FK5 1252/HD 84194/HIP 47723/HR 3866/SAO 98733"
+Star "酒旗一/PSI Leo/16 Leo/BD+14 2136/FK5 1252/HD 84194/HIP 47723/HR 3866/SAO 98733"
 {
 	/*Observation data*/
-	RA      9 43 43.92
-	Dec     14 1 17.9
+	RA      9 43 43.5
+	Dec     14 1 20.2
 	AppMagn 5.38
 	/*Characteristics*/
 	Class   "M2IIIab"
@@ -16,11 +16,11 @@ Star "酒旗一/PSI Leo/16 Leo/BD+14°2136/FK5 1252/HD 84194/HIP 47723/HR 3866/S
 }
 
 Remove "KSI Leo"
-Star "酒旗二/KSI Leo/5 Leo/BD+11°2053/HD 82395/HIP 46771/HR 3782/SAO 98627"
+Star "酒旗二/KSI Leo/5 Leo/BD+11 2053/HD 82395/HIP 46771/HR 3782/SAO 98627"
 {
 	/*Observation data*/
-	RA      9 31 56.61
-	Dec     11 17 57.6
+	RA      9 31 56.12
+	Dec     11 17 58.8
 	AppMagn 5.1437
 	/*Characteristics*/
 	Class   "K0III"
@@ -36,11 +36,11 @@ Star "酒旗二/KSI Leo/5 Leo/BD+11°2053/HD 82395/HIP 46771/HR 3782/SAO 98627"
 }
 
 Remove "OME Leo"
-StarBarycenter "酒旗三/OME Leo/2 Leo/BD+09°2188/HD 81858/HIP 46454/HR 3754/SAO 117717"
+StarBarycenter "酒旗三/OME Leo/2 Leo/BD+09 2188/HD 81858/HIP 46454/HR 3754/SAO 117717"
 {
 	/*Observation data*/
-	RA      9 28 27.46
-	Dec     9 3 24.5
+	RA      9 28 26.97
+	Dec     9 3 25
 	AppMagn 6
 	/*Characteristics*/
 	Class   "G1V"
