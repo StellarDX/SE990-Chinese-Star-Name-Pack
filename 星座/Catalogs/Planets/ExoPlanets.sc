@@ -1080,6 +1080,7 @@ Planet	"GAM Leo c"
 	}
 }
 
+// 张宿一
 Planet	"UPS1 Hya b"
 {
 	ParentBody     "UPS1 Hya"
@@ -1088,8 +1089,8 @@ Planet	"UPS1 Hya b"
 
 	Orbit
 	{
-		PeriodDays      1500
 		SemiMajorAxis   3.9
+		PeriodDays      1500
 		Eccentricity    0.57
 	}
 }

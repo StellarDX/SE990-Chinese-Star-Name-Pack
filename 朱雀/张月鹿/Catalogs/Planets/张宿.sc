@@ -1,4 +1,4 @@
-// 张宿二
+// 张宿二(SB**)
 Remove "LAM Hya A"{ParentBody "LAM Hya"}
 Remove "LAM Hya B"{ParentBody "LAM Hya"}
 Star "HIP 49841 1"
@@ -26,8 +26,7 @@ Star "HIP 49841 1"
 Star "HIP 49841 B"
 {
   ParentBody "HIP 49841"
-  Class      ""	//unknown, spectroscopic binary
-  MassSol    1
+  Class      "G3.7 V"	//unknown, spectroscopic binary
 
   Orbit
   {
@@ -55,13 +54,12 @@ Star	"HIP 52085 A"
 
 	Orbit
 	{
-		RefPlane        "Equator"
-		Period          0.0312973
-		Eccentricity    0
-		Inclination     51.1718
-		AscendingNode   -136.278
-		ArgOfPericenter 13.4422
-		MeanAnomaly     -44.6813
+		PeriodDays      1200
+		Eccentricity    0.1
+		Epoch           2420760
+		ArgOfPericenter 90
+		MeanAnomaly     0
+    //SemiAmplitude   4
 	}
 }
 
@@ -72,12 +70,10 @@ Star	"HIP 52085 B"
 
 	Orbit
 	{
-		RefPlane        "Equator"
-		Period          0.0312973
-		Eccentricity    0
-		Inclination     51.1718
-		AscendingNode   -136.278
-		ArgOfPericenter 193.442
-		MeanAnomaly     -44.6813
+    PeriodDays      1200
+		Eccentricity    0.1
+		Epoch           2420760
+		ArgOfPericenter 270
+		MeanAnomaly     0
 	}
 }
