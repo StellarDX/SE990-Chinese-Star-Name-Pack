@@ -1018,6 +1018,7 @@ Planet	"NU2 CMa c"
 	}
 }
 
+// 星宿五
 Planet	"27 Hya Ab"
 {
 	ParentBody     "27 Hya"
@@ -1030,6 +1031,7 @@ Planet	"27 Hya Ab"
 	}
 }
 
+// 轩辕十
 Remove "MU Leo b"{ParentBody "MU Leo"}
 Planet	"HIP 48455 b"
 {
@@ -1040,31 +1042,28 @@ Planet	"HIP 48455 b"
 
 	Orbit
 	{
-		Epoch           2452921
-		PeriodDays      357.8
 		SemiMajorAxis   1.1
+		PeriodDays      357.8
 		Eccentricity    0.09
-		ArgOfPericen    227.1
 	}
 }
 
+// 轩辕十二
+Remove "GAM 1 Leo b"{ParentBody "GAM1 Leo"}
 Planet	"GAM Leo b"
 {
 	ParentBody     "GAM1 Leo A"
 	DiscMethod     "RadVel"
-	DiscDate       "2009"
+	DiscDate       "2009" // Inwoo Han et al., South Korea, 2009.11.06
 	Mass           2790.5331764‬
 
 	Orbit
 	{
-		Epoch           2451236
-		PeriodDays      429
-		SemiMajorAxis   1.19
 		PericenterDist  1.02
 		//aphelion distance 1.36
+		SemiMajorAxis   1.19
 		Eccentricity    0.14
-		Inclination     172.1
-		ArgOfPericen    206.7
+		PeriodDays      429
 	}
 }
 
@@ -1075,8 +1074,8 @@ Planet	"GAM Leo c"
 
 	Orbit
 	{
-		PeriodDays      1340
 		SemiMajorAxis   2.6
+		PeriodDays      1340
 		Eccentricity    0.13
 	}
 }

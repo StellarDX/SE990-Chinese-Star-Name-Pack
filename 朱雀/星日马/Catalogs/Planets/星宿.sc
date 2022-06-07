@@ -1,4 +1,4 @@
-// 星宿二
+// 星宿二(SB**)
 Remove "TAU1 Hya A"{ParentBody "TAU1 Hya"}
 Remove "TAU1 Hya B"{ParentBody "TAU1 Hya"}
 Remove "TAU1 Hya Aa"{ParentBody "TAU1 Hya A"}
@@ -6,11 +6,11 @@ Remove "TAU1 Hya Ab"{ParentBody "TAU1 Hya A"}
 Barycenter "HIP 46509 A"
 {
   ParentBody "HIP 46509"
-  Orbit
+  BinaryOrbit
   {
-    Period          26087
-    ArgOfPericenter 0
-    MeanAnomaly     0
+    Epoch           2455927.43978347
+    Separation      1120
+    PositionAngle   4
   }
 }
 
@@ -41,6 +41,7 @@ Star "HIP 46509 Ab"
   ParentBody "HIP 46509 A"
   Class      ""
   MassSol    0.35 // Resolved Aa,Ab at 0.342"/96.7deg in 2015/dH=4.7mag mass(Ab)~0.35 Msun.
+
   Orbit
   {
     PeriodDays      2807
@@ -60,15 +61,15 @@ Star "HIP 46509 B"
   Luminosity 0.435
   Teff       5197
 
-  Orbit
+  /* BinaryOrbit
   {
-    Period          26087
-    ArgOfPericenter 180
-    MeanAnomaly     0
-  }
+    Epoch           2455927.43978347
+    Separation      1120
+    PositionAngle   4
+  } */
 }
 
-// 星宿三(*)
+// 星宿三(**)
 Star	"HIP 46776 A"
 {
 	ParentBody     "HIP 46776"
@@ -106,12 +107,12 @@ Star	"HIP 46776 B"
 	}
 }
 
-// 星宿五
+// 星宿五(***)
 Remove "27 Hya (BC)"{ParentBody "27 Hya"}
 Remove "27 Hya A"{ParentBody "27 Hya"}
 Remove "27 Hya B"{ParentBody "27 Hya (BC)"}
 Remove "27 Hya C"{ParentBody "27 Hya (BC)"}
-Star "星宿五/27 Hya/BD−08°2643/HD 80586/HIP 45811/HR 3709/SAO 136768"
+Star "星宿五/27 Hya/BD-08 2643/HD 80586/HIP 45811/HR 3709/SAO 136768"
 {
   ParentBody "CCDM J09204-0934"
   Class      "K0III"
@@ -122,26 +123,22 @@ Star "星宿五/27 Hya/BD−08°2643/HD 80586/HIP 45811/HR 3709/SAO 136768"
   FeH        -0.07
   Age        1.91
 
-  Orbit
+  /* BinaryOrbit
   {
-    Period          866910
-    ArgOfPericenter 0
-    MeanAnomaly     0
-  }
+    Separation      15578.8
+  } */
 }
 
 Barycenter "CCDM J09204-0934 BC"
 {
   ParentBody "CCDM J09204-0934"
-  Orbit
+  BinaryOrbit
   {
-    Period          866910
-    ArgOfPericenter 180
-    MeanAnomaly     0
+    Separation      15578.8
   }
 }
 
-Star "BD−09°2801/HD 80550 B/HIP 45802/SAO 136767"
+Star "BD-09 2801/HD 80550/HIP 45802/SAO 136767"
 {
   ParentBody "CCDM J09204-0934 BC"
   Class      "F4V"
@@ -150,11 +147,9 @@ Star "BD−09°2801/HD 80550 B/HIP 45802/SAO 136767"
   Luminosity 5.885
   Teff       6664
 
-  Orbit
+  BinaryOrbit
   {
-    Period          10352
-    ArgOfPericenter 0
-    MeanAnomaly     0
+    Separation      625.6
   }
 }
 
@@ -167,15 +162,13 @@ Star "TYC 5463-1518-1"
   Luminosity 0.227
   Teff       4685
 
-  Orbit
+  /* BinaryOrbit
   {
-    Period          10352
-    ArgOfPericenter 180
-    MeanAnomaly     0
-  }
+    Separation      625.6
+  } */
 }
 
-// 星宿六(*)
+// 星宿六(**)
 Star	"HIP 45751 A"
 {
 	ParentBody     "HIP 45751"
@@ -187,15 +180,9 @@ Star	"HIP 45751 A"
   FeH            -0.13
   Age            0.51
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          336.89
-		Eccentricity    0.0350759
-		Inclination     -95.2635
-		AscendingNode   119.485
-		ArgOfPericenter -70.9532
-		MeanAnomaly     19.1161
+    Separation      326.4
 	}
 }
 
@@ -204,22 +191,16 @@ Star	"HIP 45751 B"
 	ParentBody     "HIP 45751"
 	Class	         "A4 V"
 
-	Orbit
+  /* BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          336.89
-		Eccentricity    0.0350759
-		Inclination     -95.2635
-		AscendingNode   119.485
-		ArgOfPericenter 109.047
-		MeanAnomaly     19.1161
-	}
+    Separation      326.4
+	} */
 }
 
-// 轩辕一
+// 轩辕一(SB**)
 Remove "10 UMa A"{ParentBody "10 UMa"}
 Remove "10 UMa B"{ParentBody "10 UMa"}
-Star "HIP 44248 1"
+Star "HIP 44248 A"
 {
 	ParentBody "HIP 44248"
 	Class      "F3V"
@@ -239,7 +220,7 @@ Star "HIP 44248 1"
 	}
 }
 
-Star "HIP 44248 2"
+Star "HIP 44248 B"
 {
 	ParentBody "HIP 44248"
 	Class      "K0V"
@@ -259,17 +240,15 @@ Star "HIP 44248 2"
 	}
 }
 
-// 轩辕三
+// 轩辕三(PM**)
 Remove "38 Lyn A"{ParentBody "38 Lyn"}
 Remove "38 Lyn B"{ParentBody "38 Lyn"}
 Barycenter "HIP 45688 AB"
 {
   ParentBody "HIP 45688"
-  Orbit
+  BinaryOrbit
   {
-    Period          97892
-    ArgOfPericenter 0
-    MeanAnomaly     0
+    Separation      3537.36
   }
 }
 
@@ -287,7 +266,7 @@ Star "HIP 45688 A"
 
 	Orbit
 	{
-		Period          429.309
+		Period          429
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}
@@ -298,7 +277,7 @@ Barycenter "HIP 45688 B"
   ParentBody "HIP 45688 AB"
   Orbit
   {
-    Period          429.309
+    Period          429
 		ArgOfPericenter 180
 		MeanAnomaly     0
   }
@@ -311,12 +290,11 @@ Star "HIP 45688 Ba"
 	MassSol    1.3
   RadSol     2.55
   Luminosity 5
-  Teff       5409
   Oblateness 0
 
 	Orbit
 	{
-    Period          16.759
+    Period          2.1
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}
@@ -327,10 +305,11 @@ Star "HIP 45688 Bb"
 	ParentBody "HIP 45688 B"
 	Class      ""
 	MassSol    0.9
+  Teff       5409 // A型恒星不可能才这点温度
 
 	Orbit
 	{
-    Period          16.759
+    Period          2.1
 		ArgOfPericenter 180
 		MeanAnomaly     0
 	}
@@ -341,16 +320,15 @@ Star "HIP 45688 E"
 	ParentBody "HIP 45688"
 	Class      "M2"
 	MassSol    0.31
+  Teff       3816
 
-	Orbit
-	{
-    Period          97892
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
+  /* BinaryOrbit
+  {
+    Separation      3537.36
+  } */
 }
 
-// 轩辕七
+// 轩辕七(**)
 Remove "KAP Leo A"{ParentBody "Al Minliar al Asad"}
 Remove "KAP Leo B"{ParentBody "Al Minliar al Asad"}
 Star "HIP 46146 A"
@@ -364,26 +342,21 @@ Star "HIP 46146 A"
   FeH        0.01
   Age        4.33
 
-	Orbit
+	BinaryOrbit
 	{
-		Period          1040
-		ArgOfPericenter 0
-		MeanAnomaly     0
+    Separation      129.57
 	}
 }
 
 Star "HIP 46146 B"
 {
 	ParentBody "HIP 46146"
-	Class      ""
-	MassSol    1.4 // ?
+	Class      "M2.5 V"
 
-	Orbit
+  /* BinaryOrbit
 	{
-		Period          1040
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
+    Separation      129.57
+	} */
 }
 
 // 轩辕十二(未作修改)
@@ -392,12 +365,12 @@ Remove "Algieba B"{ParentBody "GAM Leo"}
 Star	"GAM1 Leo A/HD 89484 A/HR 4057 A/SAO 81298 A/LTT 12764"
 {
 	ParentBody "HIP 50583"
-	Class  "K1III"
-	MassSol 1.23
-	RadSol  31.88
+	Class      "K1III"
+	MassSol    1.23
+	RadSol     31.88
 	Luminosity 320
-	Teff    4470
-	FeH    -0.49
+	Teff       4470
+	FeH        -0.49
 
 	Orbit
 	{
@@ -405,7 +378,7 @@ Star	"GAM1 Leo A/HD 89484 A/HR 4057 A/SAO 81298 A/LTT 12764"
 		Eccentricity    0.845
 		Inclination     76
 		AscendingNode   143.4
-		Epoch           2401671.3
+		Epoch           2331489.42265879
     ArgOfPericenter 180
 		MeanAnomaly     0
 	}
@@ -414,11 +387,11 @@ Star	"GAM1 Leo A/HD 89484 A/HR 4057 A/SAO 81298 A/LTT 12764"
 Star	"GAM2 Leo B/HD 89485 B/HR 4058 B/SAO 81299 B/LTT 12765"
 {
 	ParentBody "HIP 50583"
-	Class  "G7IIIb"
-	RadSol  10
+	Class      "G7IIIb"
+	RadSol     10
 	Luminosity 40
-	Teff    4980
-	FeH    -0.52
+	Teff       4980
+	FeH        -0.52
 
 	Orbit
 	{
@@ -426,22 +399,22 @@ Star	"GAM2 Leo B/HD 89485 B/HR 4058 B/SAO 81299 B/LTT 12765"
 		Eccentricity    0.845
 		Inclination     76
 		AscendingNode   143.4
-		Epoch           2401671.3
+		Epoch           2331489.42265879
 		ArgOfPericenter 0
 		MeanAnomaly     0
 	}
 }
 
 // 轩辕十三(*)
-// [Wikipedia]Eta Leonis is apparently a multiple star system/but the number of components and their separation is uncertain.
-// 这就意味着轩辕十三有很多的伴星，但是都没准确的数据
+// [Wikipedia]Eta Leonis is apparently a multiple star system, but the number of components and their separation is uncertain.
+// 这就意味着轩辕十三有很多的伴星，但是具体不知道是几星系统，也没有准确的数据
 // 所有伴星均为系统生成
 Remove "ETA Leo A"{ParentBody "ETA Leo"}
 Remove "ETA Leo B"{ParentBody "ETA Leo"}
 Barycenter	"HIP 49583 A"
 {
 	ParentBody     "HIP 49583"
-	Orbit
+	BinaryOrbit
 	{
 		RefPlane        "Equator"
 		Period          17.1814
@@ -500,7 +473,7 @@ Star	"HIP 49583 B"
 	Class	         ""
 	MassSol        11.3779
 
-	Orbit
+	/* Orbit
 	{
 		RefPlane        "Equator"
 		Period          17.1814
@@ -509,31 +482,28 @@ Star	"HIP 49583 B"
 		AscendingNode   80.5229
 		ArgOfPericenter 81.6822
 		MeanAnomaly     41.6529
-	}
+	} */
 }
 
-// 轩辕十四
+// 轩辕十四(PM****)
 Remove "Regulus (AB)"{ParentBody "Regulus"}
 Remove "ALF Leo (CD)"{ParentBody "Regulus"}
 Remove "Regulus A"{ParentBody "Regulus (AB)"}
 Remove "ALF Leo B"{ParentBody "Regulus (AB)"}
 Remove "ALF Leo C"{ParentBody "ALF Leo (CD)"}
 Remove "ALF Leo D"{ParentBody "ALF Leo (CD)"}
-Barycenter "HIP 49669 A/BD+12°2149/HD 87901 A/LTT 12716/SAO 98967/FK5 380/GCTP 2384.00"
+Barycenter "ALF Leo A/BD+12 2149/HD 87901/LTT 12716/SAO 98967/FK5 380/GCTP 2384.00"
 {
 	ParentBody "HIP 49669"
-	Orbit
+	BinaryOrbit
 	{
-		Period          125946
-    //SemiMajorAxis   5000
-		ArgOfPericenter 0
-		MeanAnomaly     0
+    Separation      5000
 	}
 }
 
-Star "HIP 49669 Aa/HD 87901 Aa"
+Star "HD 87901 A"
 {
-	ParentBody "HIP 49669 A"
+	ParentBody "HD 87901"
 	Class      "B8IVn"
 	MassSol    3.8
   RadSol     4.35
@@ -554,9 +524,9 @@ Star "HIP 49669 Aa/HD 87901 Aa"
 	}
 }
 
-Star "HIP 49669 Ab/HD 87901 Ab"
+Star "HD 87901 B"
 {
-	ParentBody "HIP 49669 A"
+	ParentBody "HD 87901"
 	Class      "WD" // Gies et al.: Ab is lilkely WD because Regulus was UR by occultations.
 	MassSol    0.3
 
@@ -573,13 +543,10 @@ Star "HIP 49669 Ab/HD 87901 Ab"
 Barycenter "HIP 49669 BC/BD+12°2147/HD 87884 B/LTT 12714/SAO 98966"
 {
 	ParentBody "HIP 49669"
-	Orbit
+  /* BinaryOrbit
 	{
-		Period          125946
-    //SemiMajorAxis   5000
-		ArgOfPericenter 180
-		MeanAnomaly     0
-	}
+    Separation      5000
+	} */
 }
 
 Star "HIP 49669 B"
@@ -616,10 +583,10 @@ Star "HIP 49669 C"
 	}
 }
 
-// 轩辕十五
+// 轩辕十五(SB**) (B是光学伴星)
 Remove "Subra A"{ParentBody "Subra"}
 Remove "Subra B"{ParentBody "Subra"}
-Star "HIP 47508 A"
+Star "HD 83808"
 {
 	ParentBody "HIP 47508"
 	Class      "F8III" // G0III
@@ -641,7 +608,7 @@ Star "HIP 47508 A"
 	}
 }
 
-Star "HIP 47508 B"
+Star "HD 83809"
 {
 	ParentBody "HIP 47508"
 	Class      "A7m"
@@ -662,7 +629,7 @@ Star "HIP 47508 B"
 	}
 }
 
-// 轩辕十六(*)
+// 轩辕十六(BSG**)
 Remove "RHO Leo A"{ParentBody "RHO Leo"}
 Remove "RHO Leo B"{ParentBody "RHO Leo"}
 Star "HIP 51624 A"
@@ -678,55 +645,37 @@ Star "HIP 51624 A"
   Age        0.0045
   Oblateness 0
 
-  Orbit
+  BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          0.0285685
-		Eccentricity    0
-		Inclination     96.6783
-		AscendingNode   -30.2575
-		ArgOfPericenter 10.0899
-		MeanAnomaly     142.858
+    Separation      17.3294
 	}
 }
 
-Star "HIP 51624 B"
+Star "HIP 51624 B(?)"
 {
 	ParentBody     "HIP 51624"
 	Class          ""
-	MassSol         14.9376
+	MassSol        14.9376
 
-  Orbit
+  /* BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          0.0285685
-		Eccentricity    0
-		Inclination     96.6783
-		AscendingNode   -30.2575
-		ArgOfPericenter 190.09
-		MeanAnomaly     142.858
-	}
+    Separation      17.3294
+	} */
 }
 
-// 轩辕十七(*)
+// 御女(PM**)
 Star	"HIP 49637 A"
 {
 	ParentBody     "HIP 49637"
-	Class	         "K3.5 IIIb Fe-1:"
+	Class	         "K3.5IIIbFe-1:"
   RadSol         30.4
   LumBol         227
   Teff           4074
   FeH            -0.02
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          0.841916
-		Eccentricity    0.647482
-		Inclination     -123.146
-		AscendingNode   159.226
-		ArgOfPericenter -156.585
-		MeanAnomaly     56.4486
+    Separation      387.1
 	}
 }
 
@@ -735,14 +684,8 @@ Star	"HIP 49637 B"
 	ParentBody     "HIP 49637"
 	Class	         "F7 V"
 
-	Orbit
+  /* BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          0.841916
-		Eccentricity    0.647482
-		Inclination     -123.146
-		AscendingNode   159.226
-		ArgOfPericenter 23.4155
-		MeanAnomaly     56.4486
-	}
+    Separation      387.1
+	} */
 }
