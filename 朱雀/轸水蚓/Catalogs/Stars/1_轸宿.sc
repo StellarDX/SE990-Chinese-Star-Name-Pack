@@ -2,8 +2,8 @@ Remove "GAM Crv"
 StarBarycenter "轸宿一/GAM Crv/4 Crv/BD–16 3424/FK5 457/HD 106625/HIP 59803/HR 4662/SAO 157176"
 {
 	/*Observation data*/
-	RA      12 15 48.23
-	Dec     -17 32 30.8
+	RA      12 15 48.6
+	Dec     -17 32 38.3
 	AppMagn 2.55
 	/*Characteristics*/
 	Class   "B8III"
@@ -13,11 +13,11 @@ StarBarycenter "轸宿一/GAM Crv/4 Crv/BD–16 3424/FK5 457/HD 106625/HIP 59803
 }
 
 Remove "EPS Crv"
-Star "轸宿二/EPS Crv/2 Crv/BD−21° 3487/FK5 453/HD 105707/HIP 59316/HR 4630/SAO 180531"
+Star "轸宿二/EPS Crv/2 Crv/BD-21 3487/FK5 453/HD 105707/HIP 59316/HR 4630/SAO 180531"
 {
 	/*Observation data*/
-	RA      12 10 7.42
-	Dec     -22 37 11.1
+	RA      12 10 7.78
+	Dec     -22 37 20.2
 	AppMagn 3.024
 	/*Characteristics*/
 	Class   "K2III"
@@ -35,8 +35,8 @@ Remove "DEL Crv"
 Star "轸宿三/DEL Crv/7 Crv/BD−15 3482/FK5 465/HD 108767/HIP 60965/HR 4757/SAO 157323"
 {
 	/*Observation data*/
-	RA      12 29 51.68
-	Dec     -16 30 57.5
+	RA      12 29 52.13
+	Dec     -16 31 4.8
 	AppMagn 2.962
 	/*Characteristics*/
 	Class   "A0IV(n)kB9"
@@ -54,8 +54,8 @@ Remove "BET Crv"
 Star "轸宿四/Kraz/BET Crv/9 Crv/BD−22 3401/CD−22 3401/CD−22 9505/CPD−22 5388/FK5 471/GC 17133/HD 109379/HIP 61359/HR 4786/PPM 260512/SAO 180915"
 {
 	/*Observation data*/
-	RA      12 34 23.25
-	Dec     -23 23 49.1
+	RA      12 34 23.76
+	Dec     -23 23 58.3
 	AppMagn 2.647
 	/*Characteristics*/
 	Class   "G5II"
