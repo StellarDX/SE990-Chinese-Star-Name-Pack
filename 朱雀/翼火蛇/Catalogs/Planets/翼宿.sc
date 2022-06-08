@@ -1,4 +1,4 @@
-// 翼宿二
+// 翼宿二(PM**)
 Remove "GAM Crt A"{ParentBody "GAM Crt"}
 Remove "GAM Crt B"{ParentBody "GAM Crt"}
 Star "HIP 55705 1"
@@ -12,12 +12,11 @@ Star "HIP 55705 1"
   FeH        -0.01
   Age        0.757
 
-  Orbit
+  BinaryOrbit
   {
-    Period          974.446992
-    //SemiMajorAxis   125.6
-    ArgOfPericenter 0
-    MeanAnomaly     0
+    Epoch           2455196.95538591
+    Separation      125.6
+    PositionAngle   93.1
   }
 }
 
@@ -27,36 +26,31 @@ Star "HIP 55705 2"
   Class      ""
   MassSol    0.75
 
-  Orbit
+  /* BinaryOrbit
   {
-    Period          974.446992
-    //SemiMajorAxis   125.6
-    ArgOfPericenter 180
-    MeanAnomaly     0
-  }
+    Epoch           2455196.95538591
+    Separation      125.6
+    PositionAngle   93.1
+  } */
 }
 
-// 翼宿三(*)
+// 翼宿三(**)
 Star	"HIP 57283 A"
 {
 	ParentBody     "HIP 57283"
-	Class	         "G8 III"
+	Class	         "G8III"
   RadSol         13
   Luminosity     157
   Teff           4992
   FeH            0.03
   Age            0.251
 
-	Orbit
-	{
-		RefPlane        "Equator"
-		Period          3.20104
-		Eccentricity    0.123368
-		Inclination     -139.273
-		AscendingNode   94.3431
-		ArgOfPericenter -69.2195
-		MeanAnomaly     116.092
-	}
+  BinaryOrbit
+  {
+    Epoch           2448257.35360907
+    Separation      19.9996
+    PositionAngle   22
+  }
 }
 
 Star	"HIP 57283 B"
@@ -64,19 +58,15 @@ Star	"HIP 57283 B"
 	ParentBody     "HIP 57283"
 	Class	         "B9.3 V"
 
-	Orbit
-	{
-		RefPlane        "Equator"
-		Period          3.20104
-		Eccentricity    0.123368
-		Inclination     -139.273
-		AscendingNode   94.3431
-		ArgOfPericenter 110.78
-		MeanAnomaly     116.092
-	}
+  /* BinaryOrbit
+  {
+    Epoch           2448257.35360907
+    Separation      19.9996
+    PositionAngle   22
+  } */
 }
 
-// 翼宿四(*)
+// 翼宿四(SB**)
 Star	"HIP 55598 A"
 {
 	ParentBody     "HIP 55598"
@@ -113,7 +103,7 @@ Star	"HIP 55598 B"
 	}
 }
 
-// 翼宿八
+// 翼宿八(PM**)
 Star	"HIP 56802 A"
 {
 	ParentBody     "HIP 56802"
@@ -123,13 +113,12 @@ Star	"HIP 56802 A"
   FeH            -0.15
   Age            4.45
 
-	Orbit
-	{
-		Period          79000
-    //SemiMajorAxis   25
-		ArgOfPericenter 0
-		MeanAnomaly     0
-	}
+  BinaryOrbit
+  {
+    Epoch           2456657.92418103
+    Separation      25
+    PositionAngle   248
+  }
 }
 
 Star	"HIP 56802 B"
@@ -140,14 +129,13 @@ Star	"HIP 56802 B"
 
   Orbit
 	{
-		Period          79000
-    //SemiMajorAxis   25
-		ArgOfPericenter 180
-		MeanAnomaly     0
+    Epoch           2456657.92418103
+    Separation      25
+    PositionAngle   248
 	}
 }
 
-// 翼宿十六
+// 翼宿十六(SB**)
 Star	"HIP 54682 A"
 {
 	ParentBody     "HIP 54682"
@@ -181,7 +169,7 @@ Star	"HIP 54682 B"
 	}
 }
 
-// 翼宿廿
+// 翼宿廿(**)
 Star	"HIP 54204 A"
 {
 	ParentBody     "HIP 54204"
@@ -199,7 +187,7 @@ Star	"HIP 54204 A"
     Eccentricity    0.349
     Inclination     96.5
     AscendingNode   224
-    //EpochB          1983.455
+    Epoch           2445501.60121927
 		ArgOfPericenter 163
 		MeanAnomaly     0
 	}
@@ -217,7 +205,7 @@ Star	"HIP 54204 B"
     Eccentricity    0.349
     Inclination     96.5
     AscendingNode   224
-    //EpochB          1983.455
+    Epoch           2445501.60121927
 		ArgOfPericenter 343
 		MeanAnomaly     0
 	}
@@ -237,15 +225,9 @@ Star	"HIP 48926 A"
   FeH            -0.2
   Age            0.9
 
-	Orbit
+	BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          14.7676
-		Eccentricity    0.48367
-		Inclination     178.142
-		AscendingNode   84.7566
-		ArgOfPericenter -119.219
-		MeanAnomaly     147.021
+    Separation      1032.3
 	}
 }
 
@@ -254,14 +236,8 @@ Star	"HIP 48926 B"
 	ParentBody     "HIP 48926"
 	Class	         "G1.1 V"
 
-	Orbit
+  BinaryOrbit
 	{
-		RefPlane        "Equator"
-		Period          14.7676
-		Eccentricity    0.48367
-		Inclination     178.142
-		AscendingNode   84.7566
-		ArgOfPericenter 60.7809
-		MeanAnomaly     147.021
+    Separation      1032.3
 	}
 }
