@@ -10,7 +10,7 @@
 有些多星系统由于伴星数据未知，这里使用SE定向生成添加伴星。
 
 扩展：
- * [增星包(WIP)](https://github.com/StellarDX/SE990-Chinese-Star-Name-Pack-Additional)
+ * [增星包](https://github.com/StellarDX/SE990-Chinese-Star-Name-Pack-Additional)
  * [恒星信息包(TODO)](https://github.com/StellarDX/SE990-Chinese-Information-Pack)
 
 安装方法：
