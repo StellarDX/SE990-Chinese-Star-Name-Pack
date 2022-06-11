@@ -1,12 +1,12 @@
 Remove "TET Dor"
-Star "夹白一/TET Dor/CPD−67° 401/FK5 196/HD 34649/HIP 24372/HR 1744/SAO 249225"
+Star "夹白一/TET Dor/CPD-67 401/FK5 196/HD 34649/HIP 24372/HR 1744/SAO 249225"
 {
 	/*Observation data*/
-	RA      5 13 45.55
-	Dec     -67 11 6.2
+	RA      5 13 42.1
+	Dec     -67 11 6.1
 	AppMagn 4.82
 	/*Characteristics*/
-	Class   "K2III CNIb"
+	Class   "K2IIICNIb"
 	/*Astrometry*/
 	Dist    151
 	AbsMagn -0.56

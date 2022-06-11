@@ -1,9 +1,9 @@
 Remove "SIG Oct"
-Star "南极/South Star/SIG Oct/CPD−89°47/FK5 923/HD 177482/HIP 104382/HR 7228/SAO 258857"
+Star "南极星/South Star/Polaris Australis(M)/SIG Oct/CPD-89 47/FK5 923/HD 177482/HIP 104382/HR 7228/SAO 258857"
 {
 	/*Observation data*/
-	RA      21 8 47.98
-	Dec     -88 57 22.9
+	RA      21 9 28.39
+	Dec     -88 57 6.1
 	AppMagn 5.47
 	/*Characteristics*/
 	Class   "F0III"

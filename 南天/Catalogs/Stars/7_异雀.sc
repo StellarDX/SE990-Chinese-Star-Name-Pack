@@ -2,8 +2,8 @@ Remove "ZET Aps"
 Star "异雀一/ZET Aps/CP-67 3310/FK5 3374/HD 156277/HIP 84969/HR 6417/SAO 253882"
 {
 	/*Observation data*/
-	RA      17 21 59.34
-	Dec     -67 46 14.4
+	RA      17 22 2.87
+	Dec     -67 46 14.5
 	AppMagn 4.78
 	/*Characteristics*/
 	Class   "K2III"
@@ -17,10 +17,10 @@ Star "异雀一/ZET Aps/CP-67 3310/FK5 3374/HD 156277/HIP 84969/HR 6417/SAO 2538
 }
 
 Remove "IOT Aps"
-StarBarycenter "异雀二/IOT Aps/CPD−69 2719/FK5 642/HD 156190/HIP 84979/HR 6411/SAO 257491/WDS J17221−7007"
+StarBarycenter "异雀二/IOT Aps/CPD-69 2719/FK5 642/HD 156190/HIP 84979/HR 6411/SAO 257491/WDS J17221-7007"
 {
 	/*Observation data*/
-	RA      17 22 5.86
+	RA      17 22 9.8
 	Dec     -70 7 23.8
 	AppMagn 5.85
 	/*Characteristics*/
@@ -34,8 +34,8 @@ Remove "BET Aps"
 Star "异雀三/BET Aps/CP-77 1221/FK5 3319/HD 149324/HIP 81852/HR 6163/SAO 257424"
 {
 	/*Observation data*/
-	RA      16 43 2.11
-	Dec     -77 31 8.2
+	RA      16 43 8.14
+	Dec     -77 31 11.5
 	AppMagn 4.24
 	/*Characteristics*/
 	Class   "K0III"
@@ -50,11 +50,11 @@ Star "异雀三/BET Aps/CP-77 1221/FK5 3319/HD 149324/HIP 81852/HR 6163/SAO 2574
 }
 
 Remove "GAM Aps"
-Star "异雀四/GAM Aps/FK5 611/GJ 626.1/HD 147675/HIP 81065/HR 6102/SAO 257407/CPD–78° 1103"
+Star "异雀四/GAM Aps/FK5 611/GJ 626.1/HD 147675/HIP 81065/HR 6102/SAO 257407/CPD-78 1103"
 {
 	/*Observation data*/
-	RA      16 33 26
-	Dec     -78 53 50.4
+	RA      16 33 32.8
+	Dec     -78 53 54.3
 	AppMagn 3.86
 	/*Characteristics*/
 	Class   "G9III"
@@ -70,8 +70,8 @@ Remove "DEL Oct"
 Star "异雀五/DEL Oct/CD-83 189/GC 19349/HIP 70638/HR 5339/HD 124882/NSV 6636/SAO 258698"
 {
 	/*Observation data*/
-	RA      14 26 54.31
-	Dec     -83 40 2.9
+	RA      14 27 3.3
+	Dec     -83 40 16.5
 	AppMagn 4.31
 	/*Characteristics*/
 	Class   "K2III"
@@ -90,8 +90,8 @@ Remove "DEL1 Aps"
 Star "异雀六/DEL1 Aps/HD 145366/HIP 80047/SAO 257380"
 {
 	/*Observation data*/
-	RA      16 20 20.63
-	Dec     -78 41 45.3
+	RA      16 20 27.27
+	Dec     -78 41 50.3
 	AppMagn 4.76
 	/*Characteristics*/
 	Class   "M5IIIb"
@@ -101,11 +101,11 @@ Star "异雀六/DEL1 Aps/HD 145366/HIP 80047/SAO 257380"
 }
 
 Remove "ETA Aps"
-Star "异雀七/ETA Aps/CD−80 706/FK5 3129/HD 123998/HIP 69896/HR 5303/SAO 258693"
+Star "异雀七/ETA Aps/CD-80 706/FK5 3129/HD 123998/HIP 69896/HR 5303/SAO 258693"
 {
 	/*Observation data*/
-	RA      14 18 13.28
-	Dec     -81 0 28.4
+	RA      14 18 19.41
+	Dec     -81 0 42.6
 	AppMagn 4.89
 	/*Characteristics*/
 	Class   "A2MA7-F2"
@@ -121,11 +121,11 @@ Star "异雀七/ETA Aps/CD−80 706/FK5 3129/HD 123998/HIP 69896/HR 5303/SAO 258
 }
 
 Remove "ALF Aps"
-Star "异雀八/ALF Aps/CPD−78°893/FK5 542/HD 129078/HIP 72370/HR 5470/SAO 257193"
+Star "异雀八/ALF Aps/CPD-78 893/FK5 542/HD 129078/HIP 72370/HR 5470/SAO 257193"
 {
 	/*Observation data*/
-	RA      14 47 51.6
-	Dec     -79 2 41.3
+	RA      14 47 57.24
+	Dec     -79 2 53.4
 	AppMagn 3.825
 	/*Characteristics*/
 	Class   "K2.5III"
@@ -140,11 +140,11 @@ Star "异雀八/ALF Aps/CPD−78°893/FK5 542/HD 129078/HIP 72370/HR 5470/SAO 25
 }
 
 Remove "EPS Aps"
-Star "异雀九/EPS Aps/CD–79 559/HD 124771/HIP 70248/HR 5336/SAO 257142"
+Star "异雀九/EPS Aps/CD-79 559/HD 124771/HIP 70248/HR 5336/SAO 257142"
 {
 	/*Observation data*/
-	RA      14 22 23.02
-	Dec     -80 6 32.2
+	RA      14 22 28.71
+	Dec     -80 6 46.1
 	AppMagn 5.06
 	/*Characteristics*/
 	Class   "B3V"

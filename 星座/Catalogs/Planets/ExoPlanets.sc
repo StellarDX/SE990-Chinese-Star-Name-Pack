@@ -1095,13 +1095,15 @@ Planet	"UPS1 Hya b"
 	}
 }
 
+// 蛇腹四
 Remove "HD 11977 b"{ParentBody "HD 11977"}
 Planet	"ETA2 Hyi b"
 {
 	ParentBody     "ETA2 Hyi"
 	DiscMethod     "RadVel"
-	DiscDate       "2005"
+	DiscDate       "2005" // Setiawan et al., Chile, La Silla, 2005.05.25
 	Mass           2078.5976052‬
+
 	Orbit
 	{
 		SemiMajorAxis   1.93
@@ -1109,13 +1111,17 @@ Planet	"ETA2 Hyi b"
 		PeriodDays      711
 		Epoch           2451420
 		ArgOfPericen    351.5
-		SemiAlplitude   105
+		MeanAnomaly     0
+		//SemiAlplitude   105
 	}
 }
 
+// 蛇尾三
 Planet	"NU Oct b"
 {
 	ParentBody     "HIP 107089 1" // ?
+	DiscDate       "2009"
+	Class          "GasGiant"
 	Mass           669.314785442
 
 	Orbit

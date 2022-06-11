@@ -2,8 +2,8 @@ Remove "BET Mus"
 StarBarycenter "蜜蜂一/BET Mus/CPD-67 2064/HD 110879/HIP 62322/HR 4844/SAO 252019"
 {
 	/*Observation data*/
-	RA      12 46 16.78
-	Dec     -68 6 28.3
+	RA      12 46 18.18
+	Dec     -68 6 46.1
 	AppMagn 3.5
 	/*Characteristics*/
 	Class   "B2V"
@@ -13,11 +13,11 @@ StarBarycenter "蜜蜂一/BET Mus/CPD-67 2064/HD 110879/HIP 62322/HR 4844/SAO 25
 }
 
 Remove "ALF Mus"
-Star "蜜蜂三/ALF Mus/CD−68 1104/CPD−68 1702/FK5 474/HD 109668/HIP 61585/HR 4798/SAO 251974"
+Star "蜜蜂三/ALF Mus/CD-68 1104/CPD-68 1702/FK5 474/HD 109668/HIP 61585/HR 4798/SAO 251974"
 {
 	/*Observation data*/
-	RA      12 37 10.87
-	Dec     -69 8 7.7
+	RA      12 37 12.19
+	Dec     -69 8 25.9
 	AppMagn 2.69
 	/*Characteristics*/
 	Class   "B2IV"

@@ -1,9 +1,9 @@
 Remove "ALF Hyi"
-Star "蛇首一/ALF Hyi/CD−62° 71/GJ 83/HIP 9236/HR 591/SAO 248474"
+Star "蛇首一/ALF Hyi/CD-62 71/GJ 83/HIP 9236/HR 591/SAO 248474"
 {
 	/*Observation data*/
-	RA      1 58 46.46
-	Dec     -61 34 16.5
+	RA      1 58 44.66
+	Dec     -61 34 4.1
 	AppMagn 2.9
 	/*Characteristics*/
 	Class   "F0IV"
@@ -20,11 +20,11 @@ Star "蛇首一/ALF Hyi/CD−62° 71/GJ 83/HIP 9236/HR 591/SAO 248474"
 }
 
 Remove "BET Ret"
-StarBarycenter "蛇首二/BET Ret/CPD−65° 263/FK5 141/HD 23817/HIP 17440/HR 1175/SAO 248877/WDS J03442-6448A"
+StarBarycenter "蛇首二/BET Ret/CPD-65 263/FK5 141/HD 23817/HIP 17440/HR 1175/SAO 248877/WDS J03442-6448A"
 {
 	/*Observation data*/
-	RA      3 44 13.05
-	Dec     -64 48 26.9
+	RA      3 44 10.2
+	Dec     -64 48 20.6
 	AppMagn 3.8
 	/*Characteristics*/
 	Class   "K2IIIb"

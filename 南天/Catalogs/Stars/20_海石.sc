@@ -1,9 +1,9 @@
 Remove "EPS Car"
-StarBarycenter "海石一/Avior/EPS Car/CD−59°1032/FK5 315/HIP 41037/HR 3307/SAO 235932"
+StarBarycenter "海石一/Avior/EPS Car/CD-59 1032/FK5 315/HIP 41037/HR 3307/SAO 235932"
 {
 	/*Observation data*/
-	RA      8 22 30.74
-	Dec     -59 30 34
+	RA      8 22 28.88
+	Dec     -59 30 47.1
 	AppMagn 2.15
 	/*Characteristics*/
 	Class   "K3:III"
@@ -13,11 +13,11 @@ StarBarycenter "海石一/Avior/EPS Car/CD−59°1032/FK5 315/HIP 41037/HR 3307/
 }
 
 Remove "IOT Car"
-Star "海石二/Aspidiske/IOT Car/HR 3699/HD 80404/SAO 236808/FK5 351/CD−58°2529/CPD−58°1465/NSV 04444/HIP 45556"
+Star "海石二/Aspidiske/IOT Car/HR 3699/HD 80404/SAO 236808/FK5 351/CD-58 2529/CPD-58 1465/NSV 04444/HIP 45556"
 {
 	/*Observation data*/
-	RA      9 17 5.37
-	Dec     -59 16 31.1
+	RA      9 17 4.01
+	Dec     -59 16 46.6
 	AppMagn 2.21
 	/*Characteristics*/
 	Class   "A9Ib"
@@ -34,11 +34,11 @@ Star "海石二/Aspidiske/IOT Car/HR 3699/HD 80404/SAO 236808/FK5 351/CD−58°2
 }
 
 Remove "HD 83183"
-Star "海石三/h Car/CPD−58°1576/GC 13246/HD 83183/HIP 46974/HR 3825/SAO 237117"
+Star "海石三/h Car/CPD-58 1576/GC 13246/HD 83183/HIP 46974/HR 3825/SAO 237117"
 {
 	/*Observation data*/
-	RA      9 34 26.62
-	Dec     -59 13 47.2
+	RA      9 34 25.44
+	Dec     -59 14 3.4
 	AppMagn 4.08
 	/*Characteristics*/
 	Class   "B5II"
@@ -54,11 +54,11 @@ Star "海石三/h Car/CPD−58°1576/GC 13246/HD 83183/HIP 46974/HR 3825/SAO 237
 }
 
 Remove "HD 84810"
-Star "海石四/l Car/2MASS J09451481-6230284/CD–61 2349/FK5 1254/HD 84810/HIP 47854/HR 3884/IRAS 09438-6216/SAO 250683"
+Star "海石四/l Car/2MASS J09451481-6230284/CD-61 2349/FK5 1254/HD 84810/HIP 47854/HR 3884/IRAS 09438-6216/SAO 250683"
 {
 	/*Observation data*/
-	RA      9 45 14.77
-	Dec     -62 30 28.6
+	RA      9 45 13.58
+	Dec     -62 30 45.5
 	AppMagn 3.35 // 4.06
 	/*Characteristics*/
 	Class   "F6Ib" // K0Ib
@@ -66,7 +66,7 @@ Star "海石四/l Car/2MASS J09451481-6230284/CD–61 2349/FK5 1254/HD 84810/HIP
 	Dist    498
 	AbsMagn -5.22
 	/*Details*/
-	MassSol 13 // 8.4
+	MassSol 8.4 // 13
 	RadSol  169
 	Luminosity 11482
 	Teff    5091
@@ -75,11 +75,11 @@ Star "海石四/l Car/2MASS J09451481-6230284/CD–61 2349/FK5 1254/HD 84810/HIP
 }
 
 Remove "UPS Car"
-StarBarycenter "海石五/UPS Car/CP−64°1084/HIP 48002"
+StarBarycenter "海石五/UPS Car/CP-64 1084/HIP 48002"
 {
 	/*Observation data*/
-	RA      9 47 6.09
-	Dec     -65 4 19.4
+	RA      9 47 4.81
+	Dec     -65 4 36.7
 	AppMagn 3
 	/*Characteristics*/
 	Class   "A9"
