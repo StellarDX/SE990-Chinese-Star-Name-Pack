@@ -247,10 +247,9 @@ Star "HIP 92782 B"
 Barycenter "HIP 114222 A"
 {
   ParentBody "HIP 114222"
-	Orbit
+	BinaryOrbit
 	{
 	  Period          162.8
-    SemiMajorAxis   12.74715821
 		Eccentricity    0.5968
 		Inclination     30
 		AscendingNode   90.3
@@ -306,17 +305,16 @@ Star "HIP 114222 B"
 	Class      "A7V" // A9V
 	MassSol    1.93
 
-	Orbit
+	/* Orbit
 	{
 	  Period          162.8
-    SemiMajorAxis   45.57274179
 		Eccentricity    0.5968
 		Inclination     30
 		AscendingNode   90.3
 		Epoch           2427647.83205846 // B1934.573
 		ArgOfPericenter 90
 		MeanAnomaly     0
-	}
+	} */
 }
 
 // 紫微右垣一(SB**)
@@ -538,10 +536,9 @@ Remove "PHI Dra B"{ParentBody "PHI Dra"}
 Barycenter "HIP 89908 A"
 {
 	ParentBody "HIP 89908"
-	Orbit
+	BinaryOrbit
 	{
 		Period          307.8
-    SemiMajorAxis   42.13932584
 		Eccentricity    0.752
 		Inclination     95.6
 		ArgOfPericenter 0
@@ -593,15 +590,14 @@ Star "HIP 89908 B"
 	MassSol    2.93
 	Age        0.33
 
-	Orbit
+	/* Orbit
 	{
     Period          307.8
-    SemiMajorAxis   47.46067416
 		Eccentricity    0.752
 		Inclination     95.6
 		ArgOfPericenter 180
 		MeanAnomaly     0
-	}
+	} */
 }
 
 // 大理一(SB**)
@@ -784,10 +780,10 @@ Star	"天柱增五/41 Dra/ADS 11061 A/2MASS J18000921+8000144/AG+79 491/BD+79 57
   Teff        6253
   Oblateness  0
 
-  Orbit // Unknown orbit
+  /* Orbit // Unknown orbit
 	{
     Separation      840.373
-	}
+	} */
 }
 
 // 勾陈一(cC***)
@@ -982,10 +978,10 @@ Star	"HD 25008 B"
 	ParentBody     "HIP 19461"
 	Class          "A3.5IV"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
     Separation      80.5603 // 0.79"
-	}
+	} */
 }
 
 // 华盖五(PM**)
@@ -1087,12 +1083,12 @@ Star "HIP 17959 B/BD+70 260"
   ParentBody "HIP 17959"
 	Class      "F8"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
     Epoch           2455562.19758469
 	  Separation      11660 // 106"
 		PositionAngle   85
-	}
+	} */
 }
 
 // 杠三(**)
@@ -1123,12 +1119,12 @@ Star "HIP 9763 B"
 	Luminosity 0.281
 	Teff       5163
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
     Epoch           2454466.47098835
 	  Separation      680.4 // 5.4"
 		PositionAngle   244
-	}
+	} */
 }
 
 // 杠七(SB***)
@@ -1357,10 +1353,10 @@ Star "HIP 16228 B"
 	ParentBody "CS Cam"
 	Class      "O6.9 V"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      2340 // 2.4"
-	}
+	} */
 }
 
 // 传舍九(**)
@@ -1385,10 +1381,10 @@ Star "HIP 16292 B"
 	ParentBody "HIP 16292"
 	Class      "F9.1 V"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      902.8 // 14.8"
-	}
+	} */
 }
 
 // 内阶一(PM**)
@@ -1416,10 +1412,10 @@ Star "HIP 41704 B"
 	ParentBody "HIP 41704"
 	Class      "A9.9 V"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      396.18 // 7.1"
-	}
+	} */
 }
 
 // 内阶二(SB**)
@@ -1529,10 +1525,10 @@ Star "HIP 46733 B"
 	ParentBody "HIP 46733"
 	Class      "F9.8 V"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      540.714 // 22.7"
-	}
+	} */
 }
 
 // 天厨三(PM**)
@@ -1558,10 +1554,10 @@ Star "HIP 97433 B"
 	ParentBody "HIP 97433"
 	Class      "F5III"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation    130
-	}
+	} */
 }
 
 // 八谷一(SB**)
@@ -1828,10 +1824,10 @@ Star "HIP 87585 B"
 	ParentBody "HIP 87585"
 	Class      "F5.1 V"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      10902
-	}
+	} */
 }
 
 // 天棓二-天棓增一
@@ -2059,10 +2055,10 @@ Star "HIP 48319 B"
 	Class      ""
 	MassSol    0.44
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      419.8
-	}
+	} */
 }
 
 // 文昌三(**)
@@ -2369,10 +2365,10 @@ Star	"HIP 65477 B"
 	MassSol      0.25
 	Age          0.5
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation           25.06
-	}
+	} */
 }
 
 // 北斗一(SB****)
@@ -2431,10 +2427,10 @@ Star "HIP 54061 B"
 Barycenter "HD 95638"
 {
 	ParentBody "HIP 54061"
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      16060.2 // 7.1'
-	}
+	} */
 }
 
 Star "HD 95638 A"
@@ -2554,11 +2550,9 @@ Remove "Mizar Bb"{ParentBody  "Mizar B"}
 Barycenter	"HIP 65378 A/ZET1 UMa A"
 {
 	ParentBody  "HIP 65378"
-	Orbit
+	BinaryOrbit
 	{
 		Period              2777	// approximate
-		ArgOfPericenter     0
-		MeanAnomaly         0
 	}
 }
 
@@ -2612,12 +2606,12 @@ Star	"HIP 65378 Ab"
 Barycenter	"HIP 65378 B/ZET2 UMa B"
 {
 	ParentBody  "HIP 65378"
-	Orbit
+	/* Orbit
 	{
 		Period               2777	// approximate
 		ArgOfPericenter      180
 		MeanAnomaly          0
-	}
+	} */
 }
 
 Star	"HIP 65378 Ba"
@@ -2656,10 +2650,9 @@ Remove "KAP2 Boo"{ParentBody "KAP Boo"}
 Barycenter "天枪一/KAP1 Boo Bab/HR 5328/HD 124674 B/HIP 69481 B/SAO 29045"
 {
   ParentBody "KAP Boo"
-	Orbit
+	BinaryOrbit
 	{
 		Period          6675
-    SemiMajorAxis   333.673923
 		Eccentricity    0.5
 		Inclination     99.5
 		AscendingNode   53.2
@@ -2720,17 +2713,16 @@ Star "KAP2 Boo A/HR 5329/HD 124675 A/HIP 69483 A/SAO 29046"
 	Teff       7760
 	FeH        -0.29
 
-	Orbit
+	/* Orbit
 	{
 		Period          6675
-    SemiMajorAxis   330.526077
 		Eccentricity    0.5
 		Inclination     99.5
 		AscendingNode   53.2
 		ArgOfPericenter 205.1
 		Epoch           2400068.7
 		MeanAnomaly     0
-	}
+	} */
 }
 
 // 天枪二(dS**)
@@ -2757,10 +2749,10 @@ Star "HIP 69713 B/HD 234121"
 	ParentBody "HIP 69713"
 	Class      "K0V"
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation       1100
-	}
+	} */
 }
 
 // 天枪三(PM**)
@@ -2789,8 +2781,8 @@ Star "HIP 70497 B"
 	Class      "M2.5 V"
   MassSol    0.21
 
-  BinaryOrbit
+  /* BinaryOrbit
 	{
 		Separation      1000
-	}
+	} */
 }
