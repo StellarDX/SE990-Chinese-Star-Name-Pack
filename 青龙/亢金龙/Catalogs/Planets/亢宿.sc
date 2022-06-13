@@ -62,10 +62,10 @@ Star	"HIP 70755 B"
 	ParentBody     "HIP 70755"
 	Class	         "K2.7 V"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      185.76
-	}
+	} */
 }
 
 // 亢宿四(SB**)
@@ -332,10 +332,10 @@ Star "HIP 71865 B"
 	ParentBody "HIP 71865"
 	MassSol    4.4
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation  1
-	}
+	} */
 }
 
 // 折威七(LP**)
@@ -360,8 +360,8 @@ Star	"HIP 73714 B"
 	ParentBody     "HIP 73714"
 	Class	         "A0.7 V"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation       5280
-	}
+	} */
 }
