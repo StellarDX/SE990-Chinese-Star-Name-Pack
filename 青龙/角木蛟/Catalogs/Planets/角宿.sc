@@ -318,10 +318,10 @@ Star	"HIP 63945 C"
 	ParentBody     "HIP 63945 AC"
 	Class          "A5.6 V"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      186
-	}
+	} */
 }
 
 Star	"HIP 63945 B"
@@ -467,11 +467,9 @@ Star "HIP 70090 B"
 Barycenter	"4 Cen A/SAO 204944/GC 18755/CD-31 10729"
 {
 	ParentBody     "HIP 67786"
-	Orbit
+	BinaryOrbit
 	{
 		Period          55000
-		ArgOfPericenter 0
-		MeanAnomaly     0
 	}
 }
 
@@ -509,12 +507,12 @@ Star	"4 Cen Ab"
 Barycenter	"4 Cen B/SAO 204943/GC 18754/CD-31 10727"
 {
 	ParentBody     "HIP 67786"
-	Orbit
+	/* Orbit
 	{
 		Period          55000
 		ArgOfPericenter 180
 		MeanAnomaly     0
-	}
+	} */
 }
 
 Star	"4 Cen Ba"
@@ -560,12 +558,12 @@ Star "HIP 67669 A/GC 18724 A/HD 120709 A/HR 5210 A/SAO 204916 A"
 	Age        0.0474
 	AbsMagn    -0.3
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Epoch           2457753.65077738
 		Separation      706.59
 		PositionAngle   106
-	}
+	} */
 }
 
 Barycenter "HIP 67669 B/GC 18725 B/HD 120710 B/HR 5211 B/SAO 204917 B"
