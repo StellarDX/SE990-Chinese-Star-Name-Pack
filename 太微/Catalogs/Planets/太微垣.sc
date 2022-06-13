@@ -6,10 +6,9 @@ Remove "ETA Vir Ab"{ParentBody "ETA Vir A"}
 Barycenter "HIP 60129 A"
 {
 	ParentBody "HIP 60129"
-	Orbit
+	BinaryOrbit
 	{
 		PeriodDays      7896.2
-		SemiMajorAxis   2.95329535
 		Eccentricity    0.133
 		Inclination     50.6
 		AscendingNode   173
@@ -61,17 +60,16 @@ Star "HIP 60129 B"
 	Class      ""
 	MassSol    1.66
 
-	Orbit
+	/* Orbit
 	{
 		PeriodDays      7896.2
-		SemiMajorAxis   7.81840465
 		Eccentricity    0.133
 		Inclination     50.6
 		AscendingNode   173
 		Epoch           2447965.15985
 		ArgOfPericenter 184
 		MeanAnomaly     0
-	}
+	} */
 }
 
 // 太微左垣二(PM**)
@@ -197,10 +195,9 @@ Remove "IOT Leo B"{ParentBody "IOT Leo"}
 Barycenter "HIP 55642 A"
 {
   ParentBody "HIP 55642"
-	Orbit
+	BinaryOrbit
 	{
 		Period          186
-		SemiMajorAxis   18.4888
 		Eccentricity    0.53
 		Inclination     128
 		AscendingNode   235
@@ -256,17 +253,16 @@ Star "HIP 55642 B"
 	Class      "G"
 	MassSol    1.08
 
-	Orbit
+	/* Orbit
 	{
 		Period          186
-		SemiMajorAxis   27.7332
 		Eccentricity    0.53
 		Inclination     128
 		AscendingNode   235
 		Epoch           2432844.13282051
 		ArgOfPericenter 325
 		MeanAnomaly     0
-	}
+	} */
 }
 
 // 五诸侯一(**)
@@ -286,10 +282,10 @@ Star "HIP 63948 B"
 	ParentBody "HIP 63948"
 	Class      "F9.1 V"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      83
-	}
+	} */
 }
 
 // 内屏三(SB**)
@@ -448,10 +444,10 @@ Star "ALF1 CVn B/ALF CVn B/12 CVn B/GC 17556/HD 112412/HIP 63121/HR 4914/SAO 632
 	RadSol     1.5
 	Teff       7080
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      640.332
-	}
+	} */
 }
 
 // 郎位五(a2***)
@@ -658,10 +654,10 @@ Star	"HIP 58858 B"
 	ParentBody     "HIP 58858"
 	Class	         "F2.1 V"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      409.2
-	}
+	} */
 }
 
 // 灵台一(PM**)
@@ -691,12 +687,12 @@ Star "HIP 54182 B"
 	ParentBody "HIP 54182"
 	Class      "F8.3 V"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Epoch           2447892.11141029
 		Separation      118.9
 		PositionAngle   264
-	}
+	} */
 }
 
 // 灵台三(**)
@@ -765,12 +761,12 @@ Star "HIP 53417 B/HD 94602/HR 4260/SAO 81584"
 	Class      "A2 V"
 	RadSol     2.59
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Epoch           2457753.65077738
 		Separation      533
 		PositionAngle   113
-	}
+	} */
 }
 
 // 上台一(****)
@@ -783,7 +779,7 @@ Remove "Talitha Borealis C"{ParentBody "Talitha Borealis (BC)"}
 Barycenter "HIP 44127 AB"
 {
 	ParentBody "HIP 44127"
-	Orbit
+	BinaryOrbit
 	{
 		Period          2084
 		Eccentricity    0.9
@@ -829,7 +825,7 @@ Star "HIP 44127 B"
 Barycenter "HIP 44127 CD"
 {
 	ParentBody "HIP 44127"
-	Orbit
+	/* Orbit
 	{
 		Period          2084
 		Eccentricity    0.9
@@ -838,7 +834,7 @@ Barycenter "HIP 44127 CD"
 		Epoch           2462136.55716275
 		ArgOfPericenter 23
 		MeanAnomaly     0
-	}
+	} */
 }
 
 Star "HIP 44127 C"
