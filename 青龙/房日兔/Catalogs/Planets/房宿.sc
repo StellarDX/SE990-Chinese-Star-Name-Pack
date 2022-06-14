@@ -197,10 +197,10 @@ Barycenter "房宿四/BET1 Sco A-B/HIP 78820 A/BD-19 4307 A/HD 144217 A/HR 5984 
 Barycenter "BET2 Sco C-E/BD-19 4308 B/HD 144218 B/HIP 78821 B/HR 5985 B"
 {
 	ParentBody "BET Sco"
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      1620
-	}
+	} */
 }
 
 // ------------------------------------------------------------ //
@@ -390,10 +390,10 @@ Barycenter "HIP 79374 A-B"
 Barycenter "HIP 79374 C-D"
 {
 	ParentBody "HIP 79374"
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      6165
-	}
+	} */
 }
 
 //-----------------------------------
@@ -501,10 +501,10 @@ Star "HIP 79374 C"
 	Luminosity 80
 	Teff       12000
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      300
-	}
+	} */
 }
 
 Barycenter "HIP 79374 D"
@@ -653,10 +653,10 @@ Barycenter "西咸一/KSI Sco ABC/BD-10 4237 ABC/GJ 9540 ABC/HIP 78727 ABC/ADS 9
 Barycenter "KSI Sco DE"
 {
   ParentBody "KSI Sco"
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      7867.8
-	}
+	} */
 }
 
 Barycenter "KSI Sco AB/SAO 159665 AB"
@@ -741,10 +741,10 @@ Star "KSI Sco E"
 	ParentBody "KSI Sco DE"
 	Class      "K1V"
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      332.01
-	}
+	} */
 }
 
 // 日(PM**)
