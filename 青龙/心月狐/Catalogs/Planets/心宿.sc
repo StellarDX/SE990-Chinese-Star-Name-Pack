@@ -184,10 +184,9 @@ Remove "ETA Lup C"{ParentBody "ETA Lup"}
 Barycenter "HIP 78384 AB"
 {
   ParentBody "HIP 78384"
-  Orbit
+  BinaryOrbit
   {
     Period          500000
-		SemiMajorAxis   1955.33705486
 		Epoch           2454101.22878957
     ArgOfPericenter 68
     MeanAnomaly     0
@@ -234,12 +233,11 @@ Star "HIP 78384 C"
   Class      "F5V"
 	MassSol    1.29
 
-  Orbit
+  /* Orbit
   {
     Period          500000
-		SemiMajorAxis   13793.46294514
 		Epoch           2454101.22878957
     ArgOfPericenter 248
     MeanAnomaly     0
-  }
+  } */
 }
