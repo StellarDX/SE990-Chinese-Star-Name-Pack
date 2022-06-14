@@ -65,10 +65,10 @@ Star "HIP 90185 B"
   Luminosity 0.89
   Teff       5807
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      106
-	}
+	} */
 }
 
 // 箕宿四(LP**)
