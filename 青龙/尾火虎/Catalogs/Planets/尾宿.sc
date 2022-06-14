@@ -61,10 +61,10 @@ Star	"HIP 86228 B"
 	Class	         "A"
 	Luminosity     30
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      582.3
-	}
+	} */
 }
 
 // 尾宿七(bC**)
@@ -116,10 +116,9 @@ Remove "LAM Sco B"{ParentBody "Shaula"}
 Barycenter "HIP 85927 A"
 {
 	ParentBody "HIP 85927"
-	Orbit
+	BinaryOrbit
 	{
 		PeriodDays      1053
-		SemiMajorAxis   2.09655172
 		Eccentricity    0.121
 		Inclination     77.2
 		AscendingNode   271.3
@@ -172,17 +171,16 @@ Star "HIP 85927 B"
 	RadSol     4.7
 	Teff       25000
 
-	Orbit
+	/* Orbit
 	{
 		PeriodDays      1053
-		SemiMajorAxis   3.60344828
 		Eccentricity    0.121
 		Inclination     77.2
 		AscendingNode   271.3
 		ArgOfPericenter 254.8
 		Epoch           2451562.3
 		MeanAnomaly     0
-	}
+	} */
 }
 
 // 龟二 (假双星)
