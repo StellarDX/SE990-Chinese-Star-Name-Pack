@@ -567,23 +567,27 @@ Planet	"PSI1 Aqr A b"
 
 // 北落师门
 Remove "Dagon"{ParentBody "Fomalhaut"}
+// 这个天体可能不是行星,不过具体我还不敢确认
 Planet	"Dagon/Fomalhaut b"
 {
+	// Reference:
+	// http://exoplanet.eu/catalog/Fomalhaut_b/
 	ParentBody     "Fomalhaut A"
 	DiscDate       "2008"
 	DiscMethod     "Imaging"
-	Mass            10 // 100 // 0.5Mj // <2Mj // Uncertained
+	Class          "GasGiant"
+	Mass            66.10830304 // 10 // 100 // 0.5Mj // <2Mj // Uncertained
 	//Radius          85790.4
 
 	Orbit
 	{
 		SemiMajorAxis   177
-		Eccentricity    0.8
-		Period          1700
-		Inclination    -55
-		AscendingNode   152
-		ArgOfPericen    26
-		MeanAnomaly     0
+		Eccentricity    0.11 // 0.8
+		PeriodDays      320000 // 1700 years
+		//Inclination    -55
+		//AscendingNode   152
+		//ArgOfPericen    26
+		//MeanAnomaly     0
 	}
 }
 
