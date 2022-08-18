@@ -76,16 +76,68 @@ Star	"HIP 51384 B"
 	}
 }
 
-// 四辅三(PM**)
+// 四辅三(PM***)
+// NoirLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HD&number=90089
+Barycenter	"HIP 51502 A"
+{
+	ParentBody     "HIP 51502"
+	BinaryOrbit // GAT_14 Gaia pos.
+	{
+    Separation 295.1 // 13"
+	}
+}
+
+Star	"HIP 51502 Aa"
+{
+	ParentBody     "HIP 51502 A"
+	Class          "F4VkF2mF2"
+  MassSol        1.29
+  RadSol         1.4
+  Luminosity     3.36
+  Teff           6602
+  FeH            -0.26
+  Age            1.074
+
+  Orbit
+	{
+		RefPlane        "Equator"
+		Period          0.0173394434
+		Eccentricity    0
+		Inclination     -1.07912016
+		AscendingNode   0
+		ArgOfPericenter 82.49294
+		MeanAnomaly     -120.767644
+	}
+}
+
+// DR2-HIP: large dmu(A), WD companion? EDR3: RUWE(A,B) = 9.9, 1.3.
+Star	"HIP 51502 Ab(?)"
+{
+	ParentBody     "HIP 51502 A"
+	Class          "WD"
+
+  Orbit
+	{
+		RefPlane        "Equator"
+		Period          0.0173394434
+		Eccentricity    0
+		Inclination     -1.07912016
+		AscendingNode   0
+		ArgOfPericenter 262.49294
+		MeanAnomaly     -120.767644
+	}
+}
+
 Star	"HIP 51502 B(?)"
 {
 	ParentBody     "HIP 51502"
 	Class          "M0"
+  MassSol        0.26
 
-	Orbit
+	/* BinaryOrbit
 	{
-    SemiMajorAxis 295.1 // 13"
-	}
+    Separation 295.1 // 13"
+	} */
 }
 
 // 紫微左垣二(SB***?)

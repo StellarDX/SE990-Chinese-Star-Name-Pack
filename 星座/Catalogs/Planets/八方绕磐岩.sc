@@ -1,3 +1,6 @@
+// 皎月落枝，南天龙吟。
+// 灿阳一瞬，不动岩心。
+
 // ExoPlanets for TAU Cet
 
 Remove "Tau Cet e"{ParentBody "Tau Cet"}

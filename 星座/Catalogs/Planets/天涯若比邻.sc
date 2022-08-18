@@ -1,3 +1,6 @@
+// 天动万象，山海化形。
+// 荒地生星，璨若烈阳。
+
 // ExoPlanets for ALF Cen
 // Avatar style planets
 // Reference: http://www.openexoplanetcatalogue.com/planet/Alpha%20Centauri%20B%20b/
