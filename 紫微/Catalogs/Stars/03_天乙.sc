@@ -1,5 +1,5 @@
 Remove  "i Dra"
-Star "天乙/i Dra/10 Dra/CU Dra/BD+65 963/FK5 511/HD 121130/HIP 67627/HR 5226/SAO 16199"
+Star "天乙/北极星(商)/i Dra/10 Dra/CU Dra/BD+65 963/FK5 511/HD 121130/HIP 67627/HR 5226/SAO 16199"
 {
   RA      13 51 25.96
 	Dec     64 43 23.7
