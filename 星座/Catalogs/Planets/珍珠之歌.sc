@@ -26,6 +26,7 @@ Planet	"HD 131873 b"
 
 // 紫微左垣一
 Remove "Edasich b"{ParentBody "Edasich"}
+Remove "IOT Dra c"{ParentBody "IOT Dra"}
 Planet	"HR 5744 b"
 {
 	ParentBody     "HR 5744"
