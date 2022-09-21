@@ -194,11 +194,10 @@ Star	"HIP 80331 A"
   FeH            -0.04
   Age            0.55
 
-	Orbit
+	BinaryOrbit
 	{
 		Period          1000
-		ArgOfPericenter 0
-		MeanAnomaly     0
+    Separation      140
 	}
 }
 
@@ -207,12 +206,12 @@ Star	"HIP 80331 B"
 	ParentBody     "HIP 80331"
 	Class          "K2V"
 
-	Orbit
+	/* Orbit
 	{
     Period          1000
 		ArgOfPericenter 180
 		MeanAnomaly     0
-	}
+	} */
 }
 
 // 紫微左垣四(**)
@@ -375,42 +374,48 @@ Remove "ALF Dra B"{ParentBody "Thuban"}
 Star "HIP 68756 A"
 {
 	ParentBody "HIP 68756"
-	Class      "A0III"
-	MassSol    2.8
-	RadSol     3.4
-  Luminosity 479
-	Teff       10100
-	FeH        -0.2
-	RotationPeriod 628.8
+	Class      "A0IV"
+	MassSol    3.186
+	RadSol     4.932
+  Luminosity 240
+	Teff       10225
+	//FeH        -0.2
+	//RotationPeriod 628.8
+  Age        0.28
 
 	Orbit
 	{
-		PeriodDays      51.4167
-		Eccentricity    0.4355
-		Inclination     90
-		AscendingNode   241.14
-		ArgOfPericenter 23.2
-		Epoch           2445117.375
+		PeriodDays      51.417350
+		Eccentricity    0.43
+		Inclination     85.4
+		AscendingNode   252.6
+		ArgOfPericenter 202.4
+		Epoch           2453498.8
 		MeanAnomaly     0
+    //SemiAlplitude   48.512
 	}
 }
 
 Star "HIP 68756 B"
 {
 	ParentBody "HIP 68756"
-	Class      "A2"
-	MassSol    2.6
-	Luminosity 40
+	Class      "A1V"
+	MassSol    2.431
+  RadSol     2.326
+	Luminosity 47.5
+  Teff       9930
+  Age        0.345
 
 	Orbit
 	{
-		PeriodDays      51.4167
-		Eccentricity    0.4355
-		Inclination     90
-		AscendingNode   241.14
-		ArgOfPericenter 203.2
-		Epoch           2445117.375
+    PeriodDays      51.417350
+		Eccentricity    0.43
+		Inclination     85.4
+		AscendingNode   252.6
+		ArgOfPericenter 22.4
+		Epoch           2453498.8
 		MeanAnomaly     0
+    //SemiAlplitude   63.58
 	}
 }
 

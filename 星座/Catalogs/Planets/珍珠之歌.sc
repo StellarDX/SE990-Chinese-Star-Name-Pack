@@ -50,6 +50,8 @@ Planet	"HR 5744 b"
 Planet	"HR 5744 c"
 {
 	ParentBody     "HR 5744"
+	DiscMethod     "Astrometry"
+	DiscDate       "2021"
 	Mass           5403.08246
 
 	Orbit
