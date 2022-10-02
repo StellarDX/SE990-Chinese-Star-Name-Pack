@@ -616,9 +616,9 @@ Star "HIP 89908 Aa"
 
 	Orbit
 	{
-		PeriodDays      127.9902
-		Eccentricity    0.707
-		Inclination     50
+		PeriodDays      127.914 // 127.9902
+		Eccentricity    0.6725 // 0.707
+		Inclination     48 // 50
 		//SemiAmplitude 29
 		ArgOfPericenter 0
 		MeanAnomaly     0
@@ -629,12 +629,13 @@ Star "HIP 89908 Ab"
 {
 	ParentBody "HIP 89908 A"
 	Class      "A4V"
+  MassSol    1.36
 
 	Orbit
 	{
-		PeriodDays      127.9902
-		Eccentricity    0.707
-		Inclination     50
+    PeriodDays      127.914 // 127.9902
+		Eccentricity    0.6725 // 0.707
+		Inclination     48 // 50
 		ArgOfPericenter 180
 		MeanAnomaly     0
 	}
@@ -644,7 +645,7 @@ Star "HIP 89908 B"
 {
 	ParentBody "HIP 89908"
 	Class      "B9V"
-	MassSol    2.93
+	MassSol    2.25
 	Age        0.33
 
 	/* Orbit
