@@ -693,40 +693,60 @@ Star "HIP 59504 B" // almost no information is known about the companion star.
 	}
 }
 
-// 御女二(SB**)
-Star	"HD 175286 A"
+// 御女二(SB***)
+// NOIRLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HD&number=175286
+Barycenter "HD 175286 A"
 {
-	ParentBody     "HD 175286"
-	Class          "A1 V"
-	Luminosity      47.62
+	ParentBody "HD 175286"
+	BinaryOrbit // WIYN 2018.5: AB at 330deg, 0.32" dV=3.9 dI=3.6
+	{
+		Period          65.794
+	}
+}
+
+Star	"HD 175286 Aa"
+{
+	ParentBody     "HD 175286 A"
+	Class          "A1Va"
+  MassSol        2.09
+	Luminosity     47.62
 
 	Orbit
 	{
-		RefPlane        "Equator"
-		Period          10.594902
-		Eccentricity    0.651604295
-		Inclination     -0.0615200996
-		AscendingNode   0
-		ArgOfPericenter 11.2016451
-		MeanAnomaly     158.092841
+		PeriodDays      4.1175
+    Epoch           2420293.520
+		Eccentricity    0.01
+		ArgOfPericenter 107.6
+		MeanAnomaly     0
+	}
+}
+
+Star	"HD 175286 Ab"
+{
+	ParentBody     "HD 175286 A"
+	Class          ""
+  MassSol        2.03
+
+	Orbit
+	{
+		PeriodDays      4.1175
+    Epoch           2420293.520
+		Eccentricity    0.01
+		ArgOfPericenter 287.6
+		MeanAnomaly     0
 	}
 }
 
 Star	"HD 175286 B"
 {
 	ParentBody     "HD 175286"
-	Class          "F1.9 V"
+	Class          ""
+  MassSol        1.03
 
-	Orbit
+  /* BinaryOrbit // YSC_10
 	{
-		RefPlane        "Equator"
-		Period          10.594902
-		Eccentricity    0.651604295
-		Inclination     -0.0615200996
-		AscendingNode   0
-		ArgOfPericenter 191.201645
-		MeanAnomaly     158.092841
-	}
+		Period          65.794
+	} */
 }
 
 // 御女三(未修改/RS**)
