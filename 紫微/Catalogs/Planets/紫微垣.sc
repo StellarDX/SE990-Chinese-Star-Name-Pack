@@ -1027,7 +1027,10 @@ Star	"HIP 32439 B"
 {
 	ParentBody     "HIP 32439"
 	Class          "L9"
-  MassSol        0.064
+  Mass           21307.2145952
+  AppMagnJ       16.26
+  AppMagnH       15.08
+  AppMagnK       14.6
   Luminosity     2.0892961308540394831222337357993e-5 // pow(10/-4.68)
   Teff           1360
 

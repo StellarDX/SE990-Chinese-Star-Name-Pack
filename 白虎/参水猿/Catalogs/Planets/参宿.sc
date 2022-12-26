@@ -45,7 +45,7 @@ Star "福/HIP 26727 A1" // 不冲突
 Star "HIP 26727 A2"
 {
 	ParentBody "HIP 26727 A"
-	Class      "B1 IV"
+	Class      "B1IV"
 	MassSol    14
   RadSol     7.3
   Luminosity 32000
@@ -68,7 +68,7 @@ Star "HIP 26727 A2"
 Star "HIP 26727 B"
 {
 	ParentBody "HIP 26727"
-	Class      "B0 III"
+	Class      "B0III"
 	MassSol    16.66
   AbsMagn    -4.1
   Age        0.007

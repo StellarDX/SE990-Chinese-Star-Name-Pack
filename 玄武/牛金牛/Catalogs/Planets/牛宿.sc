@@ -393,6 +393,7 @@ Star	"HIP 102978 B(?)"
 }
 
 // 河鼓一(PM***)
+// NoirLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HIP&number=98036
 Remove "Alshain A"{ParentBody "Alshain"}
 Remove "Alshain B"{ParentBody "Alshain"}
 Star "HIP 98036 A"
@@ -407,18 +408,22 @@ Star "HIP 98036 A"
 	RotationPeriod 122.08728
 	Age        9.6
 
-	/*BinaryOrbit
+	/*BinaryOrbit // EDR3: RUWE(A,B)= 2.9, 1.1
 	{
 		Separation      178.1
+		Period          1858
 	}*/
 }
 
+// Tok2015: RV(B)=-32.9 km/s. SOAR: B unresolved by speckle.
+// Luhn+: long-term linear RV trend.
 Barycenter	"HIP 98036 B"
 {
 	ParentBody     "HIP 98036"
 	BinaryOrbit
 	{
 		Separation      178.1
+		Period          1858
 	}
 }
 
@@ -462,31 +467,17 @@ Star "牛郎/Altair A"
 {
 	ParentBody "Altair"
 	Class      "A7V"
-	MassSol    1.79
-	DimensionsSol (4.06, 3.26, 4.06)
+	MassSol    1.86
+	DimensionsSol (4.02, 3.14, 4.02)
 	Luminosity 10.6
-	Temperature (6900, 8500, 6900)
+	Temperature (6860, 8621, 6860)
 	Teff       8500 // 6900
 	FeH        -0.2
-	RotationPeriod 8.9
+	RotationPeriod 7.77
 	Obliquity  60
-	Age        1.2
+	Age        0.1
 
-	/*RotationModel "IAU"
-	{
-		Epoch			2451545
-		PoleRA			0
-		PoleRARate	0
-		PoleDec			60
-		PoleDecRate	0
-		PrimeMeridian	0
-		RotationRate	970.785617
-	}*/
-
-	Orbit
-	{
-		RefPlane "Static"
-	}
+	Orbit{RefPlane "Static"}
 }
 
 // 河鼓二的三颗伴星均为光学伴星，无轨道关系。
@@ -508,17 +499,6 @@ Star "织女/Vega A"
 
 	RotationPeriod 12.5
 
-	/*RotationModel "IAU"
-	{
-		Epoch			    2451545
-		PoleRA			  105
-		PoleRARate	  0
-		PoleDec		  	-45
-		PoleDecRate	  0
-		PrimeMeridian	190.147
-		RotationRate	691.2
-	}*/
-
 	Orbit
 	{
 		RefPlane "Static"
@@ -527,6 +507,7 @@ Star "织女/Vega A"
 }
 
 // 织女二(*****+)
+// NoirLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HIP&number=91926
 Remove "EPS1 Lyr"{ParentBody "EPS Lyr"}
 Remove "EPS2 Lyr"{ParentBody "EPS Lyr"}
 Remove "EPS Lyr A"{ParentBody "EPS1 Lyr"}
@@ -539,6 +520,7 @@ Barycenter "织女二/EPS1 Lyr A/4 Lyr/HIP 91919/BD+39 3509"
 	BinaryOrbit
 	{
 		Separation      10500
+		PositionAngle   172 // When?
 	}
 }
 
@@ -548,6 +530,7 @@ Barycenter "织女增二/EPS2 Lyr B/5 Lyr/HIP 91926/BD+39 3510"
 	/*BinaryOrbit
 	{
 		Separation      10500
+		PositionAngle   172 // When?
 	}*/
 }
 
@@ -618,6 +601,7 @@ Star "HD 173607 A"
 	BinaryOrbit
 	{
 		Separation      5
+		PositionAngle   225 // When?
 	}
 }
 
@@ -626,10 +610,11 @@ Star "HD 173607 B"
 	ParentBody "HD 173607"
 	Class      "A6" // ?
 
-	BinaryOrbit
+	/* BinaryOrbit
 	{
 		Separation      5
-	}
+		PositionAngle   225 // When?
+	} */
 }
 
 Star "HD 173608/HR 7054"

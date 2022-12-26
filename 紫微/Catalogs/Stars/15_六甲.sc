@@ -1,17 +1,21 @@
 Remove "HD 46588"
-Star "六甲一/LOU 1/HIP 32439/SAO 5946/HD 46588/HR 2401/WDS J06462+7934"
+Star "六甲一/23 H. Cam/AG+79 200/BD+79 212/GC 8711/GJ 240.1/HD 46588/HIP 32439/HR 2401/SAO 5946/WDS J06462+7934A"
 {
   RA      6 46 14.72
 	Dec     79 33 56.4
-	AppMagn 5.4
+	AppMagn 5.44
 
 	Class   "F7V"
 
 	Dist    18.2
-	AbsMagn 4.1
+	AbsMagn 4.18
 
-  FeH     -0.21
-  Age     2.8
+  MassSol 1.13
+  RadSol  1.19
+  Luminosity 1.82
+  Teff    6273
+  FeH     -0.12
+  Age     1.27
 }
 
 Remove "HD 49878"
