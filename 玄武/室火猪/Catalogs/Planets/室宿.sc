@@ -1535,7 +1535,7 @@ Barycenter "HIP 115990 A"
 Star "HIP 115990 A1"
 {
 	ParentBody "HIP 115990 A"
-	Class      "B3IV"
+	Class      "B4V"
 	AbsMagn    -1.87
 	AbsMagnBol -3.56
 	MassSol    5.9 // 5.64
@@ -1556,7 +1556,7 @@ Star "HIP 115990 A1"
 Star "HIP 115990 A2"
 {
 	ParentBody "HIP 115990 A"
-	Class      "A6"
+	Class      "A6V"
 	AbsMagn    2.2
 	AbsMagnBol 2.18
 	MassSol    1.86 // 2.24
@@ -1602,7 +1602,7 @@ Barycenter "HIP 115990 CD"
 Star "HIP 115990 C"
 {
 	ParentBody "HIP 115990 CD"
-	Class      "A1V" // B9V
+	Class      "B9V"
 	MassSol    1.8
 
 	Orbit
