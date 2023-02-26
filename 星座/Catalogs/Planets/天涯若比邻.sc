@@ -438,6 +438,158 @@ Planet	"Proxima Cen d"
 	Mass            0.26
   Radius          5166.29097 // 0.81 REarth
 
+  Surface
+  {
+    Preset         "terra_wet_rusty_green_plants.cfg"
+    SurfStyle       0.70766
+    Randomize      (0.532, -0.326, -0.448)
+    colorDistMagn   0.068819
+    colorDistFreq   522.17
+    detailScale     16384
+    drivenDarkening 0
+    seaLevel        0.00075738
+    snowLevel       2
+    tropicLatitude  0
+    icecapLatitude  0.99947
+    icecapHeight    0.00031235
+    climatePole     0.9375
+    climateTropic   0.3125
+    climateEquator  0.6875
+    climateSteppeMin -1
+    climateSteppeMax -1
+    climateForestMin -1
+    climateForestMax -1
+    climateGrassMin  -1
+    climateGrassMax  -1
+    humidity        0.15422
+    heightTempGrad  0.625
+    beachWidth      0.00107
+    tropicWidth     0.07
+    mainFreq        1.1089
+    venusFreq       1.2664
+    venusMagn       0.82326
+    mareFreq        6.9067
+    mareDensity     0.06316
+    terraceProb     0.30653
+    erosion         0.11423
+    montesMagn      0.16649
+    montesFreq      271.34
+    montesSpiky     0.93133
+    montesFraction  0.88021
+    dunesMagn       0.036524
+    dunesFreq       51.971
+    dunesFraction   0.16657
+    hillsMagn       0.13506
+    hillsFreq       466.72
+    hillsFraction   0.056497
+    hills2Fraction  0.6142
+    riversMagn      62.743
+    riversFreq      2.4455
+    riversSin       5.7331
+    riftsMagn       0
+    riftsFreq       3.6293
+    riftsSin        6.8992
+    canyonsMagn     0.055393
+    canyonsFreq     141.82
+    canyonsFraction 0.84491
+    cracksMagn      0.088975
+    cracksFreq      0.28271
+    cracksOctaves   0
+    craterMagn      0.56405
+    craterFreq      15.439
+    craterDensity   0.16315
+    craterOctaves   4
+    volcanoMagn     0.69515
+    volcanoFreq     0.68917
+    volcanoDensity  0.4
+    volcanoOctaves  3
+    volcanoActivity 2
+    volcanoFlows    0.49901
+    volcanoRadius   0.51822
+    volcanoTemp     258.22
+    lavaCoverTidal  0.36446
+    lavaCoverSun    0
+    lavaCoverYoung  0
+    stripeZones     1
+    stripeTwist     3.5
+    cycloneMagn     1.0795
+    cycloneDensity  0.37108
+    cycloneOctaves  0
+    BumpHeight      20
+    BumpOffset      0.015148
+    DiffMapAlpha   "Water"
+    SpecBrightWater 0.65
+    SpecBrightIce   0.85
+    SpecPowerWater  55
+    SpecPowerIce    180
+    SpecularScale   1
+    RoughnessBias   0.5
+    Hapke           0.7
+    SpotBright      2.2088
+    SpotWidth       0.05
+    DayAmbient      0.07
+  }
+
+  Ocean
+  {
+    Height          0.015148
+
+    Composition
+    {
+      H2O       	100
+    }
+  }
+
+  Clouds
+  {
+    Height          15.974
+    Velocity        87.425
+    BumpHeight      2.9947
+    Hapke           0
+    SpotBright      2
+    SpotWidth       0.03
+    DayAmbient      0.07
+    ModulateBright  1
+    mainFreq        0.81704
+    mainOctaves     10
+    Coverage        0.1
+    stripeZones     1
+    stripeTwist     3.5
+  }
+
+  Atmosphere
+  {
+    Model          "Earth"
+    Height          146.57
+    Density         0.15197
+    Pressure        0.13364
+    Greenhouse      8.0852
+    Bright          10
+    Opacity         1
+    SkyLight        3.3333
+    Hue             0
+    Saturation      1
+
+    Composition
+    {
+      N2        	51.268
+      H2O       	37.513
+      CO2       	6.7623
+      SO2       	4.4104
+      C2H4      	0.013473
+      CO        	0.011226
+      NH3       	0.0073445
+      H2S       	0.0046216
+      C2H6      	0.0039952
+      C2H2      	0.0034181
+      CH4       	0.0012047
+      Ar        	0.00056149
+      C3H8      	0.00027568
+      Ne        	6.7985e-05
+      C8H18     	1.8952e-05
+    }
+  }
+
 	Orbit
 	{
 		PeriodDays      5.122
