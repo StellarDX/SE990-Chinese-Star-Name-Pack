@@ -762,6 +762,8 @@ Star	"Toliman/ALF2 Cen/HR 5460/HD 128621 B/LHS 51/HIP 71681 B"
 		MeanAnomaly	  	0
 	}
 }
+
+Remove "Proima" {ParentBody "Proxima Cen"}
 /*
 Star "比邻/Proxima/Proxima Cen/ALF Cen C/CCDM J14396-6050C/GCTP 3278.00/GJ 551/HIP 70890/LFT 1110/LHS 49/LPM 526/LTT 5721/NLTT 37460/V645 Cen"
 {
