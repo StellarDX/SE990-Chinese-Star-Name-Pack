@@ -251,15 +251,15 @@ Planet "Hermes/ALF Cen Bc"
 
 // 比邻星
 
-Remove "Proxima b"{ParentBody "Proxima Cen"}
-Remove "Proxima c"{ParentBody "Proxima Cen"}
-Remove "Proxima d"{ParentBody "Proxima Cen"}
+Remove "Proxima b"{ParentBody "Proxima"}
+Remove "Proxima c"{ParentBody "Proxima"}
+Remove "Proxima d"{ParentBody "Proxima"}
 
 Planet	"Proxima Cen b"
 {
   DiscDate       "2016" // 2016.08.24, Anglada-Escudé et al., ESO
   DiscMethod     "RadVel" // Doppler spectroscopy
-	ParentBody     "Proxima"
+	ParentBody     "ALF Cen C"
 	Class          "Terra"
 	Mass            1.07
 	Radius          8291.5781 // 1.3 REarth
@@ -412,7 +412,7 @@ Planet	"Proxima Cen c"
 {
   DiscDate       "2020" // 2020.01, Damasso et al., HARPS
   DiscMethod     "RadVel" // Radial velocity
-	ParentBody     "Proxima"
+	ParentBody     "ALF Cen C"
 	Class          "IceGiant" // super-Earth or mini-Neptune
 	Mass            7
 
@@ -433,7 +433,7 @@ Planet	"Proxima Cen d"
 {
   DiscDate       "2020" // 2020, VLT-ESPRESSO
   DiscMethod     "RadVel" // Radial velocity
-	ParentBody     "Proxima"
+	ParentBody     "ALF Cen C"
 	Class          "Terra" // sub-Earth
 	Mass            0.26
   Radius          5166.29097 // 0.81 REarth
