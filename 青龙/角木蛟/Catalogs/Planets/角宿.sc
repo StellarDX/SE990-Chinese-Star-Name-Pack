@@ -696,9 +696,9 @@ Remove "EPS Cen A"{ParentBody "EPS Cen"}
 Remove "EPS Cen B"{ParentBody "EPS Cen"}
 
 // 南门二(***)
-Remove "ALF Cen A"{ParentBody	"Toliman"}
-Remove "ALF Cen B"{ParentBody	"Toliman"}
-Star	"南门二/Rigil Kentaurus/ALF1 Cen/HR 5459/HD 128620 A/GCTP 3309.00/LHS 50/SAO 252838/HIP 71683 A"
+Remove "ALF Cen A"{ParentBody	"ALF Cen"}
+Remove "ALF Cen B"{ParentBody	"ALF Cen"}
+Star	"南门二/Rigil Kentaurus A/ALF1 Cen/HR 5459/HD 128620 A/GCTP 3309.00/LHS 50/SAO 252838/HIP 71683 A"
 {
 	ParentBody	"ALF Cen"
 	Class	    	"G2V"
@@ -730,7 +730,7 @@ Star	"南门二/Rigil Kentaurus/ALF1 Cen/HR 5459/HD 128620 A/GCTP 3309.00/LHS 50
 	}
 }
 
-Star	"Toliman/ALF2 Cen/HR 5460/HD 128621 B/LHS 51/HIP 71681 B"
+Star	"Toliman B/ALF2 Cen/HR 5460/HD 128621 B/LHS 51/HIP 71681 B"
 {
 	ParentBody	"ALF Cen"
 	Class	    	"K0V"
@@ -739,7 +739,7 @@ Star	"Toliman/ALF2 Cen/HR 5460/HD 128621 B/LHS 51/HIP 71681 B"
 	Luminosity  0.4981
 	Teff        5260
 	FeH         0.23
-	RotationDays 864
+	RotationPeriod 864
 	Age         5.3
 
 	RotationModel "IAU"
