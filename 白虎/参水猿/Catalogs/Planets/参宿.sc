@@ -18,7 +18,7 @@ Barycenter "HIP 26727 A"
 	}
 }
 
-Star "福/HIP 26727 A1" // 不冲突
+Star "寿/HIP 26727 A1" // 不冲突
 {
 	ParentBody "HIP 26727 A"
 	Class      "O9.5Iab"
@@ -166,7 +166,7 @@ Star "DEL Ori Ab/CCDM J05320-0018D/WDS J05320-0018Ab"
 	}
 }
 
-Star "寿/DEL Ori Aa1/SAO 132220"
+Star "福/DEL Ori Aa1/SAO 132220"
 {
 	ParentBody "DEL Ori Aa"
 	Class      "O9.5II"
