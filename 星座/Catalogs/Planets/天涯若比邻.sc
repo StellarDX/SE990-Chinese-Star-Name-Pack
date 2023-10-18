@@ -410,21 +410,29 @@ Planet	"Proxima Cen b"
 
 Planet	"Proxima Cen c"
 {
-  DiscDate       "2020" // 2020.01, Damasso et al., HARPS
-  DiscMethod     "RadVel" // Radial velocity
+	DiscDate       "2020" // 2020.01, Damasso et al., HARPS
+	DiscMethod     "RadVel" // Radial velocity
 	ParentBody     "ALF Cen C"
 	Class          "IceGiant" // super-Earth or mini-Neptune
 	Mass            7
+
+	Rings
+	{
+		OuterRadius     357460 // ~5 * Rjupiter
+		EdgeRadius      357460
+		FrontBright     10
+		BackBright      10
+	}
 
 	Orbit
 	{
 		PeriodDays      1928
 		SemiMajorAxis   1.489
-    Eccentricity    0.04
-    Inclination     133
-    AscendingNode   331
+		Eccentricity    0.04
+		Inclination     133
+		AscendingNode   331
 		LongOfPericen   -4
-    Epoch           2456202
+		Epoch           2456202
 		MeanAnomaly     0
 	}
 }
