@@ -2,16 +2,18 @@
 // SpaceEngineer; wiki
 Remove "ETA Car A" {ParentBody "ETA Car"}
 Remove "ETA Car B" {ParentBody "ETA Car"}
-Star	"HD 93308 A"
+Star	"ETA Car A"
 {
+	DateUpdated "2019-08-24"
 	ParentBody "V* ETA Car"
 	Class      "Variable" // LBV
+	AbsMagn    -8.6 //(2012)
 	MassSol    100 // >90 // 100 - 120
 	RadSol     240 // 60 - 881 // 1400??? // 250
-  Luminosity 4600000 // 2960000 - 4100000 // 5000000
-	Teff       Variable // 9400 - 35200 // 20000 - 25000
+	LumBol     4600429.4353008345 // MBol = -11.917
+	Teff       35200 // 9400 - 35200 // 20000 - 25000
 	Age        0.003
-  Oblateness 0
+	Oblateness 0
 
 	// powerful star wind imitation
 	Corona
@@ -29,20 +31,21 @@ Star	"HD 93308 A"
 		Eccentricity    0.9
 		Inclination     130 // 130 - 145
 		AscendingNode   0	// unknown
-    Epoch           2454842.67045309
+		Epoch           2454842.67045309
 		ArgOfPericenter 0	// unknown
 		MeanAnomaly     0	// unknown
 	}
 }
 
-Star	"HD 93308 B"
+Star	"ETA Car B"
 {
+	DateUpdated "2019-08-24"
 	ParentBody "V* ETA Car"
 	Class      "O" // WR?
 	MassSol    30	// 30 - 80 // 30 - 60
 	RadSol     23.6	// 14.3 - 23.6
 	Teff       37200
-	Luminosity 1000000
+	LumBol     1000000
 	Age        0.003
 	Oblateness 0
 
@@ -62,7 +65,7 @@ Star	"HD 93308 B"
 		Eccentricity    0.9
 		Inclination     130 // 130 - 145
 		AscendingNode   0	// unknown
-    Epoch           2454842.67045309
+		Epoch           2454842.67045309
 		ArgOfPericenter 180	// unknown
 		MeanAnomaly     0	// unknown
 	}
