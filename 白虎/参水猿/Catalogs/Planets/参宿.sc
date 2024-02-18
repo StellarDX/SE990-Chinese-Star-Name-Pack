@@ -262,14 +262,14 @@ Star "HD 36485 Cb"
 Star "Betelgeuse A"
 {
 	ParentBody "HIP 27989"
-	Class      "M1Ia" // M2Iab
-  MassSol    16.5 // 19
-  RadSol     764 // 1021
-  Luminosity 126000 // 90000 - 150000
-  Teff       3600
-  FeH        0.05
-  RotationPeriod 315569.2518747072 // 36 years
-  Age        0.008 // 0.0085
+	Class      "M1Ia" // M1-M2Ia-ab
+	MassSol    14 // 19
+	RadSol     764 // 640 - 1021
+	Luminosity 87100 // 126000 // 90000 - 150000
+	Teff       3600
+	FeH        0.05
+	RotationPeriod 315569.2518747072 // 36 years
+	Age        0.008 // 0.0085
 
 	Orbit
 	{
