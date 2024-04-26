@@ -1,0 +1,27 @@
+Remove "32 Psc"
+Star "土公一/c Psc/32 Psc/HIP 194/SAO 128547/HD 225003/HR 9093"
+{
+  RA      0 2 28.76
+  Dec     8 28 59.2
+  AppMagn 5.7
+
+  Class   "F1V"
+
+  Dist    37
+  AbsMagn 2.86
+}
+
+Remove "HIP 2025"
+Star "土公二/45 Psc/HD 2140/BD+06 43/GCRV 231/GSC 00596-01294/HIC 2025/HIP 2025/IRAS 00231+0724/2MASS J00254191+0741279/PPM 143484/SAO 109195/YZ 7 118/AG+07 47/TYC 596-1294-1/Gaia DR1 2748176433988783616/WEB 386/Gaia DR2 2748176438284712832"
+{
+  RA      0 25 41.07
+  Dec     7 41 20.1
+  AppMagn 6.763
+
+  Class   "K0III?"
+
+  Dist    224.72
+  AbsMagn 0.01
+
+  Luminosity 163.46
+}
