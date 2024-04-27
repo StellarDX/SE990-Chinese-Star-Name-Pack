@@ -50,6 +50,20 @@ void GetMassFromRadiusGravity()
     cout << Mass << '\n';
 }
 
+void GetRadiusFromMassGravity()
+{
+    float64 Mass, logg;
+    cout << "Mass in MSun : ";
+    cin >> Mass;
+    Mass *= SolarMass;
+    cout << Mass << '\n';
+    cout << "Surface Gravity (log g) in cm/s^2 : ";
+    cin >> logg;
+    cout << logg << '\n';
+    float64 Radius = cse::sqrt((GravConstant * Mass) / ((cse::pow(10, logg) / 100.)));
+    cout << Radius / 1000. << '\n';
+}
+
 void GetDistFromSeparation()
 {
     float64 AngularSep, Dist;
@@ -61,8 +75,8 @@ void GetDistFromSeparation()
     cin >> Dist;
     if (Dist < 0) {Dist = cse::abs(1. / (Dist / 1000.));}
     cout << Dist << '\n';
-    float64 ActualDist =
-        cse::sqrt(pow(Dist, 2) + pow(Dist, 2) - (2 * Dist * Dist * cos(AngularSep)));
+    float64 ActualDist = Parsec *
+        cse::sqrt(pow(Dist, 2) + cse::pow(Dist, 2) - (2 * Dist * Dist * cse::cos(AngularSep / 3600.)));
     int Option;
     cout << "Output format\n"
             " 1 - Km\n"
@@ -95,7 +109,8 @@ int main()
         cout << "Mode\n"
                 " 1 = Calculate radius from luminosity and temperature\n"
                 " 2 = Calculate mass from radius and log g\n"
-                " 3 = Calculate actual distance from angular separation\n"
+                " 3 = Calculate radius from mass and log g\n"
+                " 4 = Calculate actual distance from angular separation\n"
                 " 0 = Exit\n";
 
         int Preset;
@@ -112,6 +127,10 @@ int main()
             break;
 
         case 3:
+            GetRadiusFromMassGravity();
+            break;
+
+        case 4:
             GetDistFromSeparation();
             break;
 

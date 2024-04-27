@@ -1,11 +1,11 @@
 // Object * bet UMi b  ---  Planet  ---  OID=@15302269   (@@-1,255)  ---  coobox=1728
 Planet	"BET UMi b"
 {
-    DateUpdated    "2014-05-12"
+	DateUpdated    "2014-05-12"
 	ParentBody     "BET UMi"
 	DiscMethod     "RadVel"
 	DiscDate       "2014"
-    MassKg         1.15785625e+28 // 6.1 MJ
+	MassKg         1.15785625e+28 // 6.1 MJ
 
 	Orbit
 	{
@@ -22,7 +22,7 @@ Planet	"BET UMi b"
 Star "5 UMi A"
 {
 	DateUpdated     "2024-04-27"
-	ParentBody      "HIP 70692"
+	ParentBody      "5 UMi"
 	Class           "K4III"
 	AbsMagn         -0.96
 	MassSol         1.86
@@ -32,7 +32,7 @@ Star "5 UMi A"
 	FeH             -0.16
 	Age             2
 
-    BinaryOrbit // 未知，程序生成
+	BinaryOrbit // 未知，程序生成
 	{
 		RefPlane        "Equator"
 		SemiMajorAxis   61.1861398
@@ -47,8 +47,8 @@ Star "5 UMi A"
 // Primary star is a mild barium star, which may indicate it is a binary with a white dwarf companion, and is very lithium-weak
 Star "5 UMi B"
 {
-    ParentBody      "HIP 70692"
-    Class           "WD"
+	ParentBody      "5 UMi"
+	Class           "WD"
 }
 
 // Object * 4 UMi  ---  Spectroscopic Binary  ---  OID=@378185   (@@6396,6)  ---  coobox=1695 
@@ -56,7 +56,7 @@ Star "5 UMi B"
 Star "4 UMi A"
 {
 	DateUpdated     "2024-04-27"
-	ParentBody      "HIP 69112"
+	ParentBody      "4 UMi"
 	Class           "K3IIIbFe-0.5"
 	AbsMagn         -1.06
 	MassKg          3.05319361676504e+30 // log(g) = 1.73 cm/s^2
@@ -80,6 +80,6 @@ Star "4 UMi A"
 
 Star "4 UMi B"
 {
-	ParentBody      "HIP 69112"
+	ParentBody      "4 UMi"
 	Class           "K3?" // 未知
 }

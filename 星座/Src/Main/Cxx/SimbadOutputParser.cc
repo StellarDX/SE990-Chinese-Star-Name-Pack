@@ -24,7 +24,11 @@ static const regex AppMagnRegex("^Flux V : ([0-9.]+) \\[([~0-9.]+)\\].*$");
 static const regex SpectralTypeRegex("^Spectral type: ([\\S]+).*$");
 
 static const regex NomenclatureNameRegex("^NAME (.+)$");
-static const regex BayerDesignationRegex("^\\* ([A-Za-z][A-Za-z][A-Za-z]) ([A-Za-z][A-Za-z][A-Za-z])$");
+static const regex BayerDesignationRegex("^\\* ([A-Za-z][A-Za-z][A-Za-z.]) ([A-Za-z][A-Za-z][A-Za-z])$");
+static const regex BayerDesignationRegex2("^\\* ([A-Za-z]) ([A-Za-z][A-Za-z][A-Za-z])$");
+static const regex BayerDesignationRegex3("^\\* ([A-Za-z][A-Za-z][A-Za-z.])([0-9][0-9]) ([A-Za-z][A-Za-z][A-Za-z])$");
+static const regex BayerDesignationRegexV("^V\\* ([A-Za-z][A-Za-z][A-Za-z.]) ([A-Za-z][A-Za-z][A-Za-z])$");
+static const regex BayerDesignationRegexV2("^V\\* ([A-Za-z][A-Za-z][A-Za-z.])([0-9][0-9]) ([A-Za-z][A-Za-z][A-Za-z])$");
 static const regex FlamsteedDesignationRegex("^\\* ([0-9]+) ([A-Za-z][A-Za-z][A-Za-z])$");
 
 void __Remove_White_Spaces(string& Str)
@@ -97,9 +101,36 @@ void __Convert_Bayer_Flamsteed_Designation(string& Identifier)
     {
         string GreekChar = Match[1];
         transform(GreekChar.begin(), GreekChar.end(), GreekChar.begin(), ::toupper);
+        if (GreekChar.back() == '.') {GreekChar = GreekChar.substr(0, 2);}
         Identifier = GreekChar + ' ' + Match[2];
     }
-
+    else if (std::regex_search(Identifier, Match, BayerDesignationRegex2))
+    {
+        Identifier = string(Match[1]) + ' ' + Match[2];
+    }
+    else if (std::regex_search(Identifier, Match, BayerDesignationRegex3))
+    {
+        string GreekChar = Match[1];
+        transform(GreekChar.begin(), GreekChar.end(), GreekChar.begin(), ::toupper);
+        if (GreekChar.back() == '.') {GreekChar = GreekChar.substr(0, 2);}
+        int Num = stoi(string(Match[2]));
+        Identifier = format("{}{} {}", GreekChar, Num, string(Match[3]));
+    }
+    else if (std::regex_search(Identifier, Match, BayerDesignationRegexV))
+    {
+        string GreekChar = Match[1];
+        transform(GreekChar.begin(), GreekChar.end(), GreekChar.begin(), ::toupper);
+        if (GreekChar.back() == '.') {GreekChar = GreekChar.substr(0, 2);}
+        Identifier = format("V* {} {}", GreekChar, string(Match[2]));
+    }
+    else if (std::regex_search(Identifier, Match, BayerDesignationRegexV2))
+    {
+        string GreekChar = Match[1];
+        transform(GreekChar.begin(), GreekChar.end(), GreekChar.begin(), ::toupper);
+        if (GreekChar.back() == '.') {GreekChar = GreekChar.substr(0, 2);}
+        int Num = stoi(string(Match[2]));
+        Identifier = format("V* {}{} {}", GreekChar, Num, string(Match[3]));
+    }
     else if (std::regex_search(Identifier, Match, FlamsteedDesignationRegex))
     {
         Identifier = string(Match[1]) + ' ' + Match[2];
@@ -139,9 +170,11 @@ string GetIdentifiers(StdStringList Input, StdStringList* IdentifierBuffer = nul
             IBuffer = Input[i].substr(TargetIndices[j], TargetIndices[j + 1] - TargetIndices[j]);
             __Remove_White_Spaces(IBuffer);
             if (IBuffer.empty()) {continue;}
+            bool IsMain = Input[5].find(IBuffer) != Input[5].npos;
             __Convert_Nomenclature_Name(IBuffer);
             __Convert_Bayer_Flamsteed_Designation(IBuffer);
-            Identifiers.push_back(IBuffer);
+            if (IsMain) {Identifiers.insert(Identifiers.begin(), IBuffer);}
+            else {Identifiers.push_back(IBuffer);}
             IBuffer.clear();
         }
     }
