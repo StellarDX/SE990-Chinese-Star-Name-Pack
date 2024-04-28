@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CSE_DIRECTORY "E:/Projects/Qt/CSE-Build/Install")
 
-file(GLOB_RECURSE Files RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}" "${CMAKE_CURRENT_SOURCE_DIR}/*.cc")
+file(GLOB_RECURSE Files "${CMAKE_CURRENT_SOURCE_DIR}/Src/Main/Cxx/*.cc")
 foreach(File IN LISTS Files)
     get_filename_component(Name ${File} NAME_WE)
     add_executable(${Name} ${File})
