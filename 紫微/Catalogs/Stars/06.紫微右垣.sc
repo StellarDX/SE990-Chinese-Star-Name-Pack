@@ -65,7 +65,7 @@ Star "少辅/紫微右垣四/d UMa/GJ 355.1/HIP 46977/Gaia DR3 10711333400389043
 	LumBol          14.9
 	Teff            5335
 	FeH             -0.19
-    RotationPeriod  240
+	RotationPeriod  240
 	Age             1
 }
 
@@ -101,7 +101,7 @@ Star "少卫(紫微右垣)/紫微右垣六/ALF Cam/Gaia DR3 482818271843093376/H
 	Parallax        0.5916
 	AppMagn         4.29
 	Class           "O9Ia"
-    // Measures     
+	// Measures     
 	AbsMagn         -7.1
 	MassSol         37.6
 	RadSol          32.5
