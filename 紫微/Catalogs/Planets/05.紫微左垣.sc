@@ -155,7 +155,7 @@ Star "ZET Dra B"
 {
 	DateUpdated     "2024-04-27"
 	ParentBody      "ZET Dra"
-	Class           "B6?"
+	Class           "B1.7?"
 }
 
 // Object * ups Dra  ---  Spectroscopic Binary  ---  OID=@300118   (@@7861,0)  ---  coobox=858 

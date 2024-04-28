@@ -28,7 +28,7 @@ Star "HD 91190 A"
 Star "HD 91190 B"
 {
 	ParentBody      "HIP 51808"
-	Class           "G8?"
+	Class           "A5.8?"
 }
 
 // Object HD 91114  ---  Star  ---  OID=@409722   (@@4608,14)  ---  coobox=3172 

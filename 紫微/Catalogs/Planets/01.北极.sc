@@ -81,5 +81,5 @@ Star "4 UMi A"
 Star "4 UMi B"
 {
 	ParentBody      "4 UMi"
-	Class           "K3?" // 未知
+	Class           "B7.8?" // 未知
 }
