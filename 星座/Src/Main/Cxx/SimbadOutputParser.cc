@@ -314,6 +314,35 @@ void AddMeasures(SCSTable* PTable)
     PTable->Get().back().Key = "Age";
 }
 
+void AddBinaryOrbit(SCSTable* PTable)
+{
+    __Add_Empty_Tag(PTable);
+    PTable->Get().back().Key = "BinaryOrbit";
+    SCSTable OrbitTable;
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "PeriodDays";
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "Separation";
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "Eccentricity";
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "Inclination";
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "AscendingNode";
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "Epoch";
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "ArgOfPericenter";
+    __Add_Empty_Tag(&OrbitTable);
+    OrbitTable.Get().back().Key = "MeanAnomaly";
+    OrbitTable.Get().back().Value.push_back(
+    {
+        .Type = _SC ValueType::ToTypeID<float64>(),
+        .Value = {ustring("0")}
+    });
+    PTable->Get().back().SubTable = make_shared<SCSTable>(OrbitTable);
+}
+
 int main(int argc, char const* const* argv)
 {
     if (argc == 1) {return 114514;}
@@ -321,7 +350,11 @@ int main(int argc, char const* const* argv)
     if (!Fin.is_open()) {return 1919810;}
 
     StdStringList InputLines = ReadAllFile(Fin);
-    SCSTable MainTable, SubTable, ObjectMainTable, ObjectSubTable;
+    SCSTable
+        MainTable, SubTable,
+        ObjectMainTable, ObjectSubTable,
+        BarycenTable, BarycenSubTable,
+        CompMainTable, CompSubTable;
     string MainIdentifier = GetMainIdentifier(InputLines);
     StdStringList IdentifierList;
     string Identifiers = GetIdentifiers(InputLines, &IdentifierList);
@@ -371,7 +404,24 @@ int main(int argc, char const* const* argv)
         __Add_Key_Value(&ObjectSubTable, "ParentBody", ustring(IdentifierList[0]), 0, Precision);
         __Add_Key_Value(&ObjectSubTable, "Class", ustring(SpectralType), 0, Precision);
         AddMeasures(&ObjectSubTable);
+        AddBinaryOrbit(&ObjectSubTable);
         ObjectMainTable.Get().back().SubTable = make_shared<decltype(ObjectSubTable)>(ObjectSubTable);
+
+        __Add_Comment(&BarycenTable, InputLines[5]);
+        __Add_Comment(&BarycenTable, ObjTypeString);
+        __Add_Key_Value(&BarycenTable, "Barycenter", ustring(MainIdentifier + " A"), 0, Precision);
+        __Add_Key_Value(&BarycenSubTable, "ParentBody", ustring(IdentifierList[0]), 0, Precision);
+        AddBinaryOrbit(&BarycenSubTable);
+        BarycenTable.Get().back().SubTable = make_shared<decltype(BarycenSubTable)>(BarycenSubTable);
+
+        __Add_Comment(&CompMainTable, InputLines[5]);
+        __Add_Comment(&CompMainTable, ObjTypeString);
+        __Add_Key_Value(&CompMainTable, "Star", ustring(MainIdentifier + " B"), 0, Precision);
+        __Add_Key_Value(&CompSubTable, "DateUpdated", CSEDate::CurrentDate(), 0, Precision);
+        __Add_Key_Value(&CompSubTable, "ParentBody", ustring(IdentifierList[0]), 0, Precision);
+        __Add_Key_Value(&CompSubTable, "Class", ustring(""), 0, Precision);
+        AddMeasures(&CompSubTable);
+        CompMainTable.Get().back().SubTable = make_shared<decltype(CompSubTable)>(CompSubTable);
     }
     else
     {
@@ -384,7 +434,7 @@ int main(int argc, char const* const* argv)
     ofstream Fout(MainIdentifier + ".sc");
     OSCStream os(Fout);
     os << MainTable;
-    if (ObjType == "StarBarycenter") {os << ObjectMainTable;}
+    if (ObjType == "StarBarycenter") {os << ObjectMainTable << BarycenTable << CompMainTable;}
     os.Write();
     Fout.close();
 
