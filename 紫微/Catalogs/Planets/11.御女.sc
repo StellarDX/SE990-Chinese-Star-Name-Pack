@@ -51,7 +51,7 @@ Star "50 Dra Aa"
 	Class           "A1Vn"
 	AbsMagn         0.64 // 计算的值
 	MassKg          5.13089703879497e+30 // log(g) = 3.934 cm/s^2
-	RadSol          2.869971
+	RadSol          2.869971 // Gaia DR3
 	LumBol          62.29589859950227 // 计算的值
 	Teff            9572
 	FeH             0.214
@@ -93,7 +93,7 @@ Star "29 Dra A"
 	Class           "K0III"
 	AbsMagn         1.96 // 计算的值
 	MassKg          3.56022533128872e+30 // log(g) = 2.893 cm/s^2
-	RadSol          7.925371
+	RadSol          7.925371 // Gaia DR3
 	LumBol          36.65874250630594 // 计算的值
 	Teff            5045
 	FeH             -0.053
