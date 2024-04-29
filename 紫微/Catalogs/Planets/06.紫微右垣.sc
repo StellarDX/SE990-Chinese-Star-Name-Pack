@@ -95,5 +95,5 @@ Star "BK Cam A"
 Star "BK Cam B"
 {
 	ParentBody      "HD 20336"
-	Class           "B2.5?"
+	Class           "B8.8?"
 }
