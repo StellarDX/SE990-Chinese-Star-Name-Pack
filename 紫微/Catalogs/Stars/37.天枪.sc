@@ -1,0 +1,40 @@
+// Object * kap Boo  ---  Composite Object, Blend  ---  OID=@517289   (@@8914,3)  ---  coobox=1471 
+// Object types: Double or Multiple Star,Star,X-ray Source,Composite Object, Blend 
+Remove "KAP Boo"
+StarBarycenter "天枪一/KAP Boo/uvby98 100124675/GEN# +1.00124675/1RXS J141339.9+514808/17 Boo/ADS 9173 AB/CSI+52 1782 3/UBV 12535/WDS J14135+5147AB/** STF 1821/PMSC 14099+5215"
+{
+	DateUpdated     "2024-05-04"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 13 28.4
+	Dec             51 47 20
+	Parallax        21.1980 // A
+	Class           ""
+}
+
+// Object * iot Boo  ---  delta Sct Variable  ---  OID=@517312   (@@8916,0)  ---  coobox=1469 
+// Object types: delta Sct Variable,High Proper Motion Star,Double or Multiple Star,Variable Star,Near-IR Source (λ < 3 µm),High Proper Motion Star,Star,Infra-Red Source,UV-emission Source 
+Remove "IOT Boo"
+StarBarycenter "天枪二/IOT Boo/GJ 9474 A/HIP 69713/Gaia DR3 1511727333122255744/TIC 310381204/PLX 3245/ASCC 259622/USNO-B1.0 1413-00248000/21 Boo/ADS 9198 A/AG+51 975/BD+52 1784/CCDM J14162+5122A/CEL 4309/CSI+52 1784 1/CSV 101436/FK5 528/GC 19269/GCRV 8354/GEN# +1.00125161A/GEN# +1.00125161/GSC 03478-01333/HD 125161/HIC 69713/HR 5350/IDS 14126+5150 A/IRAS 14143+5135/JP11 2492/N30 3234/NLTT 36813/NSV 6610/PMC 90-93 378/PPM 34432/ROT 2047/SAO 29071/SKY# 26040/SV* ZI 1056/TYC 3478-1333-1/UBV 12563/UBV M 20096/V* IOT Boo/YZ 51 4480/[HFE83] 1019/2MASS J14160992+5122019/LSPM J1416+5122S/[ZEH2003] RX J1416.1+5122 1/WDS J14162+5122A/** STF 4026A/WEB 12138/Gaia DR2 1511727333122255744"
+{
+	DateUpdated     "2024-05-04"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 16 9.929762808
+	Dec             51 22 2.028703692
+	Parallax        33.8856
+	AppMagn         4.75
+	Class           "A7V"
+}
+
+// Object * tet Boo  ---  High Proper Motion Star  ---  OID=@517441   (@@8922,7)  ---  coobox=1468 
+// Object types: High Proper Motion Star,High Proper Motion Star,Near-IR Source (λ < 3 µm),Double or Multiple Star,Variable Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "TET Boo"
+StarBarycenter "天枪三/TET Boo/GJ 549 A/HIP 70497/Gaia DR3 1604859511344724864/TIC 441709021/PLX 3274/LSPM J1425+5151/TYC 3478-1332-1/ASCC 259809/2MASS J14251181+5151029/USNO-B1.0 1418-00270509/23 Boo/1ES 1423+52.0/2E 3265/2RE J1425+515/2RE J142513+515126/AG+52 986/BD+52 1804/CCDM J14252+5151A/CSI+52 1804 1/CSV 101448/Ci 20 858/FK5 531/GC 19467/GCRV 8428/GEN# +1.00126660/HD 126660/HIC 70497/HR 5404/IDS 14218+5219 A/IRAS 14234+5204/IRC +50238/JP11 2511/LTT 14245/N30 3272/NLTT 37312/NSV 6669/PMC 90-93 379/PPM 34508/RBS 1388/RE J142514+515056/RE J1425+515/ROT 2074/SAO 29137/SKY# 26276/SV* ZI 1068/TD1 17485/UBV 12655/UBV M 20184/uvby98 100126660/1RXS J142511.9+515109/2E 1423.4+5204/2EUVE J1425+51.8/EUVE J1425+51.8/RX J1425.1+5151/RX J1425.2+5151/[ZEH2003] RX J1425.1+5151 1/WDS J14252+5151A/** STT 580A/WEB 12229/Gaia DR2 1604859511344338816"
+{
+	DateUpdated     "2024-05-04"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 25 11.7969501601
+	Dec             51 51 2.677224089
+	Parallax        69.0686
+	AppMagn         4.05
+	Class           "F7V"
+}
