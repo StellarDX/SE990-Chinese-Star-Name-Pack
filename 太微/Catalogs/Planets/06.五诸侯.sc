@@ -1,5 +1,6 @@
 // Object * 39 Com A  ---  Double or Multiple Star  ---  OID=@8453672   (@@-1,255)  ---  coobox=13893 
 // Object types: High Proper Motion Star,Double or Multiple Star,Star 
+// NoirLab: https://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HIP&number=63948
 Barycenter "39 Com A/Gaia DR3 3943394845252502144/** COU 11A/WDS J13064+2109A/WDS J13064+2109Aa,Ab/HD 113848A/BD+21 2487A/** CHR 150/TYC 1456-847-1/CCDM J13064+2109AP/Gaia DR2 3943394845252502144"
 {
 	ParentBody      "39 Com"
