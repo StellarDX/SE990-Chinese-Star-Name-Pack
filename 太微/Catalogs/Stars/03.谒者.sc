@@ -1,0 +1,21 @@
+// Object * c Vir  ---  Red Giant Branch star  ---  OID=@1913063   (@@39645,0)  ---  coobox=13991 
+// Object types: High Proper Motion Star,Red Giant Branch star,Near-IR Source (λ < 3 µm),Double or Multiple Star,Variable Star,High Proper Motion Star,Star,Star,Infra-Red Source 
+Remove "16 Vir"
+Star "谒者/c Vir/HIP 60172/GALAH 140710000801284/AP J12202099+0318453/Gaia DR3 3701693091058501504/TIC 377170968/PLX 2842/LSPM J1220+0318/TYC 285-1247-1/ASCC 1136972/USNO-B1.0 0933-00237500/16 Vir/AG+03 1610/BD+04 2604/CCDM J12204+0319A/CSI+04 2604 1/CSV 101265/DO 3210/FK5 1317/GC 16828/GCRV 7398/GEN# +1.00107328/HD 107328/HIC 60172/HR 4695/IDS 12152+0352 A/IRAS 12177+0335/IRC +00215/JP11 2209/LTT 13450/N30 2854/NLTT 30392/NSV 5558/PMC 90-93 913/PPM 158745/RAFGL 4839S/ROT 1808/SAO 119341/SKY# 23120/SV* ZI 933/UBV 11079/UBV M 18074/YZ 3 4465/uvby98 100107328/2MASS J12202099+0318453/PLX 2842.00/WDS J12203+0319A/RAVE J122021.0+031845/WEB 10698/Gaia DR2 3701693091058501504/GES J12202074+0318444"
+{
+	DateUpdated     "2024-05-05"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              12 20 20.9813922197
+	Dec             3 18 45.255217001
+	Parallax        9.67
+	AppMagn         4.96
+	Class           "K0.5IIIbFe-0.5"
+	// Measures     
+	AbsMagn         0.26
+	MassSol         1.62
+	RadSol          18
+	LumBol          131.8
+	Teff            4423
+	FeH             -0.33
+	Age             3.22
+}
