@@ -77,8 +77,8 @@ Star "天柱四/天柱增一/59 Dra/GJ 9649/GJ 748.1/HIP 94083/Gaia DR3 22924986
 	FeH             -0.696
 }
 
-// ADS 11061
-// Number of objects : 2
+// Object * 40 Dra  ---  Spectroscopic Binary  ---  OID=@316081   (@@6676,14)  ---  coobox=981 
+// Object types: High Proper Motion Star,Near-IR Source (λ < 3 µm),Double or Multiple Star,Spectroscopic Binary,Star,X-ray Source 
 Remove "40 Dra"
 Remove "41 Dra"
 StarBarycenter "** STF 2308/ADS 11061/CCDM J18002+8000/IDS 18076+7959/PMSC 18075+7959/WDS J18002+8000"
