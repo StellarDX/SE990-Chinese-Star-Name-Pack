@@ -25,7 +25,7 @@ Star "CHI Leo A"
 
 // Object * chi Leo B  ---  High Proper Motion Star  ---  OID=@15318951   (@@-1,255)  ---  coobox=13212 
 // Object types: High Proper Motion Star,Double or Multiple Star,Star 
-Star "CHI Leo B/Gaia DR3 3818309974360006016/Gaia DR2 3818309974359047936/* 63 Leo B/** KUI 54B/CCDM J11050+0721B/HD 96097B/WDS J11050+0720B"
+Star "CHI Leo B/Gaia DR3 3818309974360006016/Gaia DR2 3818309974359047936/63 Leo B/** KUI 54B/CCDM J11050+0721B/HD 96097B/WDS J11050+0720B"
 {
 	DateUpdated     "2024-05-06"
 	ParentBody      "HIP 54182"
