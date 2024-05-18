@@ -23,7 +23,7 @@ Planet "IOT Dra b/HIP 75458 b/HD 137759 b/Hypatia/Edasich b"
 	ParentBody     "IOT Dra A"
 	DiscMethod     "RadVel"
 	DiscDate       "2002"
-    MassKg         3.112925e+28
+    MassJup        16.4
 
     Surface {Preset "jupiter_cold_default.cfg"}
 
@@ -48,7 +48,7 @@ Planet "IOT Dra c"
 	ParentBody     "IOT Dra A"
 	DiscMethod     "RadVel"
 	DiscDate       "2022"
-    MassKg         3.2268125e+28
+    MassJup        17.0
 
 	Orbit
 	{

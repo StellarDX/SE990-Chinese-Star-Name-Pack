@@ -35,7 +35,7 @@ Planet	"OMI UMa Ab"
 	ParentBody     "OMI UMa A"
 	DiscMethod     "RadVel"
 	DiscDate       "2012"
-	MassKg         7.7823125e+27
+	MassJup        4.1
 
 	Orbit
 	{

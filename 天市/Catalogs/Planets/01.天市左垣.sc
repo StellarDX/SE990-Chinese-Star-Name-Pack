@@ -256,7 +256,7 @@ Planet "NU Oph b"
 	ParentBody     "WISE J175901.62-094626.8"
 	DiscMethod     "RadVel"
 	DiscDate       "2004"
-	MassKg         4.2138375e+28 // 22.2-81.7 MJup
+	MassJup        22.2 // 22.2-81.7
 
 	Orbit
 	{
@@ -277,7 +277,7 @@ Planet "NU Oph c"
 	ParentBody     "WISE J175901.62-094626.8"
 	DiscMethod     "RadVel"
 	DiscDate       "2010"
-	MassKg         4.68836875e+28 // 24.7-92.0 MJup
+	MassJup        24.7 // 24.7 - 92.0 MJup
 
 	Orbit
 	{

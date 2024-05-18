@@ -41,7 +41,8 @@ Planet	"HD 33564 b"
 	ParentBody      "HD 33564"
 	DiscMethod      "RadVel"
 	DiscDate        "2005"
-	MassKg          1.72729375e+28
+	Class           "GasGiant"
+	MassJup         9.1
 
 	Orbit
 	{

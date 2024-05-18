@@ -119,7 +119,7 @@ Planet "HD 112300 b"
 	ParentBody     "DEL Vir A"
 	DiscMethod     "RadVel"
 	DiscDate       "2023"
-	MassKg         3.004731875e+28
+	MassJup        15.83
 
 	Orbit
 	{

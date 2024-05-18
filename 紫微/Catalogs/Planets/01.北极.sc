@@ -5,7 +5,7 @@ Planet	"BET UMi b"
 	ParentBody     "BET UMi"
 	DiscMethod     "RadVel"
 	DiscDate       "2014"
-	MassKg         1.15785625e+28 // 6.1 MJ
+	MassJup        6.1
 
 	Orbit
 	{

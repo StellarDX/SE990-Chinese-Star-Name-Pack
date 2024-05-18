@@ -6,7 +6,7 @@ Planet "59 Dra b/HD 180777b"
 	ParentBody     "59 Dra"
 	DiscMethod     "RadVel"
 	DiscDate       "2006"
-	MassKg         4.7453125e+28
+	MassJup        25.0
 
 	Orbit
 	{

@@ -74,7 +74,7 @@ Planet	"47 UMa b/HD 95128b/Taphao Thong"
 	ParentBody     "Chalawan"
 	DiscMethod     "RadVel"
 	DiscDate       "1996"
-	MassKg         4.80225625e+27
+	MassJup        2.53
 
 	Surface {Preset "jupiter_Class_II.cfg"}
 
@@ -123,7 +123,7 @@ Planet	"47 UMa c/HD 95128c/Taphao Kaew"
 	ParentBody     "Chalawan"
 	DiscMethod     "RadVel"
 	DiscDate       "2001"
-	MassKg         1.0249875e+27
+	MassJup        0.540
 
 	Surface{Preset "jupiter_temperate_default.cfg"}
 
@@ -172,7 +172,7 @@ Planet	"47 UMa d/HD 95128d"
 	ParentBody     "Chalawan"
 	DiscMethod     "RadVel"
 	DiscDate       "2009"
-	MassKg         3.112925e+27
+	MassJup        1.64
 
 	Surface{Preset "jupiter_Class_I_a.cfg"}
 

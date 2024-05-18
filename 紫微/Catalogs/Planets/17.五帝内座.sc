@@ -6,7 +6,7 @@ Planet "HD 18438 b"
 	ParentBody     "HIP 14417"
 	DiscMethod     "RadVel"
 	DiscDate       "2023"
-	MassKg         3.9860625e+28
+	MassJup        21
 	Radius         77211.360
 
 	Orbit

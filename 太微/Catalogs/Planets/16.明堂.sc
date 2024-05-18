@@ -5,7 +5,7 @@ Planet	"UPS Leo b"
 	ParentBody     "UPS Leo"
 	DiscMethod     "RadVel"
 	DiscDate       "2021"
-	MassKg         9.6804375e+26
+	MassJup        0.51
 
 	Orbit
 	{

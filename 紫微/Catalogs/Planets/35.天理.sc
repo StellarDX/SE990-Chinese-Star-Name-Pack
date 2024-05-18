@@ -5,7 +5,7 @@ Planet "HD 99283 b"
 	ParentBody     "HD 99283"
 	DiscMethod     "RadVel"
 	DiscDate       "2021"
-	MassKg         1.84118125e+27
+	MassJup        0.97
 
 	Orbit
 	{
