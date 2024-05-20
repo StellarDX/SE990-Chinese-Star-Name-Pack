@@ -1,0 +1,33 @@
+// Object * tet Vir  ---  Double or Multiple Star  ---  OID=@2112996   (@@43381,0)  ---  coobox=15472 
+// Object types: Near-IR Source (λ < 3 µm),Mid-IR Source (3 to 30 µm),Double or Multiple Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "TET Vir"
+StarBarycenter "平道一/TET Vir/HIP 64238/Gaia DR3 3629615946329315456/WISEA J130956.97-053220.4/PLX 3005/51 Vir/ADS 8801 A/BD-04 3430/CCDM J13099-0532A/CEL 4208/CSI-04 3430 1/FK5 490/GC 17828/GCRV 7830/GEN# +1.00114330A/GSC 04963-01316/HD 114330/HIC 64238/HR 4963/IDS 13048-0500 A/JP11 2363/N30 3021/PMC 90-93 347/PPM 196233/ROT 1936/SAO 139189/SKY# 24359/TD1 16666/TYC 4963-1316-1/UBV M 19088/UBV 11889/YZ 95 4775/[GS83] 14/EXO 1307.3-0516/WDS J13099-0532Aa,Ab/PMSC 13048-0500AP/2MASS J13095699-0532204/IRAS 13073-0516/** STF 1724A/AKARI-IRC-V1 J1309569-053220/WISE J130956.95-053220.2/IRAS F13073-0516/WDS J13099-0532A/** MCA 38/WEB 11356/Gaia DR2 3629615946329315456"
+{
+	DateUpdated     "2024-05-20"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              13 9 56.988938568
+	Dec             -5 32 20.414634792
+	Parallax        11.1834
+	AppMagn         4.397
+	Class           "A1IVs"
+}
+
+// Object * m Vir  ---  High Proper Motion Star  ---  OID=@2205081   (@@45932,7)  ---  coobox=15660 
+// Object types: High Proper Motion Star,Near-IR Source (λ < 3 µm),Variable Star,Star,Infra-Red Source 
+Remove "82 Vir"
+Star "平道二/m Vir/HIP 66803/Gaia DR3 3618198617586733312/TIC 743613/PLX 3126/82 Vir/BD-07 3674/FK5 1355/GC 18509/GCRV 8095/GEN# +1.00119149/GSC 05546-01582/HD 119149/HIC 66803/HR 5150/IRAS 13389-0827/IRC -10293/N30 3119/NSV 6390/PMC 90-93 947/PPM 196772/RAFGL 1643/SACS 297/SAO 139490/SKY# 25170/TYC 5546-1582-1/UBV 12249/UBV M 19635/YZ 98 4882/[DS98] 194/[HFE83] 968/2MASS J13413677-0842110/PLX 3126.00/WEB 11778/Gaia DR2 3618198617586494080"
+{
+	DateUpdated     "2024-05-20"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              13 41 36.7700844816
+	Dec             -8 42 10.729027692
+	Parallax        5.4376
+	AppMagn         5.01
+	Class           "M1III"
+	// Measures     
+	AbsMagn         -1.31
+	MassSol         0.946473434289405 // log(g) = 0.714 cm/s^2
+	RadSol          70.81
+	LumBol          887.925
+	Teff            3675
+}
