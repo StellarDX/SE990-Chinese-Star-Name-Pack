@@ -47,11 +47,9 @@ Star "帝席三/9 Boo/HIP 68103/Gaia DR3 1451072022557616000/TIC 357357988/PLX 3
 	AppMagn         5
 	Class           "K3III"
 	// Measures     
-	AbsMagn         
-	MassSol         
-	RadSol          
-	LumBol          
-	Teff            
-	FeH             
-	Age             
+	AbsMagn         -1.23
+	RadSol          54.74
+	LumBol          716
+	Teff            4197
+	FeH             -0.27
 }
