@@ -8,7 +8,7 @@ StarBarycenter "心宿一/太子(心宿)/SIG Sco/HIP 80112/Gaia DR3 604860210366
 	RA              16 21 11.3157134
 	Dec             -25 35 34.051476
 	//Parallax        4.68
-	Dist            130.2331 // Match Nebula
+	Dist            126.2331 // Match Nebula
 	AppMagn         2.89
 	Class           "B1III+B1:V"
 }
