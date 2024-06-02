@@ -1,7 +1,7 @@
 // Object * bet Cap  ---  Double or Multiple Star  ---  OID=@8275382   (@@-1,255)  ---  coobox=19335 
 // Object types: Double or Multiple Star,Double or Multiple Star,Star 
 Remove "BET Cap"
-StarBarycenter "牛宿一/BET Cap/GEN# +1.00193495/Dabih/** STFA 52AB/CCDM J20210-1447AB/WDS J20210-1447AB"
+StarBarycenter "BET Cap/GEN# +1.00193495/Dabih/** STFA 52AB/CCDM J20210-1447AB/WDS J20210-1447AB"
 {
 	DateUpdated     "2024-06-02"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
