@@ -122,7 +122,7 @@ Star "14 Sge A"
 	Teff            12044
 	FeH             0.798
 
-	BinaryOrbit     
+	BinaryOrbit // 系统生成
 	{
 		RefPlane        "Equator"
 		SemiMajorAxis   0.126996354
