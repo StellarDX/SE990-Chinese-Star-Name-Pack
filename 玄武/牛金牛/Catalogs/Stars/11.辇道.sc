@@ -1,0 +1,75 @@
+// Object * 13 Lyr  ---  Long-Period Variable  ---  OID=@2949136   (@@133529,0)  ---  coobox=19927 
+// Object types: Long-Period Variable,High Proper Motion Star,Classical Cepheid Variable,Near-IR Source (λ < 3 µm),Variable Star,Star,Infra-Red Source,UV-emission Source 
+Remove "13 Lyr"
+Star "辇道一/13 Lyr/HIP 92862/Gaia DR3 2106630885454013184/ASASSN-V J185520.06+435644.7/TIC 164642404/PLX 4396/AAVSO 1852+43/AG+43 1592/BD+43 3117/FK5 711/GC 25996/GCRV 11388/GEN# +1.00175865/GSC 03131-02155/HD 175865/HIC 92862/HR 7157/IRAS 18537+4352/IRC +40334/JP11 3048/N30 4198/PMC 90-93 505/PPM 57635/RAFGL 2285/SAO 47919/SKY# 34852/TD1 23555/TYC 3131-2155-1/UBV 21474/V* R Lyr/[DS98] 265/2MASS J18552010+4356463/PLX 4396.00/WEB 16075/Gaia DR2 2106630885448872832"
+{
+	DateUpdated     "2024-06-07"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              18 55 20.1023376286
+	Dec             43 56 45.92248978
+	Parallax        10.4404
+	AppMagn         4
+	Class           "M5III"
+	// Measures     
+	AbsMagn         -1.1
+	MassSol         1.80
+	Radius          136331479.439015 // 计算的值
+	LumBol          4168
+	Teff            3313
+}
+
+// Object * eta Lyr  ---  Spectroscopic Binary  ---  OID=@2924921   (@@58574,0)  ---  coobox=19954 
+// Object types: Spectroscopic Binary,Spectroscopic Binary,Double or Multiple Star,Near-IR Source (λ < 3 µm),Variable Star,Star,Infra-Red Source,UV-emission Source 
+Remove "ETA Lyr"
+StarBarycenter "辇道二/辇道增二/ETA Lyr/HIP 94481/Gaia DR3 2099679223187100800/TIC 121605728/PLX 4486/SBC9 1136/20 Lyr/AAVSO 1910+38/ADS 12197 A/AG+39 1911/BD+38 3490/CCDM J19138+3908A/CEL 4724/CSI+38 3490 1/GC 26507/GCRV 11687/GEN# +1.00180163A/GSC 03121-02285/HD 180163/HGAM 740/HIC 94481/HR 7298/IDS 19104+3858 A/JP11 3082/N30 4257/NSV 11839/PPM 82545/ROT 2748/SAO 68010/SKY# 35657/TD1 24249/TYC 3121-2285-1/UBV 16296/UBV M 23607/YPAC 198/uvby98 100180163 A/ALS 16387/PLX 4486.00/WDS J19138+3909A/UCAC3 259-149035/2MASS J19134547+3908454/AKARI-IRC-V1 J1913454+390845/IRAS 19120+3903/Aladfar/WEB 16467/Gaia DR2 2099679223187100800"
+{
+	DateUpdated     "2024-06-07"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 13 45.4884201191
+	Dec             39 8 45.477640475
+	Parallax        2.9107
+	AppMagn         4.398
+	Class           "B2.5IV"
+}
+
+// Object * tet Lyr  ---  Star  ---  OID=@2924945   (@@58576,0)  ---  coobox=19954 
+// Object types: Near-IR Source (λ < 3 µm),Double or Multiple Star,Variable Star,Star,Infra-Red Source,UV-emission Source 
+Remove "TET Lyr"
+StarBarycenter "辇道三/TET Lyr/Gaia DR3 2099385000742174592/HIP 94713/TIC 121937415/PLX 4498/21 Lyr/AAVSO 1912+37/AG+38 1814/BD+37 3398/BDS 9186 A/CCDM J19164+3808A/CSI+37 3398 1/FK5 724/GC 26585/GCRV 11738/GEN# +1.00180809/GSC 03121-02287/HD 180809/HIC 94713/HR 7314/IDS 19129+3757 A/IRC +40341/JP11 3088/N30 4268/NSV 11873/PMC 90-93 514/PPM 82611/ROT 2760/SAO 68065/SKY# 35769/TD1 24338/TYC 3121-2287-1/UBV 16324/UBV M 23645/[B10] 4912/uvby98 100180809/PLX 4498.00/WDS J19164+3808A/2MASS J19162210+3808015/IRAS 19146+3802/WEB 16518/Gaia DR2 2099385000747599104"
+{
+	DateUpdated     "2024-06-07"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 16 22.0933692526
+	Dec             38 8 1.471362063
+	Parallax        4.2005
+	AppMagn         4.38
+	Class           "K0II"
+}
+
+// Object * 4 Cyg  ---  alpha2 CVn Variable  ---  OID=@2901718   (@@59101,0)  ---  coobox=19951 
+// Object types: alpha2 CVn Variable,Near-IR Source (λ < 3 µm),Spectroscopic Binary,Variable Star,Star,Infra-Red Source,UV-emission Source 
+Remove "4 Cyg"
+StarBarycenter "辇道四/4 Cyg/HIP 95556/Gaia DR3 2050162545236012032/TIC 137309344/PLX 4553/SBC9 1153/AG+36 1801/BD+36 3557/CEL 4751/FK5 3554/GC 26846/GCRV 11879/GEN# +1.00183056/HD 183056/HIC 95556/HR 7395/N30 4309/PPM 82895/ROT 2801/SAO 68301/SBC7 752/SKY# 36176/TD1 24716/UBV 16497/UBV M 23787/V* V1741 Cyg/2MASS J19260912+3619044/PLX 4553.00/TYC 2666-2297-1/Renson 50610/AKARI-IRC-V1 J1926091+361904/IRAS 19243+3612/uvby98 100183056/WEB 16709/Gaia DR2 2050162545236012032"
+{
+	DateUpdated     "2024-06-07"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 26 9.1269274848
+	Dec             36 19 4.432147356
+	Parallax        5.7765
+	AppMagn         5.15
+	Class           "B8pSi(FeII)"
+}
+
+// Object * 17 Cyg  ---  High Proper Motion Star  ---  OID=@2903439   (@@60066,0)  ---  coobox=20300 
+// Object types: Rotating Variable,High Proper Motion Star,Mid-IR Source (3 to 30 µm),Double or Multiple Star,Near-IR Source (λ < 3 µm),Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "17 Cyg"
+Remove "HD 186858"
+StarBarycenter "辇道五/17 Cyg/GJ 9670 A/GJ 767.1 A/HIP 97295/Gaia DR3 2035035223783462400/IDS 19426+3330 A/TIC 58445695/PLX 4654/WDS J19464+3344A/SPOCS 3106/TYC 2660-4227-1/ASCC 616408/2MASS J19462559+3343400/LSPM J1946+3343W/USNO-B1.0 1237-00383653/ADS 12913 A/AG+33 1831/BD+33 3587/CCDM J19465+3343A/CSI+33 3587 1/CSI+33 3587 2/Ci 20 1167/GC 27369/GCRV 12150/HD 187013/HIC 97295/HR 7534/LTT 15774/NLTT 48226/PPM 83516/ROT 2852/SAO 68827/SKY# 36966/TD1 25433/UBV 16839/UBV 16841/uvby98 100187013/1RXS J194625.6+334338/PMSC 19426+3329A/WISEA J194625.67+334335.4/IRAS 19445+3336/GEN# +1.00187013/WEB 17093/Gaia DR2 2035035223783462400"
+{
+	DateUpdated     "2024-06-07"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              19 46 25.6000487071
+	Dec             33 43 39.353533637
+	Parallax        47.6516
+	Class           "F5.5IV-V"
+}
