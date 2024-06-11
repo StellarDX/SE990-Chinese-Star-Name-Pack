@@ -36,3 +36,9 @@ DB汉化只能添加一个名字，所以这里只能把翻译直接写进源代
  * 潘鼐. 中国恒星观测史[M]. 学林出版社, 1989.
  * [观津邀月. 【天文】中西星名对照表【最全】[EB/OL]. (2022-08-26)[2024-06-02].](https://www.bilibili.com/read/cv18299883)
  * [观津邀月. 【天文】清《仪象考成》星表无对照星考证[EB/OL]. (2022-05-08)[2024-06-02].](https://www.bilibili.com/read/cv16511099/)
+
+**天体数据来源(按优先级排序)**：
+ 1. [WENGER M, OCHSENBEIN F, EGRET D, 等. The SIMBAD astronomical database. The CDS reference database for astronomical objects[J/OL]. 2000, 143: 9-22. DOI:10.1051/aas:2000332.](https://simbad.u-strasbg.fr/simbad/)
+ 2. [WIKIPEDIA CONTRIBUTORS. Lists of stars — Wikipedia, The Free Encyclopedia[M/OL]. (2024). ](https://en.wikipedia.org/wiki/Lists_of_stars)
+ 3. [GAIA COLLABORATION, VALLENARI A., BROWN A. G. A., 等. Gaia Data Release 3 - Summary of the content and survey properties[J/OL]. A&A, 2023, 674: A1. DOI:10.1051/0004-6361/202243940.](https://www.cosmos.esa.int/web/gaia/home)
+ 4. [TOKOVININ A. The Updated Multiple Star Catalog[J/OL]. The Astrophysical Journal Supplement Series, 2018, 235(1): 6. DOI:10.3847/1538-4365/aaa1a5.](https://www.ctio.noirlab.edu/~atokovin/stars/)
