@@ -213,7 +213,9 @@ array<string, 11> GetCoordinates(StdStringList Input)
 
 Sexagesimal __String_To_Sexageximal(string deg, string min, string sec)
 {
-    return ConstructSexagesimal(stoi(deg), stoi(min), stod(sec));
+    Sexagesimal Sexa = ConstructSexagesimal(stoi(deg), stoi(min), stod(sec));
+    if (deg.front() == '-') {Sexa.Negative = 1;}
+    return Sexa;
 }
 
 void __Add_Coordinates(SCSTable* Table, Sexagesimal RA, Sexagesimal Dec)
@@ -237,7 +239,7 @@ void __Add_Coordinates(SCSTable* Table, Sexagesimal RA, Sexagesimal Dec)
 
     __Add_Empty_Tag(Table);
     Table->Get().back().Key = "Dec";
-    __Add_Value((Dec.Negative ? -1 : 1) * Dec.Degrees);
+    __Add_Value((Dec.Negative ? __Float64::FromBytes(__Float64(Dec.Degrees).Bytes | uint64(0x8000000000000000)).x : Dec.Degrees));
     __Add_Value(Dec.Minutes);
     __Add_Value(Dec.Seconds);
 }

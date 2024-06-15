@@ -28,7 +28,7 @@ Star "明堂二/UPS Leo/HIP 56647/Gaia DR3 3794167001116704000/TIC 49430557/PLX 
 	DateUpdated     "2024-05-06"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              11 36 56.9307649665
-	Dec             0 49 25.499792021
+	Dec             -0 49 25.499792021
 	Parallax        18.3461
 	AppMagn         4.3
 	Class           "G9IIIbFe-0.5"

@@ -20,7 +20,7 @@ StarBarycenter "角宿二/李/ZET Vir/GJ 3792/HIP 66249/Gaia DR3 366263682313230
 	DateUpdated     "2024-05-19"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              13 34 41.5913587272
-	Dec             0 35 44.939098032
+	Dec             -0 35 44.939098032
 	Parallax        43.7467
 	AppMagn         3.38
 	Class           "A2Van"

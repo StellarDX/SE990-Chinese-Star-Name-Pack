@@ -6,7 +6,7 @@ StarBarycenter "左执法/太微左垣一/ETA Vir/HIP 60129/Gaia DR3 36950613179
 	DateUpdated     "2024-05-04"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              12 19 54.342398196
-	Dec             0 40 0.466313196
+	Dec             -0 40 0.466313196
 	Parallax        13.1692
 	AppMagn         3.9
 	Class           "A2IV"

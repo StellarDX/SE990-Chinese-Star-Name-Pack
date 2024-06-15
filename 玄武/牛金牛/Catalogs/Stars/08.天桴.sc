@@ -6,7 +6,7 @@ StarBarycenter "天桴一/TET Aql/HIP 99473/Gaia DR3 4224225924761329792/UCAC4 4
 	DateUpdated     "2024-06-06"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              20 11 18.2866917111
-	Dec             0 49 17.268937491
+	Dec             -0 49 17.268937491
 	Parallax        14.2687
 	AppMagn         3.22
 	Class           "B9.5III"
@@ -20,7 +20,7 @@ Star "天桴二/62 Aql/HIP 98844/AP J20042314-0042332/Gaia DR3 42361107521056600
 	DateUpdated     "2024-06-06"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              20 4 23.150784168
-	Dec             0 42 33.510584628
+	Dec             -0 42 33.510584628
 	Parallax        7.4356
 	AppMagn         5.68
 	Class           "K3III"

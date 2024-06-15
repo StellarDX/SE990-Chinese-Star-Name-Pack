@@ -6,7 +6,7 @@ StarBarycenter "坟墓一/ZET Aqr/TIC 176070741/ADS 15971 AB/AG-00 2868/BD-00 43
 	DateUpdated     "2024-06-12"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              22 28 49.90685
-	Dec             0 1 11.7942
+	Dec             -0 1 11.7942
 	Parallax        35.5
 	AppMagn         3.65
 	Class           "F3III-IV"
@@ -34,7 +34,7 @@ Star "坟墓三/ETA Aqr/Gaia DR3 2653884210872467200/Gaia DR2 265388421087180659
 	DateUpdated     "2024-06-12"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              22 35 21.3813673792
-	Dec             0 7 2.990663718
+	Dec             -0 7 2.990663718
 	Parallax        18.3709
 	AppMagn         4.03
 	Class           "B8/9V"

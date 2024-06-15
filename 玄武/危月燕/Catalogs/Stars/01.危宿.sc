@@ -6,7 +6,7 @@ Star "危宿一/ALF Aqr/WISE J220546.96-001911.5/Gaia DR3 2680356911816018048/TI
 	DateUpdated     "2024-06-12"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              22 5 47.0355458275
-	Dec             0 19 11.463439527
+	Dec             -0 19 11.463439527
 	Parallax        4.9451
 	AppMagn         2.94
 	Class           "G2Ib"

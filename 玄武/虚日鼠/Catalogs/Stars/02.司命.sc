@@ -6,7 +6,7 @@ StarBarycenter "司命一/24 Aqr/Gaia DR3 2687099735592677120/GEN# +1.00206058/T
 	DateUpdated     "2024-06-11"
 	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
 	RA              21 39 31.5346754634
-	Dec             0 3 4.109536548
+	Dec             -0 3 4.109536548
 	Parallax        25.0839
 	AppMagn         6.63
 	Class           "F6V"
