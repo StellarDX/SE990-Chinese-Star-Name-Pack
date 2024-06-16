@@ -1,0 +1,14 @@
+// Object * alf PsA  ---  High Proper Motion Star  ---  OID=@1235748   (@@131479,0)  ---  coobox=8804 
+// Object types: Near-IR Source (λ < 3 µm),Sub-Millimetric Source,High Proper Motion Star,Variable Star,Double or Multiple Star,Star,Infra-Red Source,UV-emission Source 
+Remove "ALF PsA"
+Remove "TW PsA"
+StarBarycenter "北落师门/ALF PsA/GJ 881.0/GJ 881/TIC 47552789/PLX 5565/24 PsA/8pc 130.08/CD-30 19370/CEL 5549/CPC 17 12409/CPD-30 6685/FK5 867/GC 32000/GCRV 14409/GEN# +1.00216956/HD 216956/HIC 113368/HIP 113368/HR 8728/IRAS 22549-2953/IRC -30458/JP11 3556/LTT 9292/N30 5050/NLTT 55380/NSV 14372/PMC 90-93 611/PPM 274426/RAFGL 2995/ROT 3340/SAO 191524/SKY# 43608/SRS 30867/TD1 29476/UBV 19672/UBV M 26732/Zkh 345/[PS72] 89/uvby98 100216956/JCMTSE J225739.4-293726/JCMTSF J225738.9-293714/PLX 5565.00/WDS J22577-2937A/** SHY 106A/2MASS J22573901-2937193/Fomalhaut/** MAM 1A/H-ATLAS J225739.6-293730/TYC 6977-1267-1/[DML87] 545/WEB 20167/79 Aqr"
+{
+	DateUpdated     "2024-06-16"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              22 57 39.04625
+	Dec             -29 37 20.0533
+	Parallax        129.81
+	AppMagn         1.16
+	Class           "A4V"
+}
