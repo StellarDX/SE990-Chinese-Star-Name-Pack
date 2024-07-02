@@ -39,7 +39,7 @@ Star "DEL3 Tau A"
 
 // Object * del03 Tau B  ---  High Proper Motion Star  ---  OID=@9600430   (@@-1,255)  ---  coobox=4701 
 // Object types: High Proper Motion Star,Double or Multiple Star,Star 
-Star "DEL3 Tau B/Gaia DR3 3314063977537054464/* 68 Tau B/HD 27962B/** KUI 17B/CCDM J04255+1755B/WDS J04255+1756B/TYC 1269-1246-2/Gaia DR2 3314063977537054464"
+Star "DEL3 Tau B/Gaia DR3 3314063977537054464/68 Tau B/HD 27962B/** KUI 17B/CCDM J04255+1755B/WDS J04255+1756B/TYC 1269-1246-2/Gaia DR2 3314063977537054464"
 {
 	DateUpdated     "2024-06-30"
 	ParentBody      "DEL3 Tau A"
