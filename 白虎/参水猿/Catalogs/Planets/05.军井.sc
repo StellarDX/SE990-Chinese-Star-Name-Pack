@@ -98,7 +98,7 @@ Star "NU Lep A"
 	LumBol          138
 	Teff            12417
 
-	BinaryOrbit     
+	BinaryOrbit // 系统生成
 	{
 		RefPlane        "Equator"
 		SemiMajorAxis   0.198019764
