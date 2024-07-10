@@ -149,6 +149,7 @@ Star "TET2 Ori Cb"
 // Object * iot Ori  ---  Spectroscopic Binary  ---  OID=@812745   (@@15982,0)  ---  coobox=6501 
 // Object types: Spectroscopic Binary,Spectroscopic Binary,Spectroscopic Binary,Pulsating Variable,Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,Infra-Red Source,Infra-Red Source,Radio Source,UV-emission Source,X-ray Source 
 // NoirLab: http://www.ctio.noirlab.edu/~atokovin/stars/stars.php?cat=HD&number=37043
+// 系统可能是由两个至少包含2颗恒星的多星系统合并形成的，合并时弹飞了3颗恒星，分别为MU Col(屎)，AE Aur和53 Ari
 Remove "Hatsya A"{ParentBody "Hatsya"}
 Remove "Hatsya B"{ParentBody "Hatsya"}
 Remove "Hatsya Aa"{ParentBody "Hatsya A"}
