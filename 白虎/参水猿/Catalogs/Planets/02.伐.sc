@@ -41,7 +41,7 @@ Star "42 Ori Ab"
 // Object * c Ori B  ---  Star  ---  OID=@11613064   (@@-1,255)  ---  coobox=6479 
 // Object types: Double or Multiple Star,Star 
 
-Star "42 Ori B/Gaia DR3 3209572852064587776/* 42 Ori B/TYC 4774-928-2/** DA 4B/CCDM J05354-0450B/ADS 4187 B/WDS J05354-0450B"
+Star "42 Ori B/Gaia DR3 3209572852064587776/TYC 4774-928-2/** DA 4B/CCDM J05354-0450B/ADS 4187 B/WDS J05354-0450B"
 {
 	DateUpdated     "2024-07-08"
 	ParentBody      "42 Ori"
