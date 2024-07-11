@@ -1,0 +1,13 @@
+// Object * eta Gem  ---  Red Giant Branch star  ---  OID=@869696   (@@20465,0)  ---  coobox=5294 
+// Object types: Red Giant Branch star,Double or Multiple Star,Eclipsing Binary,Near-IR Source (λ < 3 µm),Variable Star,Spectroscopic Binary,Double or Multiple Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "ETA Gem"
+StarBarycenter "钺/ETA Gem/HIP 29655/Gaia DR3 3377072212924335488/4XMM J061452.5+223020/TIC 46117984/2MASS J06145266+2230244/PLX 1444/7 Gem/2E 1623/AAVSO 0608+22/AG+22 665/BD+22 1241/DO 12034/GC 7969/GCRV 3940/GSC 01877-01716/HD 42995/HIC 29655/HR 2216/IRAS 06118+2231/IRC +20139/JP11 1342/N30 1337/PMC 90-93 5710/PPM 95649/RAFGL 4478S/SAO 78135/SKY# 10538/TD1 6430/UBV 21376/UBV M 11886/V* ETA Gem/YPAC 413/YZ 22 2261/PLX 1444.00/2E 0611.8+2231/PMSC 06088+2232/Propus/WEB 5839/GEN# +1.00042995/ADS 4841 A/IDS 06088+2232 A/SBC7 271/SBC9 387/** BU 1008A/BD+22 1241A/CCDM J06149+2230A/HD 42995A/WDS J06149+2230A/TYC 1877-1716-1/Gaia DR2 3377072212925223424"
+{
+	DateUpdated     "2024-07-11"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              6 14 52.6452865329
+	Dec             22 30 24.434377815
+	Parallax        4.7312
+	AppMagn         3.28
+	Class           "M2IIIa"
+}
