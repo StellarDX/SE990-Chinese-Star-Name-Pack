@@ -61,7 +61,7 @@ Star "ETA Gem Ab"
 // Object * eta Gem B  ---  Star  ---  OID=@6611317   (@@-1,255)  ---  coobox=5294 
 // Object types: Double or Multiple Star,Star 
 
-Star "ETA Gem B/TYC 1877-1716-2/BD+22 1241B/* 7 Gem B/** BU 1008B/CCDM J06149+2230B/HD 42995B/WDS J06149+2230B"
+Star "ETA Gem B/TYC 1877-1716-2/BD+22 1241B/7 Gem B/** BU 1008B/CCDM J06149+2230B/HD 42995B/WDS J06149+2230B"
 {
 	DateUpdated     "2024-07-11"
 	ParentBody      "ETA Gem"
