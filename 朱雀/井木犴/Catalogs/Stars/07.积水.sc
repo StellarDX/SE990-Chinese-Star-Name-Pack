@@ -1,0 +1,13 @@
+// Object * 65 Aur  ---  High Proper Motion Star  ---  OID=@967033   (@@22092,4)  ---  coobox=5236 
+// Object types: High Proper Motion Star,Red Giant Branch star,Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,Infra-Red Source 
+Remove "65 Aur"
+StarBarycenter "积水(井宿)/65 Aur/HIP 35710/Gaia DR3 898059352148520960/TIC 9883136/PLX 1728/ADS 6009 A/AG+36 753/BD+37 1707/CCDM J07220+3646A/CSI+37 1707 1/FK5 2568/GC 9796/GCRV 4877/GSC 02464-02366/HD 57264/HIC 35710/HR 2793/IDS 07154+3657 A/IRC +40174/N30 1639/PPM 72715/ROT 1181/SAO 60010/SKY# 13394/TYC 2464-2366-1/UBV 7116/PLX 1728.00/WDS J07220+3646A/2MASS J07220263+3645382/WEB 7110/IRAS 07186+3651/AKARI-IRC-V1 J0722025+364537/Gaia DR2 898059352148520960/** BU 901A/GEN# +1.00057264"
+{
+	DateUpdated     "2024-07-17"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              7 22 2.6176036752
+	Dec             36 45 38.10096882
+	Parallax        12.6451
+	AppMagn         5.12
+	Class           "G8III"
+}
