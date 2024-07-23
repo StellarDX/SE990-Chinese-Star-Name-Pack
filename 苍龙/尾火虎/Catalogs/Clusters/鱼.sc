@@ -1,5 +1,5 @@
 Remove "M 7"
-Cluster "NGC 6475/[KC2019] Theia 692/C 1750-348/M 7/OCl 1028.0/[KPR2004b] 420/[SC96] GC 228/[SC96] GC 243/[SC96] Mis 753/[SC96] Mis 774/Cl VDBH 254/[KPS2012] MWSC 2739/Ptolemy's Cluster"
+Cluster "鱼/NGC 6475/[KC2019] Theia 692/C 1750-348/M 7/OCl 1028.0/[KPR2004b] 420/[SC96] GC 228/[SC96] GC 243/[SC96] Mis 753/[SC96] Mis 774/Cl VDBH 254/[KPS2012] MWSC 2739/Ptolemy's Cluster"
 {
 	DateUpdated     "2024-05-30"
 	Galaxy          "Milky Way"
