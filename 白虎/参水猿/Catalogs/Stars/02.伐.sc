@@ -26,7 +26,7 @@ StarBarycenter "伐二/TET2 Ori/TET2 Ori A/HIP 26235/TIC 427395049/Gaia DR3 3017
 	RA              5 35 22.9012398264
 	Dec             -5 24 57.832632108
 	//Parallax        2.9728
-	Dist            431.9 // Match Nebula
+	Dist            394.9 // Match Nebula
 	AppMagn         6.39
 	Class           "O9.5IVp"
 }
@@ -39,7 +39,7 @@ Star "TET2 Ori B/Gaia DR3 3017360833515044480/WISEA J053526.42-052500.8/WISE J05
 	RA              5 35 26.400753756
 	Dec             -5 25 0.793767576
 	//Parallax        2.387
-	Dist            432.1 // Match Nebula
+	Dist            395.18 // Match Nebula
 	AppMagn         6.38
 	Class           "B0.7V"
 	// Measures     
@@ -59,7 +59,7 @@ StarBarycenter "TET2 Ori C/Gaia DR3 3017360799155290368/WISEA J053531.46-052516.
 	RA              5 35 31.431112464
 	Dec             -5 25 16.371705
 	//Parallax        2.4513
-	Dist            432 // Match Nebula
+	Dist            395.06 // Match Nebula
 	AppMagn         8.24
 	Class           "B4V"
 }

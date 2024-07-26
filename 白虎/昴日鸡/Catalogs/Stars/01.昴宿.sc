@@ -12,7 +12,7 @@ Star "昴宿一/17 Tau/Gaia DR3 65271996684817280/HIP 17499/TIC 385509348/2MASS 
 	RA              3 44 52.537089789
 	Dec             24 6 48.016260072
 	//Parallax        8.3457
-	Dist            113.36 // Match Nebula
+	Dist            135.1 // Match Nebula
 	AppMagn         3.7
 	Class           "B6IIIe"
 	// Measures     
@@ -34,7 +34,7 @@ StarBarycenter "昴宿二/q Tau/Gaia DR3 65296907494549120/HIP 17531/RAVE J03451
 	RA              3 45 12.4999931614
 	Dec             24 28 2.18554373
 	//Parallax        9.5444
-	Dist            112.42 // Match Nebula
+	Dist            135.45 // Match Nebula
 	AppMagn         4.3
 	Class           "B6IV"
 }
@@ -49,7 +49,7 @@ Star "昴宿三/21 Tau/HIP 17579/Gaia DR3 66798496781121792/TIC 385589396/2MASS 
 	RA              3 45 54.4764507648
 	Dec             24 33 16.235698248
 	//Parallax        7.3053
-	Dist            111 // Match Nebula
+	Dist            136.1660667 // Match Nebula
 	AppMagn         5.76
 	Class           "B8V"
 	// Measures     
@@ -71,7 +71,7 @@ Star "昴宿四/20 Tau/Gaia DR3 65283232316451328/HIP 17573/RAVE J034549.6+24220
 	RA              3 45 49.6081548365
 	Dec             24 22 3.877565838
 	//Parallax        7.6713
-	Dist            112.03 // Match Nebula
+	Dist            135.01 // Match Nebula
 	AppMagn         3.87
 	Class           "B8III"
 	// Measures     
@@ -94,7 +94,7 @@ Star "昴宿五/23 Tau/Gaia DR3 65205373152172032/HIP 17608/RAVE J034619.6+23565
 	RA              3 46 19.5858871361
 	Dec             23 56 54.09217722
 	//Parallax        7.067
-	Dist            112.013 // Match Nebula
+	Dist            135.14 // Match Nebula
 	AppMagn         4.18
 	Class           "B6IV(e)"
 	// Measures     
@@ -116,7 +116,7 @@ Star "昴宿六/ETA Tau/HIP 17702/TIC 125755072/2MASS J03472908+2406184/PLX 821/
 	RA              3 47 29.0765529
 	Dec             24 6 18.488347
 	//Parallax        8.09
-	Dist            113.274 // Match Nebula
+	Dist            136.45 // Match Nebula
 	AppMagn         2.87
 	Class           "B7III"
 	// Measures     
@@ -138,7 +138,7 @@ StarBarycenter "昴宿七/27 Tau/Gaia DR3 66526127137440128/HIP 17847/CCDM J0349
 	RA              3 49 9.7430578114
 	Dec             24 3 12.301679809
 	//Parallax        8.1184
-	Dist            112.16 // Match Nebula
+	Dist            134.97 // Match Nebula
 	AppMagn         3.63
 	Class           "B8III"
 }
