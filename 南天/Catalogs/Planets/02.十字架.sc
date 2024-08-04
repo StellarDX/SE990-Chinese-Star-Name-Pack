@@ -12,8 +12,9 @@ Barycenter "ALF Cru/HIP 60718/CD-62 652/LLNS 8229/TIC 450568754/SBC9 725/CCDM J1
 	ParentBody      "CCDM J12266-6306"
 	BinaryOrbit     
 	{
-		Period          138470
-		Separation      9400
+		//Period          138470
+		PericenterDist  9400
+		Eccentricity    1 // 由于NoirLab说A-B的轨道为非周期，那么AB-CD的轨道也不可能周期
 	}
 }
 
