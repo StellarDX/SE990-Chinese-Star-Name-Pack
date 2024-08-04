@@ -50,7 +50,9 @@ Star "NU Oct B"
 	MassSol         0.585
 }
 
-Planet	"NU Oct Ab"
+// Object * nu. Oct b  ---  Extra-solar Planet Candidate  ---  OID=@9699882   (@@-1,255)  ---  coobox=23611
+// Object types: Star,Extra-solar Planet Candidate
+Planet	"NU Oct Ab/HD 205478b"
 {
 	ParentBody     "NU Oct A"
 	DiscMethod     "RadVel"
