@@ -1,0 +1,13 @@
+// Object * zet Tau  ---  Be Star  ---  OID=@823349   (@@20009,0)  ---  coobox=4944 
+// Object types: Near-IR Source (λ < 3 µm),Spectroscopic Binary,Emission-line Star,Be Star,Variable Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "ZET Tau"
+StarBarycenter "天关/ZET Tau/HIP 26451/Gaia DR3 3402918982515591168/TIC 19704573/2MASS J05373868+2108331/PLX 1286/SBC9 344/[JE82] 175/123 Tau/2E 1440/AAVSO 0531+21/AG+21 543/ALS 8464/BD+21 908/CEL 864/CSV 633/EM* MWC 115/FK5 211/GC 6985/GCRV 3468/HD 37202/HGAM 452/HIC 26451/HR 1910/IRAS 05346+2106/IRC +20113/JP11 1187/LS V +21 11/N30 1208/PMC 90-93 152/PPM 94584/ROT 888/SAO 77336/SBC7 243/SKY# 9126/SRS 30211/SV* ZI 454/TD1 4980/UBV 5591/UBV M 11238/V* ZET Tau/[KW97] 23-48/PLX 1286.00/2E 0534.6+2106/TYC 1310-2697-1/SWIFT J0537.5+2106/AKARI-FIS-V1 J0537385+210834/GEN# +1.00037202/uvby98 100037202/Tianguan/WEB 5213"
+{
+	DateUpdated     "2024-07-03"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 37 38.6854231
+	Dec             21 8 33.158804
+	Parallax        7.33
+	AppMagn         3.03
+	Class           "B1IVe_shell"
+}

@@ -1,0 +1,63 @@
+// Object * kap Vir  ---  High Proper Motion Star  ---  OID=@2243194   (@@47165,1)  ---  coobox=15765 
+// Object types: High Proper Motion Star,Near-IR Source (λ < 3 µm),Variable Star,Star,Infra-Red Source,UV-emission Source 
+Remove "KAP Vir"
+Star "亢宿一/KAP Vir/HIP 69427/Gaia DR3 6304988355324252928/TIC 5976862/PLX 3227/98 Vir/BD-09 3878/FK5 523/GC 19168/GCRV 8314/GEN# +1.00124294/GSC 05558-01738/HD 124294/HIC 69427/HR 5315/IRAS 14102-1002/IRC -10300/JP11 2478/N30 3220/NSV 20060/PMC 90-93 373/PPM 228460/RAFGL 1688/ROT 2034/SACS 305/SAO 158427/SKY# 25952/TD1 17312/TYC 5558-1738-1/UBV 12505/UBV M 20028/YZC 11 5032/[HFE83] 1015/2MASS J14125374-1016254/PLX 3227.00/Kang/WEB 12101/Gaia DR2 6304988355323886720"
+{
+	DateUpdated     "2024-05-23"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 12 53.7448526298
+	Dec             -10 16 25.332461336
+	Parallax        11.5878
+	AppMagn         4.21
+	Class           "K2.5IIIFe-0.5"
+	// Measures     
+	AbsMagn         -0.28
+	MassSol         1.46
+	RadSol          25.41
+	LumBol          229
+	Teff            4235
+	FeH             -0.43
+	Age             9.67
+}
+
+// Object * iot Vir  ---  High Proper Motion Star  ---  OID=@2261229   (@@47130,0)  ---  coobox=15714 
+// Object types: Rotating Variable,High Proper Motion Star,High Proper Motion Star,Mid-IR Source (3 to 30 µm),Double or Multiple Star,High Proper Motion Star,Variable Star,Near-IR Source (λ < 3 µm),Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "IOT Vir"
+StarBarycenter "亢宿二/IOT Vir/WISE J141600.86-060005.8/GJ 9473/HIP 69701/** SHY 71C/WDS J14190-0636C/Gaia DR3 3640828731549972480/TIC 6029884/PLX 3241/99 Vir/2RE J1415-055/2RE J141559-055905/BD-05 3843/CSV 7112/Ci 20 842/FK5 525/GC 19244/GCRV 8342/GEN# +1.00124850/HD 124850/HIC 69701/HR 5338/IRAS 14133-0545/IRC -10302/JP11 2484/LTT 5603/N30 3230/NLTT 36758/NSV 6604/PMC 90-93 375/PPM 197358/RBS 1359/ROT 2043/SACS 306/SAO 139824/SKY# 26035/TD1 17349/UBV 12546/UBV M 20072/YZ 95 5069/uvby98 100124850/2MASS J14160086-0600016/PLX 3241.00/1RXS J141600.9-055955/2EUVE J1416-05.9/EUVE J1416-05.9/TYC 4982-1645-1/RAVE J141600.9-060002/Syrma/WISEA J141600.87-060006.3/WEB 12135/Gaia DR2 3640828731549668608"
+{
+	DateUpdated     "2024-05-23"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 16 0.8682760805
+	Dec             -6 0 1.969483331
+	Parallax        45.4014
+	AppMagn         4.08
+	Class           "F7III"
+}
+
+// Object * phi Vir  ---  High Proper Motion Star  ---  OID=@2275734   (@@47437,12)  ---  coobox=15686 
+// Object types: High Proper Motion Star,Double or Multiple Star,Near-IR Source (λ < 3 µm),Variable Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "PHI Vir"
+StarBarycenter "亢宿三/PHI Vir/GJ 9481 A/GJ 550.2 A/HIP 70755/AP J14281216-0213406/Gaia DR3 3649422995468596480/TIC 181946967/PLX 3279/SPOCS 2881/105 Vir/2RE J1428-021/2RE J142811-021321/AG-02 870/BD-01 2957/CSV 101450/FK5 533/GC 19504/GCRV 8442/GSC 04977-01458/HD 126868/HIC 70755/HR 5409/IRAS 14256-0200/JP11 2512/N30 3278/NSV 6675/PMC 90-93 381/PPM 179311/RBS 1398/ROT 2076/SAO 139951/SKY# 26361/Gaia DR2 3649422995468596480/ADS 9273 A/CCDM J14282-0214A/CSI-01 2957 1/IDS 14230-0147 A/TYC 4977-1458-1/WDS J14282-0214A/** STF 1846A/UCAC4 439-057448/GEN# +1.00126868/Elgafar/SV* ZI 1069/TD1 17501/UBV 12670/YZ 92 3748/PLX 3279.00/1RXS J142812.3-021341/RX J1428.2-0213/2MASS J14281216-0213406/ADS 9273 AB/CSI-01 2957 4/uvby98 100126868/WEB 12257"
+{
+	DateUpdated     "2024-05-23"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 28 12.1389021744
+	Dec             -2 13 40.649015856
+	Parallax        26.8792
+	AppMagn         4.84
+	Class           "G2IV"
+}
+
+// Object * lam Vir  ---  Spectroscopic Binary  ---  OID=@2262676   (@@47494,16)  ---  coobox=15818 
+// Object types: Double or Multiple Star,Spectroscopic Binary,Variable Star,Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "LAM Vir"
+StarBarycenter "亢宿四/LAM Vir/HIP 69974/Gaia DR3 6302970476609150080/TIC 347827434/PLX 3251/SBC9 811/100 Vir/BD-12 4018/CSV 101439/FK5 1371/GC 19311/GCRV 8370/GEN# +1.00125337/GSC 05574-00824/HD 125337/HIC 69974/HR 5359/IRAS 14164-1308/JP11 2496/N30 3244/NSV 6621/PMC 90-93 960/PPM 228615/ROT 2052/SACS 307/SAO 158489/SBC7 516/SKY# 26125/SV* ZI 1057/TD1 17388/TYC 5574-824-1/UBV 12576/UBV M 20112/YZC 11 5038/uvby98 100125337/2MASS J14190659-1322157/PLX 3251.00/EXO 1416.3-1308/Renson 35800/PMSC 14137-1255/Khambalia/WEB 12170/Gaia DR2 6302970476609150080"
+{
+	DateUpdated     "2024-05-23"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              14 19 6.5926692303
+	Dec             -13 22 15.928662088
+	Parallax        18.4246
+	AppMagn         4.52
+	Class           "A1V"
+}

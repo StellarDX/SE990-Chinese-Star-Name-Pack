@@ -1,0 +1,48 @@
+// Object * chi Leo  ---  High Proper Motion Star  ---  OID=@1787414   (@@36751,6)  ---  coobox=13212 
+// Object types: High Proper Motion Star,High Proper Motion Star,Mid-IR Source (3 to 30 µm),Near-IR Source (λ < 3 µm),Variable Star,Double or Multiple Star,High Proper Motion Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "CHI Leo"
+StarBarycenter "灵台一/CHI Leo/HIP 54182/AP J11050103+0720096/Gaia DR3 3818309974360005888/TIC 350347140/PLX 2581/LSPM J1105+0720/TYC 268-1067-1/ASCC 1041240/USNO-B1.0 0973-00241404/63 Leo/AG+07 1508/BD+08 2455/CSI+08 2455 1/CSV 101177/FK5 418/GC 15235/GCRV 6827/HD 96097/HIC 54182/HR 4310/IRAS 11024+0736/JP11 2029/LTT 12973/N30 2605/NLTT 26211/NSV 5079/PMC 90-93 300/PPM 157485/ROT 1653/SAO 118648/SKY# 21165/SV* ZI 869/TD1 15354/UBV 10118/YZ 7 5680/[HFE83] 773/2MASS J11050103+0720096/PLX 2581.00/Renson 27670/WISEA J110500.75+072009.1/uvby98 100096097/WEB 9788/1RXS J110459.7+072011/** KPR 54A/WDS J11050+0720A/** KUI 54A/IDS 10599+0753 A/CCDM J11050+0721A/GEN# +1.00096097/UCAC4 487-051867/WISE J110500.74+072009.1/Gaia DR2 3818309970064649984"
+{
+	DateUpdated     "2024-05-06"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 5 1.0278085241
+	Dec             7 20 9.624129314
+	Parallax        34.6007
+	AppMagn         4.62
+	Class           "F2III"
+}
+
+// Object * c Leo  ---  High Proper Motion Star  ---  OID=@1769132   (@@36759,7)  ---  coobox=13211 
+// Object types: High Proper Motion Star,Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,UV-emission Source 
+Remove "59 Leo"
+Star "灵台二/c Leo/HIP 53824/Gaia DR3 3816629714434106752/TIC 350329445/PLX 2565/59 Leo/ADS 8019 A/AG+06 1381/BD+06 2384/CCDM J11007+0606A/CSI+06 2384 1/GC 15130/GCRV 6806/GEN# +1.00095382/GSC 00268-01064/HD 95382/HIC 53824/HR 4294/IDS 10556+0638 A/N30 2591/PPM 157421/ROT 1645/SAO 118615/SKY# 21044/TD1 15299/TYC 268-1064-1/UBV 10071/UBV M 16708/YPAC 500/YZ 6 5657/uvby98 100095382/2MASS J11004483+0606054/PLX 2565.00/WDS J11007+0606A/WEB 9750/Gaia DR2 3816629714434106752"
+{
+	DateUpdated     "2024-05-06"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 0 44.8020233616
+	Dec             6 6 5.20279308
+	Parallax        21.4498
+	AppMagn         4.977
+	Class           "A5III"
+	// Measures     
+	AbsMagn         1.65
+	MassSol         1.73
+	Radius          1446100.67056272 // 计算的值
+	LumBol          18.27
+	Teff            8277
+	Age             0.332
+}
+
+// Object * 58 Leo  ---  Double or Multiple Star  ---  OID=@1769573   (@@36768,1)  ---  coobox=13235 
+// Object types: Chemically Peculiar Star,Near-IR Source (λ < 3 µm),Chemically Peculiar Star,Double or Multiple Star,Star,Infra-Red Source,UV-emission Source 
+Remove "58 Leo"
+StarBarycenter "灵台三/58 Leo/HIP 53807/Gaia DR3 3814913686020080384/TIC 281816745/PLX 2564/AG+03 1449/BD+04 2407/FK5 1284/GC 15125/GCRV 6803/GEN# +1.00095345/GSC 00265-01270/HD 95345/HIC 53807/HR 4291/IRC +00199/MFU 200/N30 2589/PMC 90-93 885/PPM 157415/ROT 1643/SAO 118610/SKY# 21035/TD1 15293/TYC 265-1270-1/UBV 10066/UBV M 16702/YZ 3 4182/[L91b] 182/uvby98 100095345/2MASS J11003365+0337030/PLX 2564.00/WDS J11006+0337AB/AKARI-IRC-V1 J1100336+033702/IRAS 10579+0353/** CHR 33/CCDM J11006+0337AB/WEB 9748/Gaia DR2 3814913686020080384"
+{
+	DateUpdated     "2024-05-06"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              11 0 33.6471432816
+	Dec             3 37 2.9923842
+	Parallax        9.6348
+	AppMagn         4.838
+	Class           "K0.5IIIFe-0.5"
+}

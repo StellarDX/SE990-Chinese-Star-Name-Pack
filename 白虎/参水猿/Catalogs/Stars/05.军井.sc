@@ -1,0 +1,63 @@
+// Object * iot Lep  ---  Double or Multiple Star  ---  OID=@772036   (@@15276,11)  ---  coobox=6549 
+// Object types: High Proper Motion Star,Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "IOT Lep"
+StarBarycenter "军井一/IOT Lep/HIP 24244/Gaia DR3 2989514155341556224/TIC 43900848/3 Lep/ADS 3778 A/BD-12 1095/CCDM J05123-1152A/CSI-12 1095 1/GC 6374/GCRV 3089/GEN# +1.00033802A/GSC 05338-01445/HD 33802/HD 33802A/HIC 24244/HR 1696/IDS 05076-1159 A/JP11 1006/PPM 215426/ROT 741/SAO 150223/SKY# 8194/TD1 4204/TYC 5338-1445-1/UBV 4986/UBV M 10718/YZC 11 1357/uvby98 100033802 A/1ES 0510-11.9/WDS J05123-1152Aa,Ab/2MASS J05121790-1152090/AKARI-IRC-V1 J0512178-115208/IRAS 05099-1155/IRAS F05099-1155/** STF 655A/** HUB 6/WDS J05123-1152A/WEB 4706/Gaia DR2 2989514155341556224"
+{
+	DateUpdated     "2024-07-10"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 12 17.9105854648
+	Dec             -11 52 8.763279736
+	Parallax        14.174
+	AppMagn         4.45
+	Class           "B7.5Vn"
+}
+
+// Object * kap Lep  ---  Pulsating Variable  ---  OID=@15318635   (@@-1,255)  ---  coobox=6551 
+// Object types: Pulsating Variable,Mid-IR Source (3 to 30 µm),Double or Multiple Star,Near-IR Source (λ < 3 µm),Star,Infra-Red Source,UV-emission Source 
+Remove "KAP Lep"
+StarBarycenter "军井二/KAP Lep/IDS 05086-1304 A/WISE J051313.87-125628.3/GEN# +1.00033949/WEB 4720/uvby98 100033949/PLX 1185.00/ALS 16725/[DML87] 170/YZC 11 1361/UBV 5003/TD1 4234/SKY# 8214/SAO 150239/ROT 745/PPM 215450/JP11 1009/IRAS 05109-1259/IRAS F05109-1259/HR 1705/HIC 24327/HD 33949/GSC 05338-01447/GCRV 3099/GC 6387/BD-13 1092/4 Lep/PLX 1185/2MASS J05131387-1256284/TIC 169551936/WISEA J051313.88-125628.3/HIP 24327/Gaia DR3 2988537651577170176/TYC 5338-1447-1/CCDM J05132-1256A/** STF 661A/HD 33949A/ADS 3800 A/WDS J05132-1256A/Gaia DR2 2988537651577170176"
+{
+	DateUpdated     "2024-07-10"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 13 13.877029428
+	Dec             -12 56 28.652839152
+	Parallax        6.9828
+	AppMagn         4.44
+	Class           "B7V"
+}
+
+// Object * lam Lep  ---  Star  ---  OID=@787617   (@@15290,0)  ---  coobox=6594 
+// Object types: Near-IR Source (λ < 3 µm),Mid-IR Source (3 to 30 µm),Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "LAM Lep"
+Star "军井三/LAM Lep/HIP 24845/Gaia DR3 2988329637719192960/WISEA J051934.51-131036.3/TIC 442871031/PLX 1215/6 Lep/BD-13 1127/FK5 1146/GC 6531/GCRV 3179/GEN# +1.00034816/GSC 05343-01529/HD 34816/HGAM 387/HIC 24845/HR 1756/JP11 1033/MCW 294/N30 1141/PMC 90-93 768/PPM 215598/ROT 769/SAO 150340/SKY# 8424/TD1 4430/TYC 5343-1529-1/UBV 5080/UBV M 10849/YZC 11 1403/uvby98 100034816/ALS 14773/PLX 1215.00/1RXS J051935.1-131037/2MASS J05193452-1310364/AKARI-IRC-V1 J0519344-131036/IRAS 05172-1313/WISE J051934.51-131036.3/IRAS F05172-1313/WEB 4815/Gaia DR2 2988329637719192960"
+{
+	DateUpdated     "2024-07-10"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 19 34.5223081894
+	Dec             -13 10 36.369844928
+	Parallax        3.3378
+	AppMagn         4.29
+	Class           "B0.5V"
+	// Measures     
+	AbsMagn         -2.77
+	MassSol         15.0
+	RadSol          4.5
+	LumBol          15488
+	Teff            30400
+	FeH             -0.15
+	Age             0.008
+}
+
+// Object * nu. Lep  ---  Star  ---  OID=@787564   (@@15284,16)  ---  coobox=6592 
+// Object types: Near-IR Source (λ < 3 µm),Star,UV-emission Source 
+Remove "NU Lep"
+StarBarycenter "军井四/NU Lep/HIP 24873/Gaia DR3 2988831083742776192/TIC 442895117/2MASS J05195902-1218561/7 Lep/BD-12 1132/GC 6538/GCRV 3184/GEN# +1.00034863/GSC 05339-01784/HD 34863/HIC 24873/HR 1757/PPM 215608/ROT 770/SAO 150345/SKY# 8432/TD1 4436/TYC 5339-1784-1/UBV 5084/UBV M 10855/YZC 11 1407/uvby98 100034863/ALS 17284/WEB 4820/Gaia DR2 2988831083742776192"
+{
+	DateUpdated     "2024-07-10"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 19 59.023192008
+	Dec             -12 18 56.110551876
+	Parallax        9.2226
+	AppMagn         5.284
+	Class           "B7/8V"
+}

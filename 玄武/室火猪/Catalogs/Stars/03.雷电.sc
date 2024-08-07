@@ -1,0 +1,98 @@
+// Object * 42 Peg  ---  High Proper Motion Star  ---  OID=@1429947   (@@29525,3)  ---  coobox=9800 
+// Object types: High Proper Motion Star,Near-IR Source (λ < 3 µm),Mid-IR Source (3 to 30 µm),Double or Multiple Star,Star,Infra-Red Source,UV-emission Source 
+Remove "42 Peg"
+Star "雷电一/42 Peg/WISE J224127.76+104952.7/Gaia DR3 2717594072113956352/TIC 322187270/IRAS 22389+1034/PLX 5492/ZET Peg/ADS 16182 A/AG+10 3107/BD+10 4797/CCDM J22415+1050A/CSI+10 4797 1/FK5 855/GC 31664/GCRV 14247/GEN# +1.00214923/HD 214923/HIC 112029/HIP 112029/HR 8634/IDS 22365+1019 A/JP11 3523/N30 4992/PMC 90-93 602/PPM 141743/ROT 3307/SAO 108103/SKY# 43140/SRS 30855/TD1 29271/UBV 19416/UBV M 26553/YZ 10 9059/uvby98 100214923/PLX 5492.00/WDS J22415+1050A/TYC 1155-2187-1/GSC 01155-02187/UCAC3 202-315734/2MASS J22412773+1049526/AKARI-IRC-V1 J2241277+104952/Homam/WEB 19999/Gaia DR2 2717594072113581696"
+{
+	DateUpdated     "2024-06-15"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              22 41 27.7207176
+	Dec             10 49 52.907917
+	Parallax        15.96
+	AppMagn         3.41
+	Class           "B8V"
+	// Measures     
+	AbsMagn         -0.57 // 计算的值
+	MassSol         3.22
+	RadSol          4.03
+	LumBol          224
+	Teff            11190
+	FeH             0.06
+	Age             0.120
+}
+
+// Object * ksi Peg  ---  High Proper Motion Star  ---  OID=@1430030   (@@29799,7)  ---  coobox=9801 
+// Object types: High Proper Motion Star,Mid-IR Source (3 to 30 µm),Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,Infra-Red Source,UV-emission Source 
+Remove "KSI Peg"
+StarBarycenter "雷电二/KSI Peg/GJ 872 A/Gaia DR3 2719475542667772416/IDS 22417+1139 A/TIC 60716322/PLX 5516/ASCC 996971/LSPM J2246+1210W/USNO-B1.0 1021-00758035/46 Peg/ADS 16261 A/AG+11 2850/BD+11 4875/BD+11 4875A/CCDM J22467+1211A/CSI+11 4875 1/Ci 20 1381/GC 31778/GCRV 14308/GEN# +1.00215648/HD 215648/HIC 112447/HIP 112447/HR 8665/IRC +10522/JP11 3532/LFT 1735/LHS 3851/LTT 16693/NLTT 54819/PM 22442+1155/PPM 141833/ROT 3316/SAO 108165/SKY# 43286/SPOCS 984/TD1 29336/TYC 1155-2186-1/UBV 19514/UBV M 26609/YZ 11 9091/uvby98 100215648/2MASS J22464156+1210228/WDS J22467+1210A/** HJ 301A/IRAS 22442+1154/AKARI-IRC-V1 J2246417+121018/WISE J224641.75+121017.0/WISEA J224641.79+121017.4/WEB 20055/Gaia DR2 2719475542666622976"
+{
+	DateUpdated     "2024-06-15"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              22 46 41.5798542334
+	Dec             12 10 22.388860108
+	Parallax        60.9161
+	AppMagn         4.2
+	Class           "F6V"
+}
+
+// Object * sig Peg  ---  High Proper Motion Star  ---  OID=@1420306   (@@124776,0)  ---  coobox=9759 
+// Object types: Rotating Variable,High Proper Motion Star,Mid-IR Source (3 to 30 µm),Double or Multiple Star,Near-IR Source (λ < 3 µm),Star,Infra-Red Source,UV-emission Source 
+Remove "SIG Peg"
+StarBarycenter "雷电三/SIG Peg/GJ 9801 A/Gaia DR3 2717930312217660928/TIC 318705095/PLX 5539/LSPM J2252+0950/ASCC 1090251/USNO-B1.0 0998-00614655/49 Peg/AG+09 3195/BD+09 5122/BD+09 5122A/CSI+09 5122 1/Ci 20 1386/FK5 3828/GC 31899/GCRV 14362/GEN# +1.00216385A/HD 216385/HIC 112935/HIP 112935/HR 8697/IRAS 22498+0934/LFT 1743/LHS 3864/LTT 16721/N30 5032/NLTT 55094/PM 22499+0934/PPM 173512/ROT 3327/SAO 127810/SKY# 43443/TD1 29418/TYC 1153-1558-1/UBV 19594/UBV M 26677/YZ 9 11430/uvby98 100216385 A/2MASS J22522410+0950084/WDS J22524+0950A/RAVE J225224.1+095008/WISEA J225224.48+095009.1/WEB 20111/Gaia DR2 2717930312217660928"
+{
+	DateUpdated     "2024-06-15"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              22 52 24.0744611045
+	Dec             9 50 8.394417666
+	Parallax        36.5581
+	Class           "F6V"
+}
+
+// Object * 55 Peg  ---  Variable Star  ---  OID=@1420695   (@@29552,0)  ---  coobox=9788 
+// Object types: Near-IR Source (λ < 3 µm),Variable Star,Star,Infra-Red Source 
+Remove "55 Peg"
+Star "雷电四/55 Peg/Gaia DR3 2714292032537154944/TIC 344222115/AAVSO 2302+08/AG+09 3217/BD+08 4997/DO 7952/FK5 1603/GC 32196/GCRV 14505/GEN# +1.00218329/GSC 01160-01745/HD 218329/HIC 114144/HIP 114144/HR 8795/IRAS 23044+0908/IRC +10528/JP11 3586/N30 5080/NSV 14428/PLX 5596/PMC 90-93 1140/PPM 173762/RAFGL 3024/SAO 127976/SKY# 43870/TYC 1160-1745-1/UBV 19797/UBV M 26835/YZ 9 11532/[DS98] 334/2MASS J23070026+0924339/PLX 5596.00/WEB 20268/Gaia DR2 2714292032537154944/Karmn J23070+094"
+{
+	DateUpdated     "2024-06-15"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              23 7 0.2607332832
+	Dec             9 24 34.173822996
+	Parallax        9.9197
+	AppMagn         4.52
+	Class           "M1IIIab"
+	// Measures     
+	AbsMagn         -0.48
+	MassSol         1.61
+	RadSol          45.87
+	LumBol          483.1
+	Teff            3994
+	FeH             0.23
+	Age             2.13
+}
+
+// Object * 66 Peg  ---  Star  ---  OID=@1433108   (@@29826,12)  ---  coobox=9922 
+// Object types: Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,Infra-Red Source 
+Remove "66 Peg"
+StarBarycenter "雷电五/雷电增六/66 Peg/Gaia DR3 2811075718938567040/GEN# +1.00220363/TIC 435203566/PLX 5659/ADS 16715 AB/AG+12 2751/BD+11 4993/CCDM J23231+1219AB/GC 32543/GCRV 14670/GSC 01165-01549/HD 220363/HIC 115444/HIP 115444/HR 8893/IDS 23180+1146/IRAS 23205+1202/IRC +10534/N30 5137/PPM 142460/RAFGL 5763S/ROT 3402/SAO 108580/SKY# 44294/TYC 1165-1549-1/UBV 20050/YZ 12 9295/2MASS J23230455+1218500/PLX 5659.00/** HO 300/UCAC4 512-138276/WEB 20442/Gaia DR2 2811075718938567040"
+{
+	DateUpdated     "2024-06-15"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              23 23 4.5677946672
+	Dec             12 18 50.076368928 // 雷电五和雷电增六应为同一颗星，但Stellarium把雷电增六标到HIP 115481了
+	Parallax        9.5158
+	AppMagn         5.081
+	Class           "K3III"
+}
+
+// Object * 70 Peg  ---  Spectroscopic Binary  ---  OID=@1433668   (@@29834,14)  ---  coobox=9929 
+// Object types: Spectroscopic Binary,High Proper Motion Star,Near-IR Source (λ < 3 µm),Spectroscopic Binary,Star,Infra-Red Source,UV-emission Source 
+Remove "70 Peg"
+StarBarycenter "雷电六/70 Peg/Gaia DR3 2812640598863547264/TIC 435241028/PLX 5686/AG+12 2760/BD+11 5009/FK5 885/GC 32667/GCRV 14727/GEN# +1.00221115/GSC 01168-01611/HD 221115/HIC 115919/HIP 115919/HR 8923/IRAS 23266+1228/IRC +10536/JP11 3632/N30 5158/PMC 90-93 623/PPM 142551/ROT 3412/SAO 108638/SKY# 44460/SRS 30885/TD1 29878/TYC 1168-1611-1/UBV 20168/UBV M 27049/YZ 12 9327/2MASS J23290929+1245379/PLX 5686.00/SBC9 3112/WEB 20503/Gaia DR2 2812640598863186176"
+{
+	DateUpdated     "2024-06-15"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              23 29 9.299239812
+	Dec             12 45 37.979571348
+	Parallax        17.1942
+	AppMagn         4.56
+	Class           "G8IIIa"
+}

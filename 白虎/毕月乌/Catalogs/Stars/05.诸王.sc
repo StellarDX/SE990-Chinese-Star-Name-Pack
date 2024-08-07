@@ -1,0 +1,83 @@
+// Object * 136 Tau  ---  Spectroscopic Binary  ---  OID=@837857   (@@20872,1)  ---  coobox=4596 
+// Object types: Near-IR Source (λ < 3 µm),Variable Star,Spectroscopic Binary,Double or Multiple Star,Star,Infra-Red Source,UV-emission Source 
+Remove "136 Tau"
+StarBarycenter "诸王一/136 Tau/Gaia DR3 3431061738543669888/HIP 27830/TIC 77971730/2MASS J05531964+2736440/PLX 1345/SBC9 360/AG+27 559/BD+27 899/CCDM J05533+2737A/FK5 1158/GC 7389/GCRV 3650/GEN# +1.00039357/GSC 01871-02618/HD 39357/HIC 27830/HR 2034/IRAS 05501+2736/JP11 1274/N30 1259/NSV 2696/PMC 90-93 776/PPM 95031/ROT 939/SAO 77675/SBC7 251/SKY# 9726/SRS 31158/TD1 5503/TYC 1871-2618-1/UBV 5979/UBV M 11563/YZ 27 2760/uvby98 100039357/PLX 1345.00/** OCC 206/WDS J05533+2737AB/WEB 5451/Gaia DR2 3431061738543669888"
+{
+	DateUpdated     "2024-07-02"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 53 19.646251062
+	Dec             27 36 44.142990481
+	Parallax        8.1685
+	AppMagn         4.552
+	Class           "A0V"
+}
+
+// Object * 125 Tau  ---  Spectroscopic Binary  ---  OID=@822411   (@@20849,10)  ---  coobox=4594 
+// Object types: Spectroscopic Binary,Near-IR Source (λ < 3 µm),Star,UV-emission Source 
+Remove "125 Tau"
+StarBarycenter "诸王二/125 Tau/HIP 26640/Gaia DR3 3440971843000549248/TIC 75243472/2MASS J05394419+2553496/SBC9 349/AG+25 517/BD+25 902/FK5 2424/GC 7047/GCRV 3494/GEN# +1.00037438/GSC 01865-02865/HD 37438/HGAM 462/HIC 26640/HR 1928/PPM 94625/ROT 894/SAO 77360/SBC7 245/SKY# 9215/TD1 5046/TYC 1865-2865-1/UBV 5685/UBV M 11299/YZ 25 2575/uvby98 100037438/ALS 16395/WEB 5254/Gaia DR2 3440971843000549248"
+{
+	DateUpdated     "2024-07-02"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 39 44.2007942808
+	Dec             25 53 49.540025004
+	Parallax        5.2553
+	AppMagn         5.166
+	Class           "B3IV"
+}
+
+// Object * 118 Tau  ---  Double or Multiple Star  ---  OID=@794672   (@@20840,11)  ---  coobox=4582 
+// Object types: Variable Star,Double or Multiple Star,Star,Infra-Red Source,UV-emission Source,X-ray Source 
+Remove "118 Tau"
+StarBarycenter "诸王三/118 Tau/HIP 25695/BD+25 839/CSI+25 839 2/CSI+25 839 4/GCRV 3305/HD 35943/HIC 25695/HR 1821/NSV 2009/SKY# 8774/TD1 4670/UBV 5226/UBV M 11004/uvby98 100035943/IRAS 05261+2506/AKARI-IRC-V1 J0529164+250859/CCDM J05293+2509AB/[LH98] 198/1RXS J052916.9+250853/ADS 4068 AB/WDS J05293+2509AB/GEN# +1.00035943/IDS 05231+2504 AB/** STF 716AB"
+{
+	DateUpdated     "2024-07-02"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 29 16.50008
+	Dec             25 9 0.7781
+	Parallax        7.67
+	AppMagn         5.48
+	Class           "B9V"
+}
+
+// Object * 103 Tau  ---  Spectroscopic Binary  ---  OID=@759357   (@@20386,0)  ---  coobox=4540 
+// Object types: Spectroscopic Binary,Near-IR Source (λ < 3 µm),Double or Multiple Star,Emission-line Star,Star,Infra-Red Source,UV-emission Source 
+Remove "103 Tau"
+StarBarycenter "诸王四/103 Tau/HIP 23900/Gaia DR3 3418923714285778432/TIC 69597846/2MASS J05080662+2415547/SBC9 297/ADS 3709 A/AG+24 461/ALS 8184/BD+24 755/CCDM J05081+2416A/CSI+24 755 1/GC 6267/GCRV 3041/GEN# +2.17502316/GJTGTZ 22575/GSC 01845-03942/HD 32990/HGAM 365/HIC 23900/HR 1659/LS V +24 1/NGC 1750 2316/PPM 94089/ROT 724/SAO 76974/SBC7 206/SChM 116/SKY# 8071/TD1 4030/TYC 1845-3942-1/UBV 4915/UBV M 31044/YPAC 115/YZ 24 1645/[KW97] 21-12/[S78b] 62A/uvby98 217502316/WDS J05081+2416Aa,Ab/PMSC 05020+2407AD/** HDS 674/IRAS 05050+2412/AKARI-IRC-V1 J0508066+241554/WEB 4662/Gaia DR2 3418923714285778432"
+{
+	DateUpdated     "2024-07-02"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              5 8 6.6223554696
+	Dec             24 15 54.628591608
+	Parallax        2.1079
+	AppMagn         5.5
+	Class           "B2V"
+}
+
+// Object * 99 Tau  ---  Star  ---  OID=@743251   (@@20280,5)  ---  coobox=4536 
+// Object types: Near-IR Source (λ < 3 µm),Double or Multiple Star,Star,Star,Infra-Red Source 
+Remove "99 Tau"
+StarBarycenter "诸王五/99 Tau/HIP 23068/HD 31553A/Gaia DR3 3419439831914622720/GEN# +1.00031553/TIC 68754110/2MASS J04574864+2356547/ADS 3557 A/AG+23 451/BD+23 777/CCDM J04578+2357A/CSI+23 777 1/DO 10908/GC 6044/GCRV 2930/GSC 01832-02497/HD 31553/HIC 23068/HR 1586/IDS 04518+2348 A/IRAS 04547+2352/IRAS F04547+2352/N30 1057/PPM 93923/SAO 76858/SChM 21/SKY# 7752/TYC 1832-2497-1/UBV M 10478/YPAC 111/YZ 23 1580/WDS J04578+2357A/Gaia DR1 3419439827619135488/WEB 4475/Gaia DR2 3419439831914622720"
+{
+	DateUpdated     "2024-07-02"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              4 57 48.6456469296
+	Dec             23 56 54.846669516
+	Parallax        5.5522
+	AppMagn         5.806
+	Class           "K0III"
+}
+
+// Object * tau Tau  ---  Spectroscopic Binary  ---  OID=@732646   (@@20260,0)  ---  coobox=4524 
+// Object types: Spectroscopic Binary,Near-IR Source (λ < 3 µm),Double or Multiple Star,Spectroscopic Binary,Star,Star,Star 
+Remove "TAU Tau"
+StarBarycenter "诸王六/TAU Tau/HIP 21881/Gaia DR3 146483849657244928/GEN# +1.00029763/TIC 61264116/2MASS J04421470+2257250/94 Tau/PLX 1043/SBC9 266/AG+22 456/BD+22 739/CCDM J04422+2257AB/CSI+22 739 1/CSI+22 739 2/FK5 174/GC 5716/GCRV 2759/GSC 01830-02129/HD 29763/HGAM 339/HIC 21881/HR 1497/IDS 04362+2246 AB/JP11 917/N30 994/PMC 90-93 124/PPM 93709/ROT 3499/ROT 6128/SAO 76721/SBC7 189/SKY# 7303/SRS 30174/UBV 4511/[HFE83] 319/PLX 1043.00/** MCA 16/WDS J04422+2257A/WDS J04422+2257Aa,Ab/** S 455A/** HO 642/PMSC 04362+2246A/PMSC 04362+2246AB/TYC 1830-2129-1/CSI+22 739 3/GEN# +1.20029763/ROT 3546/uvby98 100029763/WEB 4206/Gaia DR2 146483849656094464"
+{
+	DateUpdated     "2024-07-02"
+	// Coordinate System: ICRS, Epoch: J2000, Equinox: 2000 
+	RA              4 42 14.6992451952
+	Dec             22 57 24.850133388
+	Parallax        8.231
+	AppMagn         4.258
+	Class           "B3V"
+}
