@@ -255,7 +255,7 @@ Star "YY Gem Cb" // 两颗恒星相同
 Planet "YY Gem Cc"
 {
 	DateUpdated     "2024-07-15"
-	DiscMethod      "Variable"
+	DiscMethod      "ETV"
 	DiscDate        "2002"
 	ParentBody      "V* YY Gem"
 	Class           "GasGiant" // ?
