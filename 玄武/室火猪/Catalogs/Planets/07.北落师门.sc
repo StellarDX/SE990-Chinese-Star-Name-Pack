@@ -19,7 +19,7 @@ Star "Fomalhaut A"
 
 // Object * alf PsA b  ---  Extra-solar Planet  ---  OID=@4550738   (@@-1,255)  ---  coobox=8804
 // Object types: Extra-solar Planet,Star,Neutron Star Candidate,Extra-solar Planet Candidate
-Planet "ALF PsA Ab/GJ 881 b/HD 216956b/Fomalhaut b/Dagon"
+Planet "ALF PsA Ab/GJ 881 b/HD 216956b/Fomalhaut Ab/Dagon"
 {
 	ParentBody      "Fomalhaut A"
 	DiscMethod      "Imaging"
