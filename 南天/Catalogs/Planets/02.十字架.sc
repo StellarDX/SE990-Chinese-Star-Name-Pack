@@ -5,8 +5,8 @@ Remove "Acrux A" {ParentBody "Acrux"}
 Remove "ALF2 Cru" {ParentBody "Acrux"}
 Remove "Acrux Aa" {ParentBody "Acrux A"}
 Remove "ALF1 Cru Ab" {ParentBody "Acrux A"}
-// 丹霞：除了十字架二本体3星系统之外，还有HR 4729双星和一颗更暗的红矮星也属于这个系统。
-// 所以加起来就是3+2+1=6星系统，其中A-B可能为非周期轨道
+// 丹霞：除了十字架二本体4星系统之外，还有HR 4729双星和一颗更暗的红矮星也属于这个系统。
+// 所以加起来就是2+2+2+1=7星系统，其中A-B可能为非周期轨道，故整个系统并不是稳定的
 Barycenter "ALF Cru/HIP 60718/CD-62 652/LLNS 8229/TIC 450568754/SBC9 725/CCDM J12266-6306AB/CEL 4105/CPD-62 2745/CSI-62 2745 43/HIC 60718/IDS 12210-6233 AB/JP11 2217/UBV 11169/AX J1226.6-6305/WDS J12266-6306AB/uvby98 100108248/IRAS 12237-6249/AKARI-IRC-V1 J1226360-630557/GEN# +1.00108248/SBC7 462/EUVE J1226-63.0/2MASS J12263615-6305571/1RXS J122634.8-630554/1ES 1223-62.8/Acrux"
 {
 	ParentBody      "CCDM J12266-6306"
@@ -46,17 +46,9 @@ Barycenter "ALF1 Cru/TYC 8979-3464-1/WEB 10799/CCDM J12266-6306A/CPC 20.1 3594/C
 
 // Object * alf02 Cru  ---  Star  ---  OID=@11606361   (@@-1,255)  ---  coobox=21668 
 // Object types: Double or Multiple Star,Star 
-Star "ALF2 Cru/TYC 8979-3465-1/WEB 10800/CCDM J12266-6306B/CPC 20.1 3595/CPD-62 2745B/CSI-62 2745 42/GC 16953/GCRV 7472/HD 108249/HR 4731/IDS 12210-6233 B/N30 2874/SKY# 23286/[B10] 3238/ALS 14969/WDS J12266-6306B/PMSC 12210-6233B"
+Barycenter "ALF2 Cru/TYC 8979-3465-1/WEB 10800/CCDM J12266-6306B/CPC 20.1 3595/CPD-62 2745B/CSI-62 2745 42/GC 16953/GCRV 7472/HD 108249/HR 4731/IDS 12210-6233 B/N30 2874/SKY# 23286/[B10] 3238/ALS 14969/WDS J12266-6306B/PMSC 12210-6233B"
 {
-	DateUpdated     "2024-08-01"
 	ParentBody      "ALF Cru"
-	Class           "B1V"
-	AbsMagn         -2.7
-	MassSol         15.52
-	RadSol          5.53
-	LumBol          16000
-	Teff            28000
-	Age             0.0108
 }
 
 // ----------------------------------------------------------------------------------------------------
@@ -73,79 +65,124 @@ Barycenter "HD 108250 C"
 
 Star "HD 108250 D"
 {
-	DateUpdated     "2024-08-01"
+	DateUpdated     "2026-05-04"
 	ParentBody      "HD 108250"
 	Class           "M0V"
-	MassSol         0.47
+	MassSol         0.5
+	RadSol          0.55
+	Age             0.012
 }
 
 // ----------------------------------------------------------------------------------------------------
 
 Star "ALF1 Cru Aa"
 {
-	DateUpdated     "2024-08-01"
+	DateUpdated     "2026-05-04"
 	ParentBody      "ALF1 Cru"
 	Class           "B0.5IV"
 	AbsMagn         -3.77 // -2.2?
-	MassSol         17.80
-	RadSol          7.29
+	MassSol         17.2
+	RadSol          6.8
 	LumBol          31110
-	Teff            28840
+	Teff            28950
+	Age             0.0071
 
 	BinaryOrbit // SB9_725 1980MNRAS.191..217T
 	{
-		PeriodDays      75.7794
-		Separation      0.99
-		Eccentricity    0.460
-		Inclination     0.0
-		AscendingNode   0.0
-		Epoch           2417642.301
-		ArgOfPericenter 201.0
+		PeriodDays      75.7469
+		Separation      1.01
+		Eccentricity    0.369
+		Inclination     66.2
+		AscendingNode   225.0
+		Epoch           2458183.1
+		ArgOfPericenter 229.5
 		MeanAnomaly     0
 	}
 }
 
 Star "ALF1 Cru Ab"
 {
-	DateUpdated     "2024-08-01"
+	DateUpdated     "2026-05-04"
 	ParentBody      "ALF1 Cru"
-	Class           "B7V"
-	MassSol         4.49
+	Class           ""
+	MassSol         6.8
+	RadSol          3.2
+	Luminosity      1400
+	Teff            19750
+	Age             0.0071
+}
+
+// ----------------------------------------------------------------------------------------------------
+
+Star "ALF2 Cru Ba"
+{
+	DateUpdated     "2026-05-04"
+	ParentBody      "ALF2 Cru"
+	Class           "B1V"
+	MassSol         12.4
+	RadSol          5.4
+	LumBol          14000
+	Teff            26950
+	Age             0.0071
+
+	BinaryOrbit // SB9_725 1980MNRAS.191..217T
+	{
+		PeriodDays      405.4
+		Separation      3.0
+		Eccentricity    0.36
+		Inclination     94.4
+		AscendingNode   86.0
+		Epoch           2458099
+		ArgOfPericenter 105.2
+		MeanAnomaly     0
+	}
+}
+
+Star "ALF2 Cru Bb"
+{
+	DateUpdated     "2026-05-04"
+	ParentBody      "ALF2 Cru"
+	Class           ""
+	MassSol         9.8
+	RadSol          4.4
+	Luminosity      6100
+	Teff            24350
 }
 
 // ----------------------------------------------------------------------------------------------------
 
 Star "HD 108250 Ca"
 {
-	DateUpdated     "2024-08-01"
+	DateUpdated     "2026-05-04"
 	ParentBody      "HD 108250 C"
-	Class           "B4V"
-	AbsMagn         -0.313 // 计算的值
-	MassSol         8.68
-	RadSol          2.97 // Gaia DR3
-	LumBol          385.115469265221 // 计算的值
-	Teff            14837
-	FeH             -0.645
+	Class           "B5V"
+	AbsMagn         -0.98
+	MassSol         4.5
+	RadSol          2.5
+	LumBol          380
+	Teff            15900
+	FeH             -0.645 // Gaia DR3
 
-	BinaryOrbit // RMAA 4 297 1979 Hernandez
+	BinaryOrbit
 	{
-		PeriodDays      1.2251
-		Separation      0.048
+		PeriodDays      1.225155
+		//SemiMajorAxisKm 726310.8
 		Eccentricity    0.024
 		Inclination     0.0
 		AscendingNode   0.0
-		Epoch           2438903.300
-		ArgOfPericenter 314.0
+		Epoch           2438903.314
+		ArgOfPericenter 314
 		MeanAnomaly     0
 	}
 }
 
 Star "HD 108250 Cb"
 {
-	DateUpdated     "2024-08-01"
+	DateUpdated     "2026-05-04"
 	ParentBody      "HD 108250 C"
-	Class           "G"
-	MassSol         0.97
+	Class           ""
+	MassSol         0.64
+	RadSol          0.66
 }
 
 // ----------------------------------------------------------------------------------------------------

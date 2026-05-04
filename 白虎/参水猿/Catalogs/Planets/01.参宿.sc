@@ -201,19 +201,43 @@ Star "HD 36485 B"
 
 // Object * alf Ori  ---  Red Supergiant  ---  OID=@843879   (@@18269,0)  ---  coobox=5085 
 // Object types: Red Supergiant,Long-Period Variable,Double or Multiple Star,Near-IR Source (λ < 3 µm),Variable Star,Sub-Millimetric Source,Star,Infra-Red Source,UV-emission Source 
+Remove "Betelgeuse" {ParentBody "Betelgeuse System"}
+Remove "ALF Ori B" {ParentBody "Betelgeuse System"}
 Star "ALF Ori A"
 {
-	DateUpdated     "2024-07-06"
+	DateUpdated     "2026-05-04"
 	ParentBody      "ALF Ori"
 	Class           "M1Ia" // M1-M2Ia-Iab
 	AbsMagn         -5.85
-	MassSol         14 // 19
+	MassSol         14
 	RadSol          640 // 764
 	LumBol          65000 // 87000
-	Teff            3800 // 3600
-	FeH             0.05
+	Teff            3779
+	FeH             -0.13
 	RotationPeriod  315576
-	Age             0.014 // 0.008
+	Age             0.014
+}
+
+Star "ALF Ori B"
+{
+	DateUpdated     "2026-05-04"
+	ParentBody      "ALF Ori"
+	Class           ""
+	AbsMagn         2.4
+	MassSol         1.6 // Howell et al. 2025 (1.4 - 2)
+	Teff            7400 // 6000 - 10000
+	Age             0.01 // 10 Myr, Howell et al. 2025
+
+	BinaryOrbit // https://ui.adsabs.harvard.edu/abs/2025ApJ...978...50M/abstract
+	{
+		SemiMajorAxis   8.45 // [AU], MacLeod et al. 2025
+		PeriodDays      2109
+		Eccentricity    0.3  // MacLeod et al. 2025: e<0.3
+		Inclination     98   // MacLeod et al. 2025
+		AscendingNode   60   // MacLeod et al. 2025
+		Epoch           2460654 // Howell et al. 2025
+	    PositionAngle   115  // Howell et al. 2025
+	}
 }
 
 // Object * gam Ori  ---  Variable Star  ---  OID=@784400   (@@18229,0)  ---  coobox=5067 

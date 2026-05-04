@@ -8,7 +8,7 @@ Barycenter "GAM Cas/HIP 4427/WISE J005642.67+604300.3/UCAC4 754-011026/Gaia DR3 
 	ParentBody      "GAM Cas Octuple System"
 	BinaryOrbit     
 	{
-		Separation      214730.297598862 // 1275.5 asec
+		Separation      214730.297598862 // 1275.5 asec(1 Pc)
 	}
 }
 
