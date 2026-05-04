@@ -42,23 +42,63 @@ Barycenter "GAM Cas Aab"
 	}
 }
 
-Star "GAM Cas Aa"
+Star "GAM Cas Aa" // 2025ApJ...995..191A
 {
 	DateUpdated     "2024-06-21"
 	ParentBody      "GAM Cas Aab"
 	Class           "B0.5IVpe"
 	AbsMagn         -3.98
-	MassSol         13
-	RadSol          10
-	LumBol          34000
-	Teff            25000
+	MassSol         15
+	DimensionsSol   (21.8, 15.8, 21.8) // 2026年XRISM传回的高清图已确认主星是一个带吸积盘的扁恒星，伴星为白矮星
+	LumBol          19000
+	Temperature     (17300, 26500, 17300)
+	Teff            26500 // 25000
 	Age             0.008
 
-	BinaryOrbit // 2001A&A.364.L85 Harmanec+
+	AccretionDisk
 	{
-		PeriodDays      203.59
-		Eccentricity    0.26
-		Inclination     0.0
+		InnerRadiusKm     7.66e+06
+		OuterRadius       1
+		InnerThicknessKm  1.25e+06
+		OuterThickness    0.167
+		ThicknessPow      3
+		DetailScaleR      6
+		DetailScaleV      1
+		OctaveDistortionX 0.5
+		OctaveDistortionY 0.35
+		OctaveDistortionZ 0.2
+		OctaveScale       0.5
+		DiskNoiseContrast 1
+		DiskTempContrast  0.15
+		DiskOuterSpin     0.04
+		TwistMagn         2.5e+03
+		AccretionRate     4.5e-07
+		Temperature       1.16e+04
+		Density           3.98e-09
+		Luminosity        967
+		LuminosityBol     1.34e+03
+		Brightness        1
+		JetLength         4.56
+		JetStartRadius    0.152
+		JetEndRadius      0.38
+		JetStartTemp      1.16e+04
+		JetEndTemp        8.72e+03
+		JetVelocity       0.85
+		JetDistortion     0.4
+		JetThickness      0.3
+		JetDensity        3.98e-13
+		JetBrightness     1
+		LightingBright    1
+		ShadowContrast    1
+		ShadowLength      0.5
+	}
+
+	BinaryOrbit // 2001A&A.364.L85 Harmanec+ / 2012A&A...537A..59N
+	{
+		PeriodDays      203.523
+		Separation      1.632
+		Eccentricity    0
+		Inclination     45
 		AscendingNode   0.0
 		Epoch           2450576
 		ArgOfPericenter 23
@@ -70,8 +110,47 @@ Star "GAM Cas Ab"
 {
 	DateUpdated     "2024-06-21"
 	ParentBody      "GAM Cas Aab"
-	Class           ""
-	MassSol         0.98
+	Class           "WD"
+	MassSol         0.93
+	Radius          6000
+
+	AccretionDisk
+	{
+		InnerRadiusKm     6.06e+03
+		OuterRadiusKm     1.82e+05
+		InnerThicknessKm  1.1e+03
+		OuterThicknessKm  2.21e+04
+		ThicknessPow      3
+		DetailScaleR      6
+		DetailScaleV      1
+		OctaveDistortionX 0.5
+		OctaveDistortionY 0.35
+		OctaveDistortionZ 0.2
+		OctaveScale       0.5
+		DiskNoiseContrast 1
+		DiskTempContrast  0.15
+		DiskOuterSpin     0.04
+		TwistMagn         2.5e+03
+		AccretionRate     1.17e-11
+		Temperature       5.13e+04
+		Density           1.35e-06
+		Luminosity        0.133
+		LuminosityBol     6.43
+		Brightness        1
+		JetLengthKm       5.4e+05
+		JetStartRadiusKm  1.8e+04
+		JetEndRadiusKm    4.5e+04
+		JetStartTemp      5.13e+04
+		JetEndTemp        3.85e+04
+		JetVelocity       0.85
+		JetDistortion     0.4
+		JetThickness      0.3
+		JetDensity        1.35e-10
+		JetBrightness     1
+		LightingBright    1
+		ShadowContrast    1
+		ShadowLength      0.5
+	}
 }
 
 Star "GAM Cas Ac"
